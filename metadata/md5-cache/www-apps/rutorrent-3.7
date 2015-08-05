@@ -1,0 +1,13 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	eutils	9fb270e417e0e83d64ca52586c4a79de	webapp	94698bf1c7a5b1acd3184e94f484017
+_md5_=5094e5307f4b0dbe5280042ffaef2ad7
+SLOT=3.7
+DEFINED_PHASES=install postinst prerm setup
+EAPI=4
+DEPEND=|| ( dev-lang/php[xml,gd] dev-lang/php[xml,gd-external] ) >=app-admin/webapp-config-1.50.15
+DESCRIPTION=ruTorrent is a front-end for the popular Bittorrent client rTorrent
+LICENSE=GPL-2
+IUSE=vhosts
+SRC_URI=https://bintray.com/artifact/download/novik65/generic/ruTorrent-3.7.zip
+KEYWORDS=~alpha ~amd64 ~ppc ~x86
+HOMEPAGE=https://github.com/Novik/ruTorrent
+RDEPEND=virtual/httpd-php >=app-admin/webapp-config-1.50.15

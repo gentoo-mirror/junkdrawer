@@ -1,0 +1,10 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	git-r3	727a612b4c6247766904e3f74a326e2b	multilib	62927b3db3a589b0806255f3a002d5d3	autotools-utils	dbce0f7913bd240fdf0ef428149855c0	libtool	52d0e17251d04645ffaa61bfdd858944	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	eutils	9fb270e417e0e83d64ca52586c4a79de
+_md5_=9a5730955952ed7df668d8c7c70f1e9e
+SLOT=0
+DEFINED_PHASES=compile configure install prepare test unpack
+EAPI=5
+DEPEND=dev-libs/protobuf-c net-libs/zeromq >=sys-auth/munge-0.5.11 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A command queue
+LICENSE=GPL-2
+HOMEPAGE=https://github.com/RPI-HPC/cq
+RDEPEND=dev-libs/protobuf-c net-libs/zeromq >=sys-auth/munge-0.5.11

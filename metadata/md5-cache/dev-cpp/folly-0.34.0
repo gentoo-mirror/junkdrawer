@@ -1,0 +1,12 @@
+_eclasses_=toolchain-funcs	42408102d713fbad60ca21349865edb4	multilib	62927b3db3a589b0806255f3a002d5d3	autotools	2264f05fbbbaaf83d34ec81e72b38ffd	libtool	52d0e17251d04645ffaa61bfdd858944
+_md5_=14ff2229249189cff8194bfd71f39f14
+SLOT=0
+DEFINED_PHASES=prepare
+EAPI=5
+DEPEND=dev-libs/double-conversion dev-libs/libevent dev-libs/openssl:* dev-cpp/gflags dev-cpp/glog >=dev-libs/boost-1.2.0 app-arch/lz4 app-arch/snappy sys-libs/zlib app-arch/xz-utils !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=An open-source C++ library developed and used at Facebook
+LICENSE=Apache-2.0
+SRC_URI=https://github.com/facebook/folly/archive/v0.34.0.tar.gz
+KEYWORDS=~amd64
+HOMEPAGE=https://github.com/facebook/folly
+RDEPEND=dev-libs/double-conversion dev-libs/libevent dev-libs/openssl:* dev-cpp/gflags dev-cpp/glog >=dev-libs/boost-1.2.0 app-arch/lz4 app-arch/snappy sys-libs/zlib app-arch/xz-utils
