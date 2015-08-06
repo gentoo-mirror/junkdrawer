@@ -4,7 +4,7 @@
 
 EAPI=5
 
-inherit autotools
+inherit autotools eutils
 
 DESCRIPTION="An open-source C++ library developed and used at Facebook"
 HOMEPAGE="https://github.com/facebook/folly"
@@ -35,5 +35,7 @@ RDEPEND="${DEPEND}"
 S="${WORKDIR}/${P}/${PN}"
 
 src_prepare() {
+	epatch "${FILESDIR}/folly-0.52.0-fix-checksum-build.diff"
+	epatch "${FILESDIR}/folly-0.52.0-checksum-no-sse4_2.diff"
 	eautoreconf
 }
