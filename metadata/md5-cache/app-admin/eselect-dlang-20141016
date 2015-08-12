@@ -1,0 +1,10 @@
+_eclasses_=
+_md5_=d39df21d52aac9107b0831a0087cc628
+SLOT=0
+DEFINED_PHASES=install
+EAPI=5
+DESCRIPTION=Eselect module for management of multiple D versions
+LICENSE=GPL-2
+KEYWORDS=amd64 x86 ~ppc64
+HOMEPAGE=https://github.com/gentoo-dlang
+RDEPEND=app-admin/eselect
