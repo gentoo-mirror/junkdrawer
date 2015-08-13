@@ -1,0 +1,29 @@
+app-admin/cq 9999: A command queue
+app-admin/eselect-dlang 20141016: Eselect module for management of multiple D versions
+app-benchmarks/httperf 0.9.0-r3: A tool from HP for measuring web server performance
+dev-cpp/folly 0.34.0 0.35.0 0.52.0 0.52.0-r1: An open-source C++ library developed and used at Facebook
+dev-cpp/gflags 2.1.2: Google's C++ argument parsing library
+dev-cpp/proxygen 0.29.0: A collection of C++ HTTP libraries including an easy to use HTTP server
+dev-cpp/wangle 0.9.0: a full featured, high performance C++ futures implementation
+dev-lang/dmd 2.066.1: Reference compiler for the D programming language
+dev-lang/ldc2 0.15.1-r1: LLVM D Compiler
+dev-libs/ck 0.4.5: Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures
+dev-libs/cppformat 1.1.0 9999: Small, safe and fast formatting library for C++
+dev-libs/g3d 10.00: G3D - 3D Engine
+dev-libs/libcasc 9999: An open-source implementation of library for reading CASC storage from Blizzard games since 2014
+dev-libs/libtomcrypt 1.17: modular and portable cryptographic toolkit
+dev-libs/recastnavigation 9999: Navigation-mesh Toolset for Games
+dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
+dev-util/cppclean 0.2.6 9999: Find problems in C++ source that slow development of large code bases
+dev-util/dlang-tools 2.066.1: Ancilliary tools for the D programming language compiler
+dev-util/flint 9999: An open-source lint program for C++ developed by, and used at Facebook
+dev-util/gdmd 4.8.3: Wrapper script for gdc that emulates the dmd command
+dev-util/include-what-you-use 0.4: find unused include directives in C/C++ programs
+media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
+net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
+net-libs/civetweb 1.6 9999: Embedded C/C++ web server
+net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
+net-misc/wdt 9999: Warp speed Data Transfer aims to transfer data between systems as fast as possible
+sys-devel/gcc 4.8.3: The GNU Compiler Collection
+sys-devel/make 4.1-r2: Standard tool to compile source trees
+www-apps/rutorrent 3.7: ruTorrent is a front-end for the popular Bittorrent client rTorrent
