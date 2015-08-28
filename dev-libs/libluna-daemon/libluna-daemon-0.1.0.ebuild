@@ -7,8 +7,8 @@ EAPI=5
 AUTOTOOLS_AUTORECONF=1
 inherit autotools-utils
 
-DESCRIPTION="a dead simple library for outputting to a file, console, and/or syslog simultaneously"
-HOMEPAGE="https://github.com/doctaweeks/liblog"
+DESCRIPTION="a dead simple library for daemonizing"
+HOMEPAGE="https://github.com/doctaweeks/libluna-daemon"
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/doctaweeks/${PN}"
@@ -21,3 +21,6 @@ fi
 LICENSE="GPL-2"
 SLOT="0"
 IUSE="static-libs"
+
+DEPEND="sys-libs/libcap-ng"
+RDEPEND="${DEPEND}"
