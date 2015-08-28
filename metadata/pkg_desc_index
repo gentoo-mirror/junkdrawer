@@ -12,6 +12,7 @@ dev-libs/cppformat 1.1.0 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/libcasc 9999: An open-source implementation of library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.0 9999: a dead simple library for outputting to a file, console, and/or syslog simultaneously
+dev-libs/libluna-daemon 0.1.0 9999: a dead simple library for daemonizing
 dev-libs/libtomcrypt 1.17: modular and portable cryptographic toolkit
 dev-libs/recastnavigation 9999: Navigation-mesh Toolset for Games
 dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
