@@ -4,7 +4,9 @@
 
 EAPI=5
 
-inherit autotools eutils
+AUTOTOOLS_IN_SOURCE_BUILD=1
+AUTOTOOLS_AUTORECONF=1
+inherit autotools-utils
 
 DESCRIPTION="An open-source C++ library developed and used at Facebook"
 HOMEPAGE="https://github.com/facebook/folly"
@@ -18,7 +20,7 @@ fi
 
 LICENSE="Apache-2.0"
 SLOT="0"
-IUSE=""
+IUSE="static-libs"
 
 DEPEND="dev-libs/double-conversion
 		dev-libs/libevent
@@ -33,9 +35,3 @@ DEPEND="dev-libs/double-conversion
 RDEPEND="${DEPEND}"
 
 S="${WORKDIR}/${P}/${PN}"
-
-src_prepare() {
-	epatch "${FILESDIR}/folly-0.52.0-fix-checksum-build.diff"
-	epatch "${FILESDIR}/folly-0.52.0-checksum-no-sse4_2.diff"
-	eautoreconf
-}
