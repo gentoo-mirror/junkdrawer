@@ -24,7 +24,7 @@ dev-util/include-what-you-use 0.4: find unused include directives in C/C++ progr
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
 net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/civetweb 1.6 9999: Embedded C/C++ web server
-net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
+net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.16.1508311 9999: Warp speed Data Transfer aims to transfer data between systems as fast as possible
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0: Web frontend for sys-cluster/ganglia
