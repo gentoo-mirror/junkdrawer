@@ -9,4 +9,4 @@ RDEPEND=dev-libs/double-conversion dev-libs/libevent dev-libs/openssl:* dev-cpp/
 SLOT=0
 SRC_URI=https://github.com/facebook/folly/archive/v0.34.0.tar.gz -> folly-0.34.0.tar.gz
 _eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
-_md5_=9997932e9f68559a6ef554b1e38044df
+_md5_=0a180a07abca00fe589bf9281e40a84d

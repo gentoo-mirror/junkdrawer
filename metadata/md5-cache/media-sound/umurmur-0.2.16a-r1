@@ -10,4 +10,4 @@ RDEPEND=>=dev-libs/protobuf-c-1.0.0_rc2 dev-libs/libconfig caps? ( >=sys-libs/li
 SLOT=0
 SRC_URI=https://github.com/umurmur/umurmur/archive/0.2.16a.tar.gz -> umurmur-0.2.16a.tar.gz
 _eclasses_=autotools	7d16e72a943b4803ca9691b2ecf89216	base	84d9f879f57a8316ff02be0373a3d6f9	eutils	351a78113be5b393c09a2c948701ad36	libtool	7f78cd7d403808a350c9ae23f5821fb4	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	readme.gentoo	e37aea783a61ae55fab947df247eebea	systemd	6b4f0cefa642270eded7e6ca816fd181	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361	user	906f3c8eb3a2350a4f1191a89baa3e46
-_md5_=6e567b461e336cf4a3d02db7f46fe0da
+_md5_=a6cfc8349f0e00f52896bf1274f04882

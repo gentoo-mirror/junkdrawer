@@ -10,4 +10,4 @@ RDEPEND=>=dev-cpp/folly-0.52.0-r1 dev-cpp/glog >=dev-cpp/gflags-2.1.2
 SLOT=0
 SRC_URI=https://github.com/facebook/wdt/archive/v1.16.1508311.tar.gz -> wdt-1.16.1508311.tar.gz
 _eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	351a78113be5b393c09a2c948701ad36	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	4b8d3388c0a6e798504e20ba30b49361
-_md5_=373c3e6106281d47a83313500a57650c
+_md5_=3c7eaaf6a79fe15a20e7dff78d707858
