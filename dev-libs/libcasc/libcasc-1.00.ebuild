@@ -12,7 +12,7 @@ if [ $PV == 9999 ]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/ladislav-zezula/CascLib.git"
 else
-	SRC_URI=""
+	SRC_URI="https://github.com/ladislav-zezula/CascLib/archive/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
 fi
 
@@ -24,6 +24,8 @@ DEPEND="app-arch/bzip2
 		sys-libs/zlib
 		system-libtomcrypt? ( dev-libs/libtomcrypt )"
 RDEPEND="${DEPEND}"
+
+S="${WORKDIR}/CascLib-${PV}"
 
 src_configure() {
 	local mycmakeargs=(
