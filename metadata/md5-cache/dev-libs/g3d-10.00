@@ -1,13 +1,13 @@
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-libs/libzip sys-libs/zlib virtual/glu media-libs/freeimage >=media-libs/glfw-3.0 media-gfx/assimp net-libs/enet:1.3 net-libs/civetweb media-gfx/qrencode X? ( x11-libs/libX11 ) app-arch/unzip sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
+DEPEND=dev-libs/libzip sys-libs/zlib virtual/glu media-libs/freeimage >=media-libs/glfw-3.0 media-libs/assimp net-libs/enet:1.3 net-libs/civetweb media-gfx/qrencode X? ( x11-libs/libX11 ) app-arch/unzip sys-devel/make >=dev-util/cmake-2.8.12 userland_GNU? ( >=sys-apps/findutils-4.4.0 )
 DESCRIPTION=G3D - 3D Engine
 EAPI=5
 HOMEPAGE=http://g3d-cpp.sourceforge.net
 IUSE=X
 KEYWORDS=~amd64
 LICENSE=BSD
-RDEPEND=dev-libs/libzip sys-libs/zlib virtual/glu media-libs/freeimage >=media-libs/glfw-3.0 media-gfx/assimp net-libs/enet:1.3 net-libs/civetweb media-gfx/qrencode X? ( x11-libs/libX11 )
+RDEPEND=dev-libs/libzip sys-libs/zlib virtual/glu media-libs/freeimage >=media-libs/glfw-3.0 media-libs/assimp net-libs/enet:1.3 net-libs/civetweb media-gfx/qrencode X? ( x11-libs/libX11 )
 SLOT=0
 SRC_URI=mirror://sourceforge/g3d/g3d-cpp/10.00/G3D-10.00-source.zip
 _eclasses_=cmake-utils	f474224ef49d530640a43a04ae94928e	eutils	43da5163ba106e87d22d2e7d6d67537f	flag-o-matic	85dc1eac3c64d8141374490ed64122e5	multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	1dfcad7b3f439dbc511d76c49f23da0d
-_md5_=04056b3da292e74807f273b42f118678
+_md5_=851ddee35951c8a4593efaf51d9ed155
