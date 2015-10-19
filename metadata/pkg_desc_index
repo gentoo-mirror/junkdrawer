@@ -16,6 +16,8 @@ dev-libs/libluna-daemon 0.1.0 9999: a dead simple library for daemonizing
 dev-libs/libtomcrypt 1.17: modular and portable cryptographic toolkit
 dev-libs/recastnavigation 9999: Navigation-mesh Toolset for Games
 dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
+dev-lua/luaposix 33.2.1: Lua bindings for POSIX APIs
+dev-lua/slingshot 8.0.0: Slingshot releases rocks! Build framework for Lua
 dev-util/cppclean 0.2.6 0.5 9999: Find problems in C++ source that slow development of large code bases
 dev-util/dlang-tools 2.066.1: Ancilliary tools for the D programming language compiler
 dev-util/flint 9999: An open-source lint program for C++ developed by, and used at Facebook

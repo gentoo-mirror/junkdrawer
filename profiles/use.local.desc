@@ -6,6 +6,8 @@ dev-lang/dmd:tools - Pulls in dev-util/dlang-tools
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
 dev-libs/libtomcrypt:libtommath - Use the portable math library (dev-libs/libtommath)
 dev-libs/libtomcrypt:tomsfastmath - Use the optimized math library (dev-libs/tomsfastmath)
+dev-lua/luaposix:luajit - Use dev-lang/luajit instead of dev-lang/lua
+dev-lua/slingshot:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-util/dlang-tools:ddemangle - An improved D symbol demangler. Replaces all occurrences of mangled D symbols in the input with their unmangled form, and writes the result to standard output.
 dev-util/dlang-tools:detab - Replace tabs with spaces, and remove trailing whitespace from lines.
 dev-util/dlang-tools:dman - Look up D topics in the online manual. (Requires dmd as a build dependency to create the index.)
