@@ -1,3 +1,4 @@
+app-admin/Lmod 6.0.11: Lmod: An Environment Module System based on Lua, Reads TCL Modules, Supports a Software Hierarchy
 app-admin/cq 9999: A command queue
 app-admin/eselect-dlang 20141016: Eselect module for management of multiple D versions
 app-benchmarks/httperf 0.9.0-r3: A tool from HP for measuring web server performance
