@@ -1,0 +1,13 @@
+DEFINED_PHASES=install
+DEPEND=!luajit? ( || ( dev-lang/lua:5.1 >=dev-lang/lua-5.1:0 ) ) luajit? ( dev-lang/luajit:2 )
+DESCRIPTION=LuaDoc-compatible documentation generation system
+EAPI=5
+HOMEPAGE=http://stevedonovan.github.io/ldoc
+IUSE=luajit
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=!luajit? ( || ( dev-lang/lua:5.1 >=dev-lang/lua-5.1:0 ) ) luajit? ( dev-lang/luajit:2 ) dev-lua/Penlight
+SLOT=0
+SRC_URI=https://github.com/stevedonovan/LDoc/archive/1.4.3.tar.gz -> LDoc-1.4.3.tar.gz
+_eclasses_=multilib	df4e4d5cfd3d137d0c248e1991c0e4d6	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=f1d64583c227335121a857183511fcac
