@@ -3,7 +3,7 @@ app-admin/cq 9999: A command queue
 app-admin/eselect-dlang 20141016: Eselect module for management of multiple D versions
 app-benchmarks/httperf 0.9.0-r3: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
-app-portage/eix 0.30.11-r2: Search and query ebuilds, portage incl. local settings, ext. overlays, version changes, and more
+app-portage/eix 0.30.11-r3: Search and query ebuilds, portage incl. local settings, ext. overlays, version changes, and more
 app-shells/push 1.7 1.8: A POSIX shell function to treat a variable like an array, quoting args
 dev-cpp/folly 0.34.0 0.35.0 0.55.0 0.55.0-r1 0.57.0: An open-source C++ library developed and used at Facebook
 dev-cpp/gflags 2.1.2: Google's C++ argument parsing library
