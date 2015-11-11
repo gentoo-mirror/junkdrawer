@@ -29,6 +29,11 @@ media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
 media-sound/umurmur:shm - Enable shared memory support
 net-libs/civetweb:websockets - Build with websocket support
+sys-cluster/slurm:maui - Enable maui scheduler support
+sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
+sys-cluster/slurm:munge - Enable authentication via munge
+sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
+sys-cluster/slurm:ypbind - Enable ypbind based auth
 sys-devel/gcc:awt - Useful only when building GCJ, this enables Abstract Window Toolkit (AWT) peer support on top of GTK+
 sys-devel/gcc:d - Enable support for the D programming language
 sys-devel/gcc:fixed-point - Enable fixed-point arithmetic support for MIPS targets in gcc (Warning: significantly increases compile time!)
