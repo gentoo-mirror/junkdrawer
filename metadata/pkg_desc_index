@@ -7,7 +7,6 @@ app-office/radicale 1.0.1: A simple CalDAV calendar server
 app-portage/eix 0.30.11-r3: Search and query ebuilds, portage incl. local settings, ext. overlays, version changes, and more
 app-shells/push 1.7 1.8: A POSIX shell function to treat a variable like an array, quoting args
 dev-cpp/folly 0.34.0 0.35.0 0.55.0 0.55.0-r1 0.57.0: An open-source C++ library developed and used at Facebook
-dev-cpp/gflags 2.1.2: Google's C++ argument parsing library
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
 dev-lang/dmd 2.066.1: Reference compiler for the D programming language
