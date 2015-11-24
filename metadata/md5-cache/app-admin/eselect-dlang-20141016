@@ -1,9 +1,0 @@
-DEFINED_PHASES=install
-DESCRIPTION=Eselect module for management of multiple D versions
-EAPI=5
-HOMEPAGE=https://github.com/gentoo-dlang
-KEYWORDS=amd64 x86 ~ppc64
-LICENSE=GPL-2
-RDEPEND=app-admin/eselect
-SLOT=0
-_md5_=90609b51759b8523536f712bb42bc06f
