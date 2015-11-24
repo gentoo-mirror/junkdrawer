@@ -1,0 +1,12 @@
+DEFINED_PHASES=configure install prepare
+DEPEND=!luajit? ( || ( dev-lang/lua:5.2 dev-lang/lua:5.1 >=dev-lang/lua-5.1:0 ) ) luajit? ( dev-lang/luajit:2 ) sys-apps/help2man sys-apps/grep sys-apps/sed
+DESCRIPTION=Slingshot releases rocks! Build framework for Lua
+EAPI=5
+HOMEPAGE=http://github.com/gvvaughan/slingshot
+IUSE=luajit test
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/gvvaughan/slingshot/archive/v8.0.0.tar.gz -> slingshot-8.0.0.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
+_md5_=b347ded1f0e439dccd7589adc6169d2d
