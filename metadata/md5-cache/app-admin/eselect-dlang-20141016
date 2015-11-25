@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=app-admin/eselect
 SLOT=0
 _eclass_exported_funcs=src_install:-
-_md5_=90609b51759b8523536f712bb42bc06f
+_md5_=df763a8efb26e6b00933b5040b4529b3
