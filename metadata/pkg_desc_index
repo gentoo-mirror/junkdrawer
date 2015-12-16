@@ -47,7 +47,7 @@ net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 9999: Warp speed Data Transfer aims to transfer data between systems as fast as possible
 sys-cluster/corosync 1.4.8 2.3.5: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
-sys-cluster/ganglia-web 3.5.11 3.7.0: Web frontend for sys-cluster/ganglia
+sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 0.17.2: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/slurm 2.6.9: SLURM: A Highly Scalable Resource Manager
 sys-devel/gcc 4.8.3: The GNU Compiler Collection
