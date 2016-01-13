@@ -21,6 +21,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 
-RDEPEND="virtual/python-ipaddress"
+RDEPEND="virtual/python-ipaddress[${PYTHON_USEDEP}]"
 
 S=${WORKDIR}/${MY_P}
