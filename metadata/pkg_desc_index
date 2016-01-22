@@ -39,6 +39,7 @@ dev-util/gdmd 4.8.3: Wrapper script for gdc that emulates the dmd command
 dev-util/gyp 0_p20151110 9999: Generate Your Projects
 dev-util/include-what-you-use 0.4: find unused include directives in C/C++ programs
 media-libs/musicbrainz 5.1.0: The MusicBrainz Client Library (for accessing the latest XML based web service)
+media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.2: Libraries and utilities to use digital signatures for amateur radio QSL
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
