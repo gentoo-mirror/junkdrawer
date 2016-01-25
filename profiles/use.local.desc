@@ -40,6 +40,7 @@ net-im/ejabberd:redis - Enable Redis support
 net-im/ejabberd:riak - Enable Riak support
 net-im/ejabberd:tools - Build development tools
 net-libs/civetweb:websockets - Build with websocket support
+sci-libs/gsl:cblas-external - Link gsl with external cblas provided by (virtual/cblas) instead of shipped internal version
 sys-cluster/slurm:maui - Enable maui scheduler support
 sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
