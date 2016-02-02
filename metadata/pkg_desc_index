@@ -30,7 +30,6 @@ dev-ml/atdgen 1.7.1: Generates optimized boilerplate OCaml code for JSON and Bin
 dev-python/ipwhois 0.10.3: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/protorpc 0.11.1: Google Protocol RPC
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
-dev-util/android-sdk-update-manager 24.4.1: Open Handset Alliance's Android SDK
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 9999: Find problems in C++ source that slow development of large code bases
 dev-util/dlang-tools 2.066.1: Ancilliary tools for the D programming language compiler
 dev-util/flint 9999: An open-source lint program for C++ developed by, and used at Facebook
