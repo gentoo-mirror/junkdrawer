@@ -51,7 +51,7 @@ sci-libs/gsl 2.1: The GNU Scientific Library
 sys-cluster/corosync 1.4.8: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1: Web frontend for sys-cluster/ganglia
-sys-cluster/libqb 1.0_rc1: Library providing high performance logging, tracing, ipc, and poll
+sys-cluster/libqb 1.0_rc2: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/slurm 2.6.9: SLURM: A Highly Scalable Resource Manager
 sys-devel/gcc 4.8.3: The GNU Compiler Collection
 sys-devel/make 4.1-r2: Standard tool to compile source trees
