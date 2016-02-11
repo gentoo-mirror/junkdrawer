@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -22,5 +22,6 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE="static-libs"
 
-DEPEND="sys-libs/libcap-ng"
-RDEPEND="${DEPEND}"
+RDEPEND="sys-libs/libcap-ng"
+DEPEND="${RDEPEND}
+		virtual/pkgconfig"
