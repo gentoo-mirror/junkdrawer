@@ -55,4 +55,5 @@ sys-cluster/libqb 1.0_rc2: Library providing high performance logging, tracing, 
 sys-cluster/slurm 2.6.9: SLURM: A Highly Scalable Resource Manager
 sys-devel/gcc 4.8.3: The GNU Compiler Collection
 sys-devel/make 4.1-r2: Standard tool to compile source trees
+sys-fs/nocache 0.9: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7: ruTorrent is a front-end for the popular Bittorrent client rTorrent
