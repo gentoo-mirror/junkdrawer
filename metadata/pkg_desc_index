@@ -12,6 +12,7 @@ dev-lang/ldc2 0.15.1-r1: LLVM D Compiler
 dev-libs/ck 0.4.5: Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures
 dev-libs/cppformat 1.1.0 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
+dev-libs/json-c 0.12_p20151226: A JSON implementation in C
 dev-libs/libcasc 1.00 9999: An open-source implementation of library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.2 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
@@ -55,5 +56,5 @@ sys-cluster/libqb 1.0_rc2: Library providing high performance logging, tracing, 
 sys-cluster/slurm 2.6.9: SLURM: A Highly Scalable Resource Manager
 sys-devel/gcc 4.8.3: The GNU Compiler Collection
 sys-devel/make 4.1-r2: Standard tool to compile source trees
-sys-fs/nocache 0.9 0.9_p20130528 0.9_p20150902 9999: nocache - minimize filesystem caching effects
+sys-fs/nocache 0.9_p20130528 0.9_p20150902 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7: ruTorrent is a front-end for the popular Bittorrent client rTorrent
