@@ -27,7 +27,7 @@ dev-lua/luaposix 33.2.1: Lua bindings for POSIX APIs
 dev-lua/slingshot 8.0.0: Slingshot releases rocks! Build framework for Lua
 dev-ml/atd 1.1.2: Syntax for cross-language type definitions
 dev-ml/atdgen 1.7.1: Generates optimized boilerplate OCaml code for JSON and Biniou IO from type definitions
-dev-python/ipwhois 0.10.3: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
+dev-python/ipwhois 0.10.3 0.11.0 0.11.1: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/protorpc 0.11.1: Google Protocol RPC
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 9999: Find problems in C++ source that slow development of large code bases
