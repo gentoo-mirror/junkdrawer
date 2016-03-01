@@ -7,6 +7,7 @@ app-crypt/bruteforce-luks 1.2.0: A bruteforce cracker for LUKS encrypted volumes
 dev-cpp/folly 0.34.0 0.35.0 0.55.0 0.55.0-r1 0.57.0: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
+dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-lang/dmd 2.066.1: Reference compiler for the D programming language
 dev-lang/ldc2 0.15.1-r1: LLVM D Compiler
 dev-libs/ck 0.4.5: Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures
@@ -48,7 +49,7 @@ net-libs/civetweb 1.6 9999: Embedded C/C++ web server
 net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 9999: Warp speed Data Transfer aims to transfer data between systems as fast as possible
 net-wireless/pyrtlsdr 0.2.0 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
-sci-electronics/oregano 0.83.2.1: Oregano is an application for schematic capture and simulation of electrical circuits
+sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sys-cluster/corosync 1.4.8: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1: Web frontend for sys-cluster/ganglia

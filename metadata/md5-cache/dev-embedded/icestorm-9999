@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile prepare unpack
+DEPEND=>=dev-lang/python-3 virtual/pkgconfig ftdi? ( dev-embedded/libftdi:= ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
+EAPI=6
+HOMEPAGE=http://www.clifford.at/icestorm/
+IUSE=ftdi
+LICENSE=ISC
+RDEPEND=ftdi? ( dev-embedded/libftdi:= )
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_compile:-
+_eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-r3	ef66dfc3db09f327af21cf32f140fb2b	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
+_md5_=426f56007a0f4ee5858f2a981e6d701e
