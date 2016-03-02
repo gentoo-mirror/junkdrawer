@@ -7,7 +7,9 @@ app-crypt/bruteforce-luks 1.2.0: A bruteforce cracker for LUKS encrypted volumes
 dev-cpp/folly 0.34.0 0.35.0 0.55.0 0.55.0-r1 0.57.0: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
+dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
+dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-lang/dmd 2.066.1: Reference compiler for the D programming language
 dev-lang/ldc2 0.15.1-r1: LLVM D Compiler
 dev-libs/ck 0.4.5: Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures
