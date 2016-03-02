@@ -8,6 +8,6 @@
 	<longdescription lang="en">
 	</longdescription>
 	<upstream>
-		<remote-id type="github">facebookarchive/flint</remote-id>
+		<remote-id type="github">cseed/arachne-pnr</remote-id>
 	</upstream>
 </pkgmetadata>

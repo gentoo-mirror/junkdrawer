@@ -4,13 +4,16 @@
 
 EAPI=5
 
-inherit autotools
+DLANG_VERSION_RANGE="2.066-2.067"
+DLANG_PACKAGE_TYPE="single"
+
+inherit autotools dlang
 
 DESCRIPTION="An open-source lint program for C++ developed by, and used at Facebook"
-HOMEPAGE="https://github.com/facebook/flint"
+HOMEPAGE="https://github.com/facebookarchive/flint"
 if [ ${PV} == 9999 ]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/facebook/${PN}.git"
+	EGIT_REPO_URI="https://github.com/facebookarchive/${PN}.git"
 else
 	SRC_URI=""
 	KEYWORDS="~amd64"
@@ -20,8 +23,7 @@ LICENSE="Boost-1.0"
 SLOT="0"
 IUSE=""
 
-DEPEND="dev-cpp/folly
-		dev-lang/dmd"
+DEPEND="dev-cpp/folly"
 RDEPEND="${DEPEND}"
 
 src_prepare() {
