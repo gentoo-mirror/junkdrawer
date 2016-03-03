@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -6,7 +6,7 @@ EAPI=5
 
 inherit cmake-utils
 
-DESCRIPTION="An open-source implementation of library for reading CASC storage from Blizzard games since 2014"
+DESCRIPTION="Library for reading CASC storage from Blizzard games since 2014"
 HOMEPAGE="http://www.zezula.net/en/casc/main.html"
 if [ $PV == 9999 ]; then
 	inherit git-r3

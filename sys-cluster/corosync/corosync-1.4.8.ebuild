@@ -1,10 +1,10 @@
-# Copyright 1999-2014 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
 EAPI=4
 
-inherit autotools base
+inherit autotools
 
 MY_TREE="843e0c0"
 
@@ -36,11 +36,12 @@ DOCS=( README.recovery README.devmap SECURITY TODO AUTHORS )
 S="${WORKDIR}/${PN}-${PN}-${MY_TREE}"
 
 src_prepare() {
-	base_src_prepare
+	default
 	eautoreconf
 }
 
 src_configure() {
+	default
 	# appends lib to localstatedir automatically
 	# FIXME: install just shared libs --disable-static does not work
 	econf \

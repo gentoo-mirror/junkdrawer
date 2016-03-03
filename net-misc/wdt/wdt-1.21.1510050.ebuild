@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -7,7 +7,7 @@ EAPI=5
 CMAKE_MIN_VERSION=3.2.0
 inherit cmake-utils
 
-DESCRIPTION="Warp speed Data Transfer aims to transfer data between systems as fast as possible"
+DESCRIPTION="Warp speed Data Transfer aims to make network data transfers as fast as possible"
 HOMEPAGE="https://www.facebook.com/WdtOpenSource"
 if [[ $PV == "9999" ]]; then
 	inherit git-r3
