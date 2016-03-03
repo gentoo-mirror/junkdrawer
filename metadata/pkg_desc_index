@@ -1,6 +1,5 @@
-app-admin/Lmod 6.0.11: Lmod: An Environment Module System based on Lua, Reads TCL Modules, Supports a Software Hierarchy
+app-admin/Lmod 6.0.11 6.1.3: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/cq 9999: A command queue
-app-admin/eselect-dlang 20141016: Eselect module for management of multiple D versions
 app-benchmarks/httperf 0.9.0-r3: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-crypt/bruteforce-luks 1.2.0: A bruteforce cracker for LUKS encrypted volumes.
@@ -10,13 +9,11 @@ dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementat
 dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
-dev-lang/dmd 2.066.1: Reference compiler for the D programming language
-dev-lang/ldc2 0.15.1-r1: LLVM D Compiler
-dev-libs/ck 0.4.5: Concurrency primitives, safe memory reclamation mechanisms and non-blocking data structures
+dev-libs/ck 0.4.5 0.5.1: Concurrency primitives, safe memory reclamation and non-blocking data structures
 dev-libs/cppformat 1.1.0 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226: A JSON implementation in C
-dev-libs/libcasc 1.00 9999: An open-source implementation of library for reading CASC storage from Blizzard games since 2014
+dev-libs/libcasc 1.00 9999: Library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.2 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
 dev-libs/libluna-daemon 0.1.3 9999: a dead simple library for daemonizing
@@ -26,17 +23,15 @@ dev-libs/scalloc 0.9.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memor
 dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
 dev-lua/LDoc 1.4.3: LuaDoc-compatible documentation generation system
 dev-lua/Penlight 1.3.1: Generally useful pure Lua modules
-dev-lua/luaposix 33.2.1: Lua bindings for POSIX APIs
-dev-lua/slingshot 8.0.0: Slingshot releases rocks! Build framework for Lua
+dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
+dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-ml/atd 1.1.2: Syntax for cross-language type definitions
-dev-ml/atdgen 1.7.1: Generates optimized boilerplate OCaml code for JSON and Biniou IO from type definitions
+dev-ml/atdgen 1.7.1: Generates OCaml JSON (de)serializers and validators from ATD type definitions
 dev-python/ipwhois 0.10.3 0.11.0 0.11.1: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/protorpc 0.11.1: Google Protocol RPC
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 9999: Find problems in C++ source that slow development of large code bases
-dev-util/dlang-tools 2.066.1: Ancilliary tools for the D programming language compiler
-dev-util/flint 9999: An open-source lint program for C++ developed by, and used at Facebook
-dev-util/gdmd 4.8.3: Wrapper script for gdc that emulates the dmd command
+dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 9999: Generate Your Projects
 dev-util/include-what-you-use 0.4: find unused include directives in C/C++ programs
 media-libs/musicbrainz 5.1.0: The MusicBrainz Client Library (for accessing the latest XML based web service)
@@ -49,7 +44,7 @@ net-im/ejabberd 16.01 16.02: The Erlang Jabber Daemon
 net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/civetweb 1.6 9999: Embedded C/C++ web server
 net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
-net-misc/wdt 1.21.1510050 1.22.1510210 9999: Warp speed Data Transfer aims to transfer data between systems as fast as possible
+net-misc/wdt 1.21.1510050 1.22.1510210 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-wireless/pyrtlsdr 0.2.0 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sys-cluster/corosync 1.4.8: OSI Certified implementation of a complete cluster engine
@@ -57,7 +52,6 @@ sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clu
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 1.0_rc3: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/slurm 2.6.9: SLURM: A Highly Scalable Resource Manager
-sys-devel/gcc 4.8.3: The GNU Compiler Collection
 sys-devel/make 4.1-r2: Standard tool to compile source trees
 sys-fs/nocache 0.9_p20130528 0.9_p20150902 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7: ruTorrent is a front-end for the popular Bittorrent client rTorrent

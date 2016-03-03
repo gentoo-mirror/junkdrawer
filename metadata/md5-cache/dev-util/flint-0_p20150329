@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=dev-cpp/folly !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1 dmd-2_066? ( dev-lang/dmd:2.066= ) dmd-2_067? ( dev-lang/dmd:2.067= ) gdc-4_8_4? ( =sys-devel/gcc-4.8.4*[d] ) ldc2-0_15? ( dev-lang/ldc2:0.15= ) ldc2-0_16? ( dev-lang/ldc2:0.16= )
+DESCRIPTION=An open-source lint program for C++ developed by, and used at Facebook
+EAPI=6
+HOMEPAGE=https://github.com/facebookarchive/flint
+IUSE=dmd-2_066 dmd-2_067 gdc-4_8_4 ldc2-0_15 ldc2-0_16
+KEYWORDS=~amd64
+LICENSE=Boost-1.0
+RDEPEND=dev-cpp/folly dmd-2_066? ( dev-lang/dmd:2.066= ) dmd-2_067? ( dev-lang/dmd:2.067= ) gdc-4_8_4? ( =sys-devel/gcc-4.8.4*[d] ) ldc2-0_15? ( dev-lang/ldc2:0.15= ) ldc2-0_16? ( dev-lang/ldc2:0.16= )
+REQUIRED_USE=^^ ( dmd-2_066 dmd-2_067 gdc-4_8_4 ldc2-0_15 ldc2-0_16 )
+SLOT=0
+_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_configure:dlang src_compile:dlang src_test:dlang src_install:dlang
+_eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	dlang	6abe4626c04ff6cc01b78ccba46291b7	dlang-compilers	b2c435c98dd7679481e517cc1454b198	eutils	9d81603248f2ba3ec59124320d123e5e	flag-o-matic	d270fa247153df66074f795fa42dba3e	git-r3	ef66dfc3db09f327af21cf32f140fb2b	libtool	b75230758539a7da029e24afdb693960	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=9ed49d1526d8fea12a44e03d373aa328

@@ -1,6 +1,6 @@
 DEFINED_PHASES=compile install
 DEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-ml/atd-1.1.0 >=dev-ml/biniou-1.0.6 >=dev-ml/yojson-1.2.1 >=dev-ml/findlib-1.0.4-r1
-DESCRIPTION=Generates optimized boilerplate OCaml code for JSON and Biniou IO from type definitions
+DESCRIPTION=Generates OCaml JSON (de)serializers and validators from ATD type definitions
 EAPI=5
 HOMEPAGE=https://mjambon.github.io/atdgen-doc
 IUSE=+ocamlopt
@@ -11,4 +11,4 @@ SLOT=0/1.7.1
 SRC_URI=https://github.com/mjambon/atdgen/archive/v1.7.1.tar.gz -> atdgen-1.7.1.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
 _eclasses_=findlib	9909e5ca0f77ff5b693885a3d7aeadb7
-_md5_=21ebfb799276678016f72c2e19a62880
+_md5_=7ab293a5c97d346f1053867e57033b07
