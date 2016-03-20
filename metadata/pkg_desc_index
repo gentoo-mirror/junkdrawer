@@ -10,7 +10,7 @@ dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and rout
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-libs/ck 0.4.5 0.5.1: Concurrency primitives, safe memory reclamation and non-blocking data structures
-dev-libs/cppformat 1.1.0 9999: Small, safe and fast formatting library for C++
+dev-libs/cppformat 1.1.0 2.0.0 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226: A JSON implementation in C
 dev-libs/libcasc 1.00 9999: Library for reading CASC storage from Blizzard games since 2014

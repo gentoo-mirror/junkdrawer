@@ -2,11 +2,11 @@ DEFINED_PHASES=compile install prepare unpack
 DEPEND=lua? ( dev-lang/lua:* ) ssl? ( dev-libs/openssl:* ) >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Embedded C/C++ web server
 EAPI=5
-HOMEPAGE=https://github.com/bel2125/civetweb
+HOMEPAGE=https://github.com/civetweb/civetweb
 IUSE=cgi cxx ipv6 lua ssl websockets
 LICENSE=MIT-with-advertising
 RDEPEND=lua? ( dev-lang/lua:* ) ssl? ( dev-libs/openssl:* )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
 _eclasses_=eutils	9d81603248f2ba3ec59124320d123e5e	git-r3	ef66dfc3db09f327af21cf32f140fb2b	multilib	3972ca401cf7dbb430df9995f5d8d580	toolchain-funcs	7a212e5e01adfa4805c9978366e6ee85
-_md5_=a834bc29449e92bf6ab6f6632217f470
+_md5_=c381924d32625d8e6b9ae8093a0387e1
