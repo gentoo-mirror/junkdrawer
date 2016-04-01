@@ -28,13 +28,15 @@ dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-ml/atd 1.1.2: Syntax for cross-language type definitions
 dev-ml/atdgen 1.7.1: Generates OCaml JSON (de)serializers and validators from ATD type definitions
-dev-python/ipwhois 0.10.3 0.11.0 0.11.1: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
+dev-python/ipwhois 0.10.3 0.11.0 0.11.1 0.12.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/protorpc 0.11.1: Google Protocol RPC
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
+dev-python/pychromecast 0.7.1: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 9999: Generate Your Projects
 dev-util/include-what-you-use 0.4: find unused include directives in C/C++ programs
+media-libs/imlib2 1.4.8: Version 2 of an advanced replacement library for libraries like libXpm
 media-libs/musicbrainz 5.1.0: The MusicBrainz Client Library (for accessing the latest XML based web service)
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.2: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
@@ -50,12 +52,12 @@ net-libs/libhtp 0.5.19: security-aware parser for the HTTP protocol and the rela
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
-net-wireless/pyrtlsdr 0.2.0 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
+net-wireless/pyrtlsdr 0.2.0 0.2.2 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sys-cluster/corosync 1.4.8: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1: Web frontend for sys-cluster/ganglia
-sys-cluster/libqb 1.0_rc4: Library providing high performance logging, tracing, ipc, and poll
+sys-cluster/libqb 1.0: Library providing high performance logging, tracing, ipc, and poll
 sys-cluster/slurm 2.6.9: SLURM: A Highly Scalable Resource Manager
 sys-devel/make 4.1-r2: Standard tool to compile source trees
 sys-fs/nocache 0.9_p20130528 0.9_p20150902 9999: nocache - minimize filesystem caching effects
