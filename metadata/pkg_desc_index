@@ -61,7 +61,6 @@ net-libs/civetweb 1.6 9999: Embedded C/C++ web server
 net-libs/libhtp 0.5.19: security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
-net-misc/libreswan 3.17: IPsec implementation for Linux, fork of Openswan
 net-misc/wdt 1.21.1510050 1.22.1510210 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-wireless/gnuradio 3.7.9.2: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/pyrtlsdr 0.2.0 0.2.2 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)

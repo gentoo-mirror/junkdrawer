@@ -36,7 +36,6 @@ net-im/ejabberd:redis - Enable Redis support
 net-im/ejabberd:riak - Enable Riak support
 net-im/ejabberd:tools - Build development tools
 net-libs/civetweb:websockets - Build with websocket support
-net-misc/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound
 net-wireless/gnuradio:analog - enable analog signal processing blocks
 net-wireless/gnuradio:atsc - enable ATSC (HDTV) transmitter and receiver blocks
 net-wireless/gnuradio:audio - enable blocks to connect to audio sources (mic-in) and sinks (speaker-out) ports on a computer
