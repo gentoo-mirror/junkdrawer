@@ -58,6 +58,7 @@ net-dialup/freeradius 2.2.9 3.0.11: Highly configurable free RADIUS server
 net-im/ejabberd 16.01 16.02: The Erlang Jabber Daemon
 net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/civetweb 1.6 9999: Embedded C/C++ web server
+net-libs/libgcm 0.1.0 9999: Google Cloud Messaging C library
 net-libs/libhtp 0.5.19: security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
