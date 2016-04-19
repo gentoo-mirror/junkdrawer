@@ -25,6 +25,7 @@ net-analyzer/suricata:nflog - Enable libnetfilter_log support
 net-analyzer/suricata:nfqueue - Enable AF_PACKET support
 net-analyzer/suricata:rules - Enable AF_PACKET support
 net-dialup/freeradius:pcap - Build the RADIUS sniffer which requires net-libs/libpcap.
+net-dialup/xl2tpd:dnsretry - Patch for host lookup retries, activated by redial feature
 net-im/ejabberd:captcha - Support for CAPTCHA Forms (XEP-158)
 net-im/ejabberd:elixir - Enable Elixir language support (http://elixir-lang.org/)
 net-im/ejabberd:mod_bosh - Enable support for XMPP over BOSH (XEP-0206)
