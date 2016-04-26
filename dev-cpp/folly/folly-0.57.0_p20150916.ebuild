@@ -10,13 +10,10 @@ inherit autotools-utils
 
 DESCRIPTION="An open-source C++ library developed and used at Facebook"
 HOMEPAGE="https://github.com/facebook/folly"
-if [[ ${PV} == 9999 ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/facebook/folly.git"
-else
-	SRC_URI="https://github.com/facebook/folly/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-	KEYWORDS="~amd64"
-fi
+inherit git-r3
+EGIT_REPO_URI="https://github.com/facebook/folly.git"
+EGIT_COMMIT="99eb3f45bba336163f28cefe5d549731ea4a886b"
+KEYWORDS="~amd64"
 
 LICENSE="Apache-2.0"
 SLOT="0"
