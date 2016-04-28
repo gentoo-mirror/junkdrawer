@@ -37,7 +37,7 @@ dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
 dev-python/paste 2.0.3: Tools for using a Web Server Gateway Interface stack
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0: Python client library for the BrowserID protocol
-dev-python/pychromecast 0.7.1: Library for Python 2 and 3 to communicate with the Google Chromecast
+dev-python/pychromecast 0.7.1 0.7.3: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20: The Mozilla token server
