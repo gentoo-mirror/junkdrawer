@@ -16,14 +16,6 @@ media-radio/tqsl:tools - Enable additional tools
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
 media-sound/umurmur:shm - Enable shared memory support
-net-analyzer/suricata:af-packet - Enable AF_PACKET support
-net-analyzer/suricata:control-socket - Enable unix socket
-net-analyzer/suricata:cuda - Enable NVIDIA Cuda computations support
-net-analyzer/suricata:detection - Enable detection modules
-net-analyzer/suricata:luajit - Enable Luajit support
-net-analyzer/suricata:nflog - Enable libnetfilter_log support
-net-analyzer/suricata:nfqueue - Enable AF_PACKET support
-net-analyzer/suricata:rules - Enable AF_PACKET support
 net-dialup/xl2tpd:dnsretry - Patch for host lookup retries, activated by redial feature
 net-im/ejabberd:captcha - Support for CAPTCHA Forms (XEP-158)
 net-im/ejabberd:elixir - Enable Elixir language support (http://elixir-lang.org/)
