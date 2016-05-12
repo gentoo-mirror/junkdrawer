@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure install prepare pretend test unpack
+DEPEND=sci-libs/fftw:3.0 >=media-libs/hamlib-3 dev-qt/qtmultimedia:5 dev-qt/qtwidgets:5 dev-qt/qtserialport:5 dev-qt/qtconcurrent:5 sys-devel/make >=dev-util/cmake-2.8.12
+DESCRIPTION=Weak signal communication software
+EAPI=5
+HOMEPAGE=http://physics.princeton.edu/pulsar/k1jt/index.html
+IUSE=openmp
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=sci-libs/fftw:3.0 >=media-libs/hamlib-3 dev-qt/qtmultimedia:5 dev-qt/qtwidgets:5 dev-qt/qtserialport:5 dev-qt/qtconcurrent:5
+SLOT=0
+SRC_URI=mirror://sourceforge/wsjt/wsjtx-1.6.0.tgz
+_eclass_exported_funcs=pkg_pretend:- src_unpack:- src_prepare:- src_configure:cmake-utils src_compile:cmake-utils src_test:cmake-utils src_install:cmake-utils
+_eclasses_=cmake-utils	422bbd1bee2557490177a34dbe0a662b	eutils	792f83d5ec9536cb5ccef375469d8bde	flag-o-matic	d270fa247153df66074f795fa42dba3e	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	d513d423d449877e49d99af3f7af7acb	versionator	99ae9d758cbe7cfed19170e7d48f5a9c
+_md5_=9490c04922113e0bae86b2b54b2371d8
