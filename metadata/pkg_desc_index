@@ -41,7 +41,7 @@ dev-python/pychromecast 0.7.1 0.7.3: Library for Python 2 and 3 to communicate w
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20 1.2.21: The Mozilla token server
-dev-python/webob 1.6.0: WSGI request and response object
+dev-python/webob 1.6.1: WSGI request and response object
 dev-python/webtest 2.0.20: Helper to test WSGI applications
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
