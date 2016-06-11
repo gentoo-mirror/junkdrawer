@@ -10,6 +10,7 @@ dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementat
 dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
+dev-libs/boehm-gc 7.4.4: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/ck 0.4.5 0.5.1: Concurrency primitives, safe memory reclamation and non-blocking data structures
 dev-libs/cppformat 1.1.0 2.0.0 2.1.0 2.1.1 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
