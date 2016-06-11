@@ -4,7 +4,7 @@ app-benchmarks/httperf 0.9.0-r3 9999: A tool from HP for measuring web server pe
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.2.0 1.2.1: A bruteforce cracker for LUKS encrypted volumes.
-dev-cpp/folly 0.57.0 0.57.0_p20150916: An open-source C++ library developed and used at Facebook
+dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
 dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
