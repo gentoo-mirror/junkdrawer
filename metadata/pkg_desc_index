@@ -4,6 +4,7 @@ app-benchmarks/httperf 0.9.0-r3 9999: A tool from HP for measuring web server pe
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.2.0 1.2.1: A bruteforce cracker for LUKS encrypted volumes.
+app-shells/push 1.9: A POSIX shell function to treat a variable like an array, quoting args
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
@@ -45,13 +46,13 @@ dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth s
 dev-python/tokenserver 1.2.20 1.2.21 1.2.22: The Mozilla token server
 dev-python/webob 1.6.1: WSGI request and response object
 dev-python/webtest 2.0.20: Helper to test WSGI applications
-dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 9999: Find problems in C++ source that slow development of large code bases
+dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 9999: Generate Your Projects
 dev-util/include-what-you-use 0.4: find unused include directives in C/C++ programs
 media-libs/musicbrainz 5.1.0: The MusicBrainz Client Library (for accessing the latest XML based web service)
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
-media-radio/tqsl 2.2 2.2.1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
+media-radio/tqsl 2.2 2.2.1 2.2.2: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
 media-radio/wsjtx 1.6.0: Weak signal communication software
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
@@ -62,7 +63,7 @@ net-irc/hexchat 2.12.1: Graphical IRC client based on XChat
 net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/civetweb 1.6 1.7 1.8 9999: Embedded C/C++ web server
 net-libs/libgcm 0.1.0 9999: Google Cloud Messaging C library
-net-libs/libhtp 0.5.19 0.5.20: security-aware parser for the HTTP protocol and the related bits and pieces
+net-libs/libhtp 0.5.19 0.5.20 0.5.21: security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
