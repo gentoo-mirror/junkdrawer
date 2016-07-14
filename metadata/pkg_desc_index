@@ -33,9 +33,11 @@ dev-ml/atd 1.1.2: Syntax for cross-language type definitions
 dev-ml/atdgen 1.7.1 1.9.0 1.9.1: Generates OCaml JSON (de)serializers and validators from ATD type definitions
 dev-python/configparser 3.5.0_beta2: Backport of Python-3 built-in configparser
 dev-python/cornice 1.2.1: Restful services for Pyramid
+dev-python/flake8 2.5.5: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Authentication
 dev-python/ipwhois 0.10.3 0.11.0 0.11.1 0.12.0 0.13.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9: Yet another configuration object
+dev-python/mccabe 0.5.0: flake8 plugin: McCabe complexity checker
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
 dev-python/paste 2.0.3: Tools for using a Web Server Gateway Interface stack
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
