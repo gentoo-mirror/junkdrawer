@@ -1,4 +1,4 @@
-DEFINED_PHASES=install postinst prerm setup unpack
+DEFINED_PHASES=install postinst prepare prerm setup unpack
 DEPEND=|| ( dev-lang/php[xml,gd] dev-lang/php[xml,gd-external] ) >=app-admin/webapp-config-1.50.15 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=ruTorrent is a front-end for the popular Bittorrent client rTorrent
 EAPI=4
@@ -7,6 +7,6 @@ IUSE=vhosts
 LICENSE=GPL-2
 RDEPEND=virtual/httpd-php >=app-admin/webapp-config-1.50.15
 SLOT=9999
-_eclass_exported_funcs=pkg_prerm:webapp pkg_postinst:webapp pkg_setup:- src_unpack:git-r3 src_install:-
+_eclass_exported_funcs=pkg_prerm:webapp pkg_postinst:webapp pkg_setup:- src_unpack:git-r3 src_prepare:- src_install:-
 _eclasses_=eutils	792f83d5ec9536cb5ccef375469d8bde	git-r3	00f60a84fc7b499c99edfe99caea9f95	multilib	d062ae4ba2fc40a19c11de2ad89b6616	toolchain-funcs	82165206dedb2075f9a0fb8f9b1f9441	webapp	42c6ef7af496b228f9854b3c81e4b226
-_md5_=28f9fa2c4147ef9e35c1b6d842dd7bcb
+_md5_=bb9844cb8afe79e480b55c2fcdfc8a97
