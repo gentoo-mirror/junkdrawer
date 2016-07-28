@@ -3,9 +3,12 @@
 # * generated automatically using pmaint *
 
 dev-embedded/icestorm:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
+dev-java/protobuf-java:nano - Enable code generator and runtime library designed specifically for resource-constrained systems, like Android
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
 dev-libs/libtomcrypt:libtommath - Use the portable math library (dev-libs/libtommath)
 dev-libs/libtomcrypt:tomsfastmath - Use the optimized math library (dev-libs/tomsfastmath)
+dev-libs/protobuf:java - Builds the Java implementation. This is not needed for Java support in protoc.
+dev-libs/protobuf:python - Builds the Python implementation. This is not needed for Python support in protoc.
 dev-lua/LDoc:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/Penlight:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/luaposix:luajit - Use dev-lang/luajit instead of dev-lang/lua
