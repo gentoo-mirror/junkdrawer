@@ -9,4 +9,4 @@ LICENSE=BSD-2
 SLOT=0
 SRC_URI=https://github.com/cksystemsgroup/scalloc/archive/0.9.0.tar.gz -> scalloc-0.9.0.tar.gz
 _eclass_exported_funcs=src_configure:- src_compile:- src_install:-
-_md5_=e3eb134a2f126d69376a3c726597dd8f
+_md5_=84c89be66f198d62e18e226cde942672
