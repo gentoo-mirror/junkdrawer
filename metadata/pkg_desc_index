@@ -25,7 +25,7 @@ dev-libs/libluna-daemon 0.1.3 9999: a dead simple library for daemonizing
 dev-libs/libtomcrypt 1.17: modular and portable cryptographic toolkit
 dev-libs/protobuf 3.0.0_beta4 3.0.0: Google's Protocol Buffers -- an efficient method of encoding structured data
 dev-libs/recastnavigation 1.5.1 9999: Navigation-mesh Toolset for Games
-dev-libs/scalloc 0.9.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
+dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
 dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
 dev-lua/LDoc 1.4.3: LuaDoc-compatible documentation generation system
 dev-lua/Penlight 1.3.1: Generally useful pure Lua modules
@@ -48,7 +48,7 @@ dev-python/pychromecast 0.7.1 0.7.3: Library for Python 2 and 3 to communicate w
 dev-python/pycodestyle 2.0.0: Python style guide checker (previously pep8)
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
-dev-python/tokenserver 1.2.20 1.2.21 1.2.22: The Mozilla token server
+dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23: The Mozilla token server
 dev-python/webob 1.6.1: WSGI request and response object
 dev-python/webtest 2.0.23: Helper to test WSGI applications
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 9999: Find problems in C++ source that slow development of large code bases
@@ -75,7 +75,7 @@ net-misc/libreswan 3.18: IPsec implementation for Linux, fork of Openswan
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-wireless/pyrtlsdr 0.2.0 0.2.2 0.2.3 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
-sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete cluster engine
+sys-cluster/corosync 1.4.8 2.3.6 2.4.0: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 1.0: Library providing high performance logging, tracing, ipc, and poll
