@@ -39,7 +39,7 @@ dev-python/flake8 2.5.5 2.6.2: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Authentication
 dev-python/ipwhois 0.10.3 0.11.0 0.11.1 0.12.0 0.13.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9: Yet another configuration object
-dev-python/mccabe 0.5.0 0.5.1: flake8 plugin: McCabe complexity checker
+dev-python/mccabe 0.5.0 0.5.1 0.5.2: flake8 plugin: McCabe complexity checker
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
 dev-python/paste 2.0.3: Tools for using a Web Server Gateway Interface stack
 dev-python/protobuf-python 3.0.0_beta4 3.0.0: Google's Protocol Buffers - official Python bindings
@@ -76,7 +76,7 @@ net-misc/libreswan 3.18: IPsec implementation for Linux, fork of Openswan
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-wireless/pyrtlsdr 0.2.0 0.2.2 0.2.3 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
-sys-cluster/corosync 1.4.8 2.3.6 2.4.0: OSI Certified implementation of a complete cluster engine
+sys-cluster/corosync 1.4.8 2.3.6 2.4.0 2.4.1: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 1.0: Library providing high performance logging, tracing, ipc, and poll
