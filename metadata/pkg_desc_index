@@ -15,7 +15,7 @@ dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstrea
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-java/protobuf-java 3.0.0_beta4 3.0.0: Google's Protocol Buffers - official Java Bindings
 dev-libs/boehm-gc 7.4.4: The Boehm-Demers-Weiser conservative garbage collector
-dev-libs/ck 0.4.5 0.5.1: Concurrency primitives, safe memory reclamation and non-blocking data structures
+dev-libs/ck 0.4.5 0.5.1 0.5.2: Concurrency primitives, safe memory reclamation and non-blocking data structures
 dev-libs/cppformat 1.1.0 2.0.0 2.1.0 2.1.1 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226: A JSON implementation in C
