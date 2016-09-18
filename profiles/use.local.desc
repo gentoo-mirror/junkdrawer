@@ -2,9 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-misc/mosquitto:bridge - Enable bridge support in the MQTT broker.
-app-misc/mosquitto:persistence - Store messages and subscriptions to a file.
-app-misc/mosquitto:srv - Include SRV lookup support.
 dev-embedded/icestorm:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-java/protobuf-java:nano - Enable code generator and runtime library designed specifically for resource-constrained systems, like Android
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
@@ -32,7 +29,13 @@ net-irc/hexchat:plugin-sysinfo - Build SysInfo plugin (needs plugins)
 net-irc/hexchat:plugins - Enable plugin support and installs some built-in plugins
 net-irc/hexchat:theme-manager - Build the theme manager (mono)
 net-libs/civetweb:websockets - Build with websocket support
-net-misc/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound
+sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
+sys-cluster/openmpi:cuda - Add GPU direct support
+sys-cluster/openmpi:heterogeneous - Enable features required for heterogeneous platform support
+sys-cluster/openmpi:mpi-threads - Enable MPI_THREAD_MULTIPLE
+sys-cluster/openmpi:numa - Enable numactl to allow binding processes to CPUs
+sys-cluster/openmpi:romio - Build the ROMIO MPI-IO component
+sys-cluster/openmpi:vt - Enable bundled VampirTrace support
 sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
