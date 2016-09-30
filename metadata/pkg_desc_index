@@ -1,18 +1,18 @@
-app-admin/Lmod 6.0.11 6.1.3 6.1.4 6.1.5 6.1.7 6.3 6.3.1 6.3.4 6.3.5 6.3.7 6.4 6.4.1 6.4.3 6.4.5 6.5.2 6.5.3 6.5.11 6.5.12 6.5.13 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.0.11 6.1.3 6.1.4 6.1.5 6.1.7 6.3 6.3.1 6.3.4 6.3.5 6.3.7 6.4 6.4.1 6.4.3 6.4.5 6.5.2 6.5.3 6.5.11 6.5.12 6.5.13 6.5.14 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 0.9.0-r3 9999: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.2.0 1.2.1: A bruteforce cracker for LUKS encrypted volumes.
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
-app-shells/push 1.9: A POSIX shell function to treat a variable like an array, quoting args
+app-shells/push 1.9 1.10: A POSIX shell function to treat a variable like an array, quoting args
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
 dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
-dev-java/protobuf-java 3.0.0 3.0.2: Google's Protocol Buffers - official Java Bindings
+dev-java/protobuf-java 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers - official Java Bindings
 dev-libs/boehm-gc 7.4.4: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/ck 0.4.5 0.5.1 0.5.2: Concurrency primitives, safe memory reclamation and non-blocking data structures
 dev-libs/cppformat 1.1.0 2.0.0 2.1.0 2.1.1 9999: Small, safe and fast formatting library for C++
@@ -23,7 +23,7 @@ dev-libs/liblog 0.1.2 9999: Library for outputting to a file, console, and/or sy
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
 dev-libs/libluna-daemon 0.1.3 9999: a dead simple library for daemonizing
 dev-libs/libtomcrypt 1.17: modular and portable cryptographic toolkit
-dev-libs/protobuf 3.0.0 3.0.2: Google's Protocol Buffers -- an efficient method of encoding structured data
+dev-libs/protobuf 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers -- an efficient method of encoding structured data
 dev-libs/rapidjson 1.0.2 1.1.0: Fast JSON parser/generator for C++
 dev-libs/recastnavigation 1.5.1 9999: Navigation-mesh Toolset for Games
 dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
@@ -43,11 +43,13 @@ dev-python/konfig 0.9: Yet another configuration object
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
 dev-python/paste 2.0.3: Tools for using a Web Server Gateway Interface stack
 dev-python/pip 8.1.2: Installs python packages -- replacement for easy_install
-dev-python/protobuf-python 3.0.0 3.0.2: Google's Protocol Buffers - official Python bindings
+dev-python/protobuf-python 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers - official Python bindings
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID protocol
 dev-python/pychromecast 0.7.1 0.7.3 0.7.4: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
+dev-python/pysoundfile 0.8.1: an audio library based on libsndfile, CFFI, and NumPy
+dev-python/qhue 1.0.4: A very lightweight Python wrapper to the Philips Hue API
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23: The Mozilla token server
 dev-python/webob 1.6.1: WSGI request and response object
@@ -68,6 +70,7 @@ net-dialup/xl2tpd 1.3.7 1.3.8: A modern version of the Layer 2 Tunneling Protoco
 net-irc/hexchat 2.12.1: Graphical IRC client based on XChat
 net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/civetweb 1.6 1.7 1.8 9999: Embedded C/C++ web server
+net-libs/enet 1.2.5: relatively thin, simple and robust network communication layer on top of UDP
 net-libs/libgcm 0.1.0 9999: Google Cloud Messaging C library
 net-libs/libhtp 0.5.19 0.5.20 0.5.21 0.5.22: security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
