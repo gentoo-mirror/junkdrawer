@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-libs/openssl !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
+DEPEND=!libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= ) !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=A tool from HP for measuring web server performance
-EAPI=4
-HOMEPAGE=http://code.google.com/p/httperf/
-IUSE=debug
+EAPI=5
+HOMEPAGE=https://github.com/httperf/httperf
+IUSE=debug libressl
 LICENSE=GPL-2
-RDEPEND=dev-libs/openssl
+RDEPEND=!libressl? ( dev-libs/openssl:0= ) libressl? ( dev-libs/libressl:0= )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:autotools-utils src_configure:autotools-utils src_compile:autotools-utils src_test:autotools-utils src_install:autotools-utils
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	autotools-utils	419811142edf3516b0d0cf1a254d93cb	eutils	b83a2420b796f7c6eff682679d08fe25	git-r3	00f60a84fc7b499c99edfe99caea9f95	libtool	4890219c51da247200223277f993e054	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	6198c04daba0e1307bd844df7d37f423
-_md5_=a614a1af11b54a2156af9bc538cb979f
+_md5_=e0a9b91fc17be555e28a710f59661185
