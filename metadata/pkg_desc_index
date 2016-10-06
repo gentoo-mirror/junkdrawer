@@ -41,7 +41,6 @@ dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Auth
 dev-python/ipwhois 0.10.3 0.11.0 0.11.1 0.12.0 0.13.0 0.14.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9: Yet another configuration object
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
-dev-python/paste 2.0.3: Tools for using a Web Server Gateway Interface stack
 dev-python/pip 8.1.2: Installs python packages -- replacement for easy_install
 dev-python/protobuf-python 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers - official Python bindings
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
