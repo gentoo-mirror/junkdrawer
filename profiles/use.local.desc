@@ -29,6 +29,7 @@ net-irc/hexchat:plugin-sysinfo - Build SysInfo plugin (needs plugins)
 net-irc/hexchat:plugins - Enable plugin support and installs some built-in plugins
 net-irc/hexchat:theme-manager - Build the theme manager (mono)
 net-libs/civetweb:websockets - Build with websocket support
+sys-auth/munge:gcrypt - Use libgcrypt instead of openssl
 sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
 sys-cluster/openmpi:cuda - Add GPU direct support
 sys-cluster/openmpi:heterogeneous - Enable features required for heterogeneous platform support
