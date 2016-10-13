@@ -45,7 +45,7 @@ dev-python/pip 8.1.2: Installs python packages -- replacement for easy_install
 dev-python/protobuf-python 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers - official Python bindings
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID protocol
-dev-python/pychromecast 0.7.1 0.7.3 0.7.4: Library for Python 2 and 3 to communicate with the Google Chromecast
+dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1: an audio library based on libsndfile, CFFI, and NumPy
 dev-python/qhue 1.0.4: A very lightweight Python wrapper to the Philips Hue API
