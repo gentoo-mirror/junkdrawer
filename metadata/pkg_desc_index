@@ -91,4 +91,4 @@ sys-fs/efsw 9999: C++ cross-platform file system watcher and notifier
 sys-fs/inotify-tools 3.14_p20141109: a set of command-line programs providing a simple interface to inotify
 sys-fs/nocache 1.0 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
-x11-misc/virtualgl 2.5.1: Run OpenGL applications remotely with full 3D hardware acceleration
+x11-misc/virtualgl 2.5.1-r1: Run OpenGL applications remotely with full 3D hardware acceleration
