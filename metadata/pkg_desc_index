@@ -51,7 +51,7 @@ dev-python/pysoundfile 0.8.1: an audio library based on libsndfile, CFFI, and Nu
 dev-python/qhue 1.0.4: A very lightweight Python wrapper to the Philips Hue API
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23: The Mozilla token server
-dev-python/webob 1.6.1: WSGI request and response object
+dev-python/webob 1.6.2: WSGI request and response object
 dev-python/webtest 2.0.23: Helper to test WSGI applications
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
