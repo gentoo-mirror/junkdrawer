@@ -18,14 +18,6 @@ media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
 media-sound/umurmur:shm - Enable shared memory support
 net-dialup/xl2tpd:dnsretry - Patch for host lookup retries, activated by redial feature
-net-irc/hexchat:libcanberra - Enable sound event support using media-libs/libcanberra
-net-irc/hexchat:libproxy - Enable proxy support.
-net-irc/hexchat:plugin-checksum - Build Checksum plugin (needs plugins)
-net-irc/hexchat:plugin-doat - Build Do At plugin (needs plugins)
-net-irc/hexchat:plugin-fishlim - Build FiSHLiM plugin (needs plugins )
-net-irc/hexchat:plugin-sysinfo - Build SysInfo plugin (needs plugins)
-net-irc/hexchat:plugins - Enable plugin support and installs some built-in plugins
-net-irc/hexchat:theme-manager - Build the theme manager (mono)
 net-libs/civetweb:websockets - Build with websocket support
 sys-auth/munge:gcrypt - Use libgcrypt instead of openssl
 sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
