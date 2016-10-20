@@ -30,3 +30,4 @@ sys-cluster/openmpi:vt - Enable bundled VampirTrace support
 sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
+x11-misc/virtualgl:server - Build the server libraries of virtualgl
