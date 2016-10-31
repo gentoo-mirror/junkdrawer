@@ -3,6 +3,7 @@
 # * generated automatically using pmaint *
 
 dev-embedded/icestorm:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
+dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
 dev-java/protobuf-java:nano - Enable code generator and runtime library designed specifically for resource-constrained systems, like Android
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
 dev-libs/libtomcrypt:libtommath - Use the portable math library (dev-libs/libtommath)

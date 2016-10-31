@@ -6,12 +6,13 @@ app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.2.0 1.2.1: A bruteforce cracker for LUKS encrypted volumes.
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
-app-shells/push 1.9 1.10: A POSIX shell function to treat a variable like an array, quoting args
+app-shells/push 2.0: A POSIX shell function to treat a variable like an array, quoting args
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
 dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
+dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-java/protobuf-java 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers - official Java Bindings
 dev-libs/boehm-gc 7.4.4: The Boehm-Demers-Weiser conservative garbage collector
