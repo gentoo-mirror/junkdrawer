@@ -5,6 +5,7 @@ app-benchmarks/httperf 0.9.0-r4 9999: A tool from HP for measuring web server pe
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.2.0 1.2.1: A bruteforce cracker for LUKS encrypted volumes.
+app-portage/eix 0.32.3: Search and query ebuilds
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
 app-shells/push 2.0: A POSIX shell function to treat a variable like an array, quoting args
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
@@ -43,7 +44,7 @@ dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Auth
 dev-python/ipwhois 0.14.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9: Yet another configuration object
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
-dev-python/pip 9.0.0: Installs python packages -- replacement for easy_install
+dev-python/pip 9.0.0 9.0.1: Installs python packages -- replacement for easy_install
 dev-python/protobuf-python 3.0.0 3.0.2 3.1.0: Google's Protocol Buffers - official Python bindings
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID protocol
