@@ -30,7 +30,7 @@ dev-libs/rapidjson 1.0.2 1.1.0: Fast JSON parser/generator for C++
 dev-libs/recastnavigation 1.5.1 9999: Navigation-mesh Toolset for Games
 dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
 dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
-dev-lua/LDoc 1.4.3 1.4.5: LuaDoc-compatible documentation generation system
+dev-lua/LDoc 1.4.3 1.4.5 1.4.6: LuaDoc-compatible documentation generation system
 dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/penlight 1.3.1 1.4.0 1.4.1: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
@@ -83,7 +83,7 @@ net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 9999: Warp speed Data Transf
 net-wireless/pyrtlsdr 0.2.0 0.2.2 0.2.3 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sys-auth/munge 0.5.12: An authentication service for creating and validating credentials
-sys-cluster/corosync 1.4.8 2.3.6 2.4.0 2.4.1: OSI Certified implementation of a complete cluster engine
+sys-cluster/corosync 1.4.8 2.3.6 2.4.0 2.4.1 2.4.2: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 1.0: Library providing high performance logging, tracing, ipc, and poll
