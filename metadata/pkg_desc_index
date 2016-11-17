@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/cq 9999: A command queue
 app-arch/lrzip 0.631: Long Range ZIP or Lzma RZIP optimized for compressing large files
 app-benchmarks/httperf 0.9.0-r4 9999: A tool from HP for measuring web server performance
@@ -52,7 +52,7 @@ dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7: Library for Python 
 dev-python/pycodestyle 2.2.0: Python style guide checker (fka pep8)
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1: an audio library based on libsndfile, CFFI, and NumPy
-dev-python/qhue 1.0.4: A very lightweight Python wrapper to the Philips Hue API
+dev-python/qhue 1.0.4 1.0.5: A very lightweight Python wrapper to the Philips Hue API
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23: The Mozilla token server
 dev-python/webob 1.6.2: WSGI request and response object
