@@ -44,6 +44,7 @@ dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Auth
 dev-python/ipwhois 0.14.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9: Yet another configuration object
 dev-python/markdown 2.6.7: Python implementation of the markdown markup language
+dev-python/mccabe 0.5.3: flake8 plugin: McCabe complexity checker
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
 dev-python/pyasn 1.5.0_beta6: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID protocol
