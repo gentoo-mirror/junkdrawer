@@ -37,7 +37,8 @@ dev-lua/penlight 1.3.1 1.4.0 1.4.1: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-ml/atd 1.1.2 1.2.0: Syntax for cross-language type definitions
 dev-ml/atdgen 1.7.1 1.9.0 1.9.1: Generates OCaml JSON (de)serializers and validators from ATD type definitions
-dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0: Restful services for Pyramid
+dev-python/botocore 1.4.87: Low-level, data-driven core of boto 3.
+dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0: Restful services for Pyramid
 dev-python/flake8 2.6.2 3.2.1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/graphite-api 1.1.3: The rendering HTTP API from Graphite-web, without the interface
 dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Authentication
@@ -53,9 +54,10 @@ dev-python/pycodestyle 2.2.0: Python style guide checker (fka pep8)
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1: an audio library based on libsndfile, CFFI, and NumPy
 dev-python/qhue 1.0.4 1.0.5: A very lightweight Python wrapper to the Philips Hue API
+dev-python/s3transfer 0.1.10: An Amazon S3 Transfer Manager
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23: The Mozilla token server
-dev-python/webob 1.6.2 1.6.3: WSGI request and response object
+dev-python/webob 1.6.2 1.6.3 1.7.0_rc2: WSGI request and response object
 dev-python/webtest 2.0.23: Helper to test WSGI applications
 dev-python/zeroconf 0.17.6: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
