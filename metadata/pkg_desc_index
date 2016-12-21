@@ -37,7 +37,7 @@ dev-lua/penlight 1.3.1 1.4.0 1.4.1: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-ml/atd 1.1.2 1.2.0: Syntax for cross-language type definitions
 dev-ml/atdgen 1.7.1 1.9.0 1.9.1: Generates OCaml JSON (de)serializers and validators from ATD type definitions
-dev-python/botocore 1.4.87: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.4.87 1.4.89: Low-level, data-driven core of boto 3.
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0: Restful services for Pyramid
 dev-python/flake8 2.6.2 3.2.1: A wrapper around PyFlakes, pep8 & mccabe
 dev-python/graphite-api 1.1.3: The rendering HTTP API from Graphite-web, without the interface
@@ -63,7 +63,6 @@ dev-python/zeroconf 0.17.6: Pure Python Multicast DNS Service Discovery Library 
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 9999: Generate Your Projects
-dev-util/include-what-you-use 0.4: find unused include directives in C/C++ programs
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.2 2.2.1 2.2.2 2.3: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
@@ -89,7 +88,7 @@ sys-cluster/corosync 1.4.8 2.3.6 2.4.0 2.4.1 2.4.2: OSI Certified implementation
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 1.0: Library providing high performance logging, tracing, ipc, and poll
-sys-cluster/openmpi 1.10.4: A high-performance message passing library (MPI)
+sys-cluster/openmpi 1.10.4 1.10.5: A high-performance message passing library (MPI)
 sys-cluster/pyslurm 9999: Python interface to Slurm
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
 sys-devel/make 4.1-r2: Standard tool to compile source trees
