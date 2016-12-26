@@ -8,6 +8,7 @@ app-crypt/bruteforce-luks 1.2.0 1.2.1 1.2.2: A bruteforce cracker for LUKS encry
 app-portage/eix 0.32.3: Search and query ebuilds
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
 app-shells/push 2.0: A POSIX shell function to treat a variable like an array, quoting args
+app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
 dev-cpp/gflags 2.2.0: Google's C++ argument parsing library
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
