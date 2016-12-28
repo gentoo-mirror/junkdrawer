@@ -49,7 +49,7 @@ dev-python/konfig 0.9: Yet another configuration object
 dev-python/markdown 2.6.7: Python implementation of the markdown markup language
 dev-python/mccabe 0.5.3: flake8 plugin: McCabe complexity checker
 dev-python/mozsvc 0.8 0.8_p20141211: Various utilities for Mozilla apps
-dev-python/pyasn 1.5.0_beta6 1.5.0_beta7: Python IP address to Autonomous System Number lookup module
+dev-python/pyasn 1.5.0_beta6 1.5.0_beta7 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID protocol
 dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pycodestyle 2.2.0: Python style guide checker (fka pep8)
