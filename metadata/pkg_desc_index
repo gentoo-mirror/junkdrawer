@@ -67,7 +67,7 @@ dev-util/gyp 0_p20151110 0_p20160426 9999: Generate Your Projects
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.2 2.2.1 2.2.2 2.3: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
-media-radio/wsjtx 1.6.0 1.7.0: Weak signal communication software
+media-radio/wsjtx 1.6.0 1.7.0 9999: Weak signal communication software
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
 media-video/motion 3.4_rc1: A software motion detector

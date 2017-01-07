@@ -9,4 +9,4 @@ LICENSE=MIT
 SLOT=0
 SRC_URI=https://bitbucket.org/SpartanJ/efsw/get/1.0.0.tar.bz2 -> efsw-1.0.0.tar.bz2
 _eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
-_md5_=51dc32662326b9a01300b243d88bcae6
+_md5_=10bba95bcdc90b417543b7149ba0cd27

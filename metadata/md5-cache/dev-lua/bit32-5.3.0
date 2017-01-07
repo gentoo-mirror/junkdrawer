@@ -8,4 +8,4 @@ SLOT=0
 SRC_URI=https://github.com/keplerproject/lua-compat-5.2/archive/bitlib-5.3.0.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
 _eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=1e5e61f07aaa6670b36e85f493ec50ab
+_md5_=732b5a51273a93b14da0b3191dbb043b
