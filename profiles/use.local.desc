@@ -34,6 +34,7 @@ net-im/ejabberd:roster-gw - Turn on workaround for processing gateway subscripti
 net-im/ejabberd:sqlite - Enable SQLite database support
 net-im/ejabberd:zlib - Enable Stream Compression (XEP-0138) using zlib
 net-libs/civetweb:websockets - Build with websocket support
+net-misc/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound
 sys-auth/munge:gcrypt - Use libgcrypt instead of openssl
 sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
 sys-cluster/openmpi:cuda - Add GPU direct support
