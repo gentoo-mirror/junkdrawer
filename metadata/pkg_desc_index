@@ -6,7 +6,6 @@ app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.2.0 1.2.1 1.2.2: A bruteforce cracker for LUKS encrypted volumes.
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
-app-shells/push 2.0: A POSIX shell function to treat a variable like an array, quoting args
 app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
 dev-cpp/gflags 2.2.0: Google's C++ argument parsing library
