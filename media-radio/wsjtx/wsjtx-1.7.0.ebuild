@@ -12,7 +12,7 @@ SRC_URI="mirror://sourceforge/wsjt/${P}.tgz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="doc openmp"
 
 CDEPEND="sci-libs/fftw:3.0[threads]

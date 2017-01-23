@@ -1,2 +1,0 @@
-# dev-ruby/asciidoctor lacks x86 keyword
->=media-radio/wsjtx-1.7.0 doc
