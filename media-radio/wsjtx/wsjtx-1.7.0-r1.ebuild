@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
-EAPI=5
+EAPI=6
 
 inherit cmake-utils toolchain-funcs
 
@@ -12,16 +12,18 @@ SRC_URI="mirror://sourceforge/wsjt/${P}.tgz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
-IUSE="openmp"
+KEYWORDS="~amd64"
+IUSE="doc openmp"
 
-DEPEND="sci-libs/fftw:3.0[threads]
-	>=media-libs/hamlib-3
+CDEPEND="sci-libs/fftw:3.0[threads]
+	>=media-libs/hamlib-3.1
 	dev-qt/qtmultimedia:5
 	dev-qt/qtwidgets:5
 	dev-qt/qtserialport:5
 	dev-qt/qtconcurrent:5"
-RDEPEND="${DEPEND}"
+DEPEND="${CDEPEND}
+	doc? ( dev-ruby/asciidoctor )"
+RDEPEND="${CDEPEND}"
 
 CMAKE_USE_DIR="${S}/src/${PN}"
 
@@ -39,6 +41,14 @@ src_unpack() {
 
 src_prepare() {
 	cd "${S}"/src/${PN}
-	epatch "${FILESDIR}"/${P}-cmake.diff
 	epatch "${FILESDIR}"/${P}-hamlib-fixes.diff
+	default
+}
+
+src_configure() {
+	local mycmakeargs=(
+		-DWSJT_GENERATE_DOCS="$(usex doc)"
+	)
+
+	cmake-utils_src_configure
 }
