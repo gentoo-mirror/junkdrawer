@@ -31,6 +31,7 @@ dev-libs/recastnavigation 1.5.1 9999: Navigation-mesh Toolset for Games
 dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
 dev-libs/tomsfastmath 0.12: portable fixed precision math library geared towards doing one thing very fast
 dev-lua/bit32 5.3.0: A Lua5.2+ bit manipulation library
+dev-lua/luafilesystem 1.6.3: File System Library for the Lua Programming Language
 dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/penlight 1.4.0 1.4.1: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
