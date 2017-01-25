@@ -15,6 +15,8 @@ dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and rout
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
+dev-erlang/fast_xml 1.1.19: Fast Expat based Erlang XML parsing library
+dev-erlang/xmpp 1.1.4 1.1.6: Erlang XMPP parsing and serialization
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/boehm-gc 7.4.4: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/ck 0.4.5 0.5.1 0.5.2: Concurrency primitives, safe memory reclamation and non-blocking data structures
@@ -60,6 +62,7 @@ dev-python/webtest 2.0.23 2.0.24: Helper to test WSGI applications
 dev-python/zeroconf 0.17.6: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/gyp 0_p20151110 0_p20160426 9999: Generate Your Projects
+dev-util/rebar 2.6.4: A sophisticated build-tool for Erlang projects that follows OTP principles
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.2 2.2.1 2.2.2 2.3: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
