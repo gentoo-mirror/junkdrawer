@@ -62,7 +62,6 @@ dev-python/webtest 2.0.23 2.0.24: Helper to test WSGI applications
 dev-python/zeroconf 0.17.6: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/gyp 0_p20151110 0_p20160426 9999: Generate Your Projects
-dev-util/rebar 2.6.4: A sophisticated build-tool for Erlang projects that follows OTP principles
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.2 2.2.1 2.2.2 2.3: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
@@ -79,7 +78,7 @@ net-libs/enet 1.2.5: relatively thin, simple and robust network communication la
 net-libs/libgcm 0.1.0 9999: Google Cloud Messaging C library
 net-libs/libhtp 0.5.23: security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
-net-libs/zmqpp 4.1.2 9999: ZeroMQ 'highlevel' C++ bindings
+net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/libreswan 3.19: IPsec implementation for Linux, fork of Openswan
 net-misc/radvd 2.16_rc1: Linux IPv6 Router Advertisement Daemon
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
