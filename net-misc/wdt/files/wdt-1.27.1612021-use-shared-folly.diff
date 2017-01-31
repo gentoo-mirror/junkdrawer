@@ -1,8 +1,8 @@
 diff --git a/CMakeLists.txt b/CMakeLists.txt
-index 9ba5cd4..6806a49 100644
+index 477d354..d9779a7 100644
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -46,33 +46,10 @@ set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
+@@ -46,34 +46,10 @@ set(CMAKE_INSTALL_RPATH "${CMAKE_INSTALL_PREFIX}/lib")
  # So hardcoding for now:
  #set(CMAKE_BUILD_TYPE Debug)
  set(CMAKE_BUILD_TYPE Release)
@@ -31,12 +31,13 @@ index 9ba5cd4..6806a49 100644
 -"${FOLLY_SOURCE_DIR}/folly/Conv.cpp"
 -"${FOLLY_SOURCE_DIR}/folly/Demangle.cpp"
 -"${FOLLY_SOURCE_DIR}/folly/Checksum.cpp"
+-"${FOLLY_SOURCE_DIR}/folly/ScopeGuard.cpp"
 -)
 -
  # WDT's library proper - comes from: ls -1 *.cpp | grep -iv test
  add_library(wdt_min
  util/WdtSocket.cpp
-@@ -134,10 +111,13 @@ find_library(GFLAGS_LIBRARY gflags)
+@@ -136,10 +112,13 @@ find_library(GFLAGS_LIBRARY gflags)
  # OpenSSL's crypto lib
  find_package(OpenSSL REQUIRED)
  include_directories(${OPENSSL_INCLUDE_DIR})
@@ -51,7 +52,7 @@ index 9ba5cd4..6806a49 100644
    ${GLOG_LIBRARY}
    ${GFLAGS_LIBRARY}
    ${Boost_LIBRARIES}
-@@ -202,13 +182,10 @@ if (NOT FOLLY_HAVE_BITS_FUNCTEXCEPT_H)
+@@ -205,13 +184,10 @@ if (NOT FOLLY_HAVE_BITS_FUNCTEXCEPT_H)
    message(STATUS "no bits/functexcept.h, adding FunctionalExcept to folly src")
  endif()
  
@@ -66,7 +67,7 @@ index 9ba5cd4..6806a49 100644
  include_directories(${DOUBLECONV_INCLUDE_DIR})
  include_directories(${GLOG_INCLUDE_DIR})
  include_directories(${GFLAGS_INCLUDE_DIR})
-@@ -221,7 +198,7 @@ target_link_libraries(wdtbin wdt_min)
+@@ -224,7 +200,7 @@ target_link_libraries(wdtbin wdt_min)
  
  ### Install rules
  set_target_properties(wdtbin PROPERTIES RUNTIME_OUTPUT_NAME "wdt")

@@ -33,7 +33,7 @@ PATCHES=( "${FILESDIR}/wdt-1.27.1612021-use-shared-folly.diff" )
 S="${WORKDIR}/wdt"
 
 src_unpack() {
-	git-r3_src_unpack
+	unpack "${P}.tar.gz"
 	mv "${P}" "wdt"
 }
 
