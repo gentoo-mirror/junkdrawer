@@ -80,7 +80,7 @@ net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/libreswan 3.19: IPsec implementation for Linux, fork of Openswan
 net-misc/radvd 2.16_rc1: Linux IPv6 Router Advertisement Daemon
-net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
+net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-wireless/pyrtlsdr 0.2.0 0.2.2 0.2.3 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sys-auth/munge 0.5.12: An authentication service for creating and validating credentials
