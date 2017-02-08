@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install
+DEPEND=sys-apps/util-linux selinux? ( sys-libs/libselinux )
+DESCRIPTION=Tools for Flash-Friendly File System (F2FS)
+EAPI=6
+HOMEPAGE=https://git.kernel.org/cgit/linux/kernel/git/jaegeuk/f2fs-tools.git/about/
+IUSE=selinux
+KEYWORDS=~amd64 ~arm ~mips ~x86
+LICENSE=GPL-2
+SLOT=0/1
+SRC_URI=https://danweeks.net/pub/f2fs-tools-1.8.0.tar.xz
+_eclass_exported_funcs=src_configure:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=14df4bb61116f3649ff5919e4c5b3ad2

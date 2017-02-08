@@ -93,6 +93,7 @@ sys-cluster/pyslurm 9999: Python interface to Slurm
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
 sys-devel/make 4.1-r2: Standard tool to compile source trees
 sys-fs/efsw 1.0.0 9999: C++ cross-platform file system watcher and notifier
+sys-fs/f2fs-tools 1.8.0: Tools for Flash-Friendly File System (F2FS)
 sys-fs/inotify-tools 3.14_p20141109: a set of command-line programs providing a simple interface to inotify
 sys-fs/nocache 1.0 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
