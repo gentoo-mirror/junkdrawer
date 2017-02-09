@@ -18,10 +18,11 @@ dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/fast_xml 1.1.19: Fast Expat based Erlang XML parsing library
 dev-erlang/xmpp 1.1.4 1.1.6: Erlang XMPP parsing and serialization
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
-dev-libs/boehm-gc 7.4.4: The Boehm-Demers-Weiser conservative garbage collector
+dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/cppformat 1.1.0 2.0.0 2.1.0 2.1.1 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
+dev-libs/libatomic_ops 7.4.4: Implementation for atomic memory update operations
 dev-libs/libcasc 1.00 9999: Library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.2 0.1.3 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
