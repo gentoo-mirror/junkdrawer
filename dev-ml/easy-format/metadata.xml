@@ -8,6 +8,6 @@
 	<longdescription lang="en">
 	</longdescription>
 	<upstream>
-		<remote-id type="github">Motion-Project/motion</remote-id>
+		<remote-id type="github">mjambon/easy-format</remote-id>
 	</upstream>
 </pkgmetadata>
