@@ -32,13 +32,6 @@ net-im/ejabberd:zlib - Enable Stream Compression (XEP-0138) using zlib
 net-libs/civetweb:websockets - Build with websocket support
 net-misc/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound
 sys-auth/munge:gcrypt - Use libgcrypt instead of openssl
-sys-cluster/openmpi:cma - Enable the CMA (Cross Memory Attach) MCA
-sys-cluster/openmpi:cuda - Add GPU direct support
-sys-cluster/openmpi:heterogeneous - Enable features required for heterogeneous platform support
-sys-cluster/openmpi:mpi-threads - Enable MPI_THREAD_MULTIPLE
-sys-cluster/openmpi:numa - Enable numactl to allow binding processes to CPUs
-sys-cluster/openmpi:romio - Build the ROMIO MPI-IO component
-sys-cluster/openmpi:vt - Enable bundled VampirTrace support
 sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)

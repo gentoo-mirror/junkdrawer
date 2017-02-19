@@ -40,7 +40,7 @@ dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-ml/atd 1.1.2 1.2.0: Syntax for cross-language type definitions
 dev-ml/atdgen 1.7.1 1.9.0 1.9.1 1.10.0: Generates OCaml JSON (de)serializers and validators from ATD type definitions
 dev-ml/easy-format 1.2.0: Pretty-printing library for OCaml
-dev-python/botocore 1.4.87 1.4.89 1.4.90 1.4.91 1.4.92 1.4.93 1.5.1 1.5.9 1.5.10 1.5.11 1.5.12 1.5.13: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.4.87 1.4.89 1.4.90 1.4.91 1.4.92 1.4.93 1.5.1 1.5.9 1.5.10 1.5.11 1.5.12 1.5.13 1.5.14: Low-level, data-driven core of boto 3.
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/graphite-api 1.1.3: The rendering HTTP API from Graphite-web, without the interface
 dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Authentication
@@ -95,7 +95,6 @@ sys-cluster/corosync 1.4.8 2.3.6 2.4.0 2.4.1 2.4.2: OSI Certified implementation
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
 sys-cluster/libqb 1.0 1.0.1: Library providing high performance logging, tracing, ipc, and poll
-sys-cluster/openmpi 1.10.4 1.10.5: A high-performance message passing library (MPI)
 sys-cluster/pyslurm 9999: Python interface to Slurm
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
 sys-devel/make 4.1-r2: Standard tool to compile source trees
