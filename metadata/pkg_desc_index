@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.4 7.3.16 7.3.17 7.3.18 7.3.19 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.4 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/cq 9999: A command queue
 app-arch/lrzip 0.631: Long Range ZIP or Lzma RZIP optimized for compressing large files
 app-benchmarks/httperf 0.9.0-r4 9999: A tool from HP for measuring web server performance
@@ -16,7 +16,7 @@ dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstrea
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/fast_xml 1.1.19 1.1.20 1.1.21: Fast Expat based Erlang XML parsing library
-dev-erlang/xmpp 1.1.4 1.1.6 1.1.7: Erlang XMPP parsing and serialization
+dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8: Erlang XMPP parsing and serialization
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/cppformat 1.1.0 2.0.0 2.1.0 2.1.1 9999: Small, safe and fast formatting library for C++
