@@ -14,7 +14,7 @@ dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementat
 dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
-dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
+dev-embedded/yosys 0.7 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/fast_xml 1.1.19 1.1.20 1.1.21: Fast Expat based Erlang XML parsing library
 dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8: Erlang XMPP parsing and serialization
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java

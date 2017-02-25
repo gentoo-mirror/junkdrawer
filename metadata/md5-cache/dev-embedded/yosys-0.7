@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure prepare setup
+DEPEND=|| ( dev-lang/python:3.5 dev-lang/python:3.4 ) sys-devel/bison sys-devel/flex sys-apps/gawk virtual/pkgconfig sys-libs/readline:= virtual/libffi dev-vcs/git dev-lang/tcl:= dev-vcs/mercurial
+DESCRIPTION=Yosys - Yosys Open SYnthesis Suite
+EAPI=6
+HOMEPAGE=http://www.clifford.at/icestorm/
+KEYWORDS=~amd64
+LICENSE=ISC
+RDEPEND=sys-libs/readline:= virtual/libffi dev-vcs/git dev-lang/tcl:= dev-vcs/mercurial
+SLOT=0
+SRC_URI=https://github.com/cliffordwolf/yosys/archive/yosys-0.7.tar.gz
+_eclass_exported_funcs=pkg_setup:python-any-r1 src_prepare:- src_configure:-
+_eclasses_=eutils	708f85bc1bf00876604e223fb56e062a	multilib	165fc17c38d1b11dac2008280dab6e80	python-any-r1	1c20f9b800324335a8e3b137363362e8	python-utils-r1	50dad5f912d4c16c130f5679777f25e8	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=eaefd73c1de6391ce5ce55f2f7cf899c
