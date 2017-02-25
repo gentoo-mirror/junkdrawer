@@ -15,6 +15,9 @@ media-radio/tqsl:tools - Enable additional tools
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
 media-sound/umurmur:shm - Enable shared memory support
+net-analyzer/hsflowd:nflog - Enable nflog support via net-libs/libnetfilter_log
+net-analyzer/hsflowd:openvswitch - Enable openvswitch support
+net-analyzer/hsflowd:pcap - Add support for network packet capture via net-libs/libpcap
 net-dialup/xl2tpd:dnsretry - Patch for host lookup retries, activated by redial feature
 net-im/ejabberd:captcha - Support for CAPTCHA Forms (XEP-158) on registration
 net-im/ejabberd:full-xml - Use XML features in XMPP stream (ex: CDATA), requires XML compliant clients
