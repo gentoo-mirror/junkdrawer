@@ -10,5 +10,5 @@ RDEPEND=dev-lang/ocaml:=[ocamlopt?] >=dev-ml/atd-1.1.0 >=dev-ml/biniou-1.0.6 >=d
 SLOT=0/1.9.0
 SRC_URI=https://github.com/mjambon/atdgen/archive/v1.9.0.tar.gz -> atdgen-1.9.0.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
-_eclasses_=findlib	9909e5ca0f77ff5b693885a3d7aeadb7
+_eclasses_=findlib	45d6030075064a68da8d7143726a1150
 _md5_=14ef7f3b45bfa4ed0c97093a007188e3
