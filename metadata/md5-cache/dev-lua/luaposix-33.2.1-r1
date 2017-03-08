@@ -10,5 +10,5 @@ RDEPEND=!luajit? ( || ( dev-lang/lua:5.2 dev-lang/lua:5.1 >=dev-lang/lua-5.1:0 )
 SLOT=0
 SRC_URI=https://github.com/luaposix/luaposix/archive/v33.2.1.tar.gz -> luaposix-33.2.1.tar.gz
 _eclass_exported_funcs=src_prepare:- src_configure:- src_compile:-
-_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	53b75b4a49cf3e61530a523804045432
+_eclasses_=eutils	3c847a0129fed780bd709b98e426f89c	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
 _md5_=f6753f49ecab0ff546242e93927a805c
