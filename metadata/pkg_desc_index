@@ -20,7 +20,6 @@ dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8: Erlang XMPP parsing and serialization
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/concurrencykit 0.6.0: A library with concurrency related algorithms and data structures in C
-dev-libs/fmt 1.1.0 2.0.0 2.1.0 2.1.1 3.0.1 9999: Small, safe and fast formatting library for C++
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
 dev-libs/libatomic_ops 7.4.4: Implementation for atomic memory update operations
