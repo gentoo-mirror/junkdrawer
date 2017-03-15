@@ -10,4 +10,4 @@ RDEPEND=nflog? ( net-libs/libnfnetlink ) pcap? ( net-libs/libpcap )
 SLOT=0
 SRC_URI=https://github.com/sflow/host-sflow/archive/v2.0.8-1.tar.gz -> hsflowd-2.0.8-1.tar.gz
 _eclass_exported_funcs=src_compile:- src_install:-
-_md5_=ab66071b38845423752c1cc98c0da2d4
+_md5_=6dd13a93413374e4f0ac2103c73d02a1
