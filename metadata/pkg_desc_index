@@ -86,6 +86,10 @@ net-misc/libreswan 3.19 3.20: IPsec implementation for Linux, fork of Openswan
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-wireless/pyrtlsdr 0.2.0 0.2.2 0.2.3 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
+sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
+sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
+sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Learning Systems
+sci-libs/ps-lite 9999: A lightweight parameter server interface
 sys-auth/munge 0.5.12: An authentication service for creating and validating credentials
 sys-cluster/corosync 1.4.8 2.3.6 2.4.0 2.4.1 2.4.2: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
