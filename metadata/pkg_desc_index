@@ -14,8 +14,9 @@ dev-embedded/arachne-pnr 9999: Arachne PNR - free and open-source place and rout
 dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-embedded/yosys 0.7 9999: Yosys - Yosys Open SYnthesis Suite
-dev-erlang/fast_xml 1.1.19 1.1.20 1.1.21: Fast Expat based Erlang XML parsing library
-dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8: Erlang XMPP parsing and serialization
+dev-erlang/fast_xml 1.1.19 1.1.20 1.1.21 1.1.22: Fast Expat based Erlang XML parsing library
+dev-erlang/p1_utils 1.0.7: Erlang utility modules from ProcessOne
+dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8 1.1.9: Erlang XMPP parsing and serialization
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/g3d 10.00: G3D - 3D Engine
@@ -50,7 +51,7 @@ dev-python/mozsvc 0.8 0.8_p20141211 0.9: Various utilities for Mozilla apps
 dev-python/py-lmdb 0.92: Python binding for the LMDB 'Lightning' Database
 dev-python/pyasn 1.5.0_beta6 1.5.0_beta7 1.6.0_beta1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID protocol
-dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7 0.8.0: Library for Python 2 and 3 to communicate with the Google Chromecast
+dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7 0.8.0 0.8.1: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pycodestyle 2.3.1: Python style guide checker (fka pep8)
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1 0.9.0: an audio library based on libsndfile, CFFI, and NumPy
