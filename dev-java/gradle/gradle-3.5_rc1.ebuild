@@ -5,12 +5,12 @@ EAPI="6"
 
 inherit java-pkg-2 versionator
 
-MY_MAJOR_PV="$(get_version_component_range 1-2)"
+MY_PV=${PV/_rc/-rc-}
 
 DESCRIPTION="A project automation and build tool with a Groovy based DSL"
 SRC_URI="
-	https://services.gradle.org/distributions/${P}-src.zip
-	https://services.gradle.org/distributions/${PN}-${MY_MAJOR_PV}-bin.zip
+	https://services.gradle.org/distributions/${PN}-${MY_PV}-src.zip
+	https://services.gradle.org/distributions/${PN}-3.4.1-bin.zip
 "
 HOMEPAGE="http://www.gradle.org/"
 LICENSE="Apache-2.0"
@@ -23,6 +23,8 @@ DEPEND="
 "
 RDEPEND=">=virtual/jdk-1.5"
 IUSE="doc"
+
+S=${WORKDIR}/${PN}-${MY_PV}
 
 src_prepare() {
 	default
