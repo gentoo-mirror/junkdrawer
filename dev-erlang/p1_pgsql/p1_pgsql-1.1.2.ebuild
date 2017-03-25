@@ -5,12 +5,12 @@ EAPI=6
 
 inherit rebar
 
-DESCRIPTION="Erlang utility modules from ProcessOne"
-HOMEPAGE="https://github.com/processone/p1_utils"
+DESCRIPTION="Pure Erlang PostgreSQL driver"
+HOMEPAGE="https://github.com/processone/p1_pgsql"
 SRC_URI="https://github.com/processone/${PN}/archive/${PV}.tar.gz
 	-> ${P}.tar.gz"
 
-LICENSE="Apache-2.0"
+LICENSE="ErlPL-1.1"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~sparc ~x86"
 
