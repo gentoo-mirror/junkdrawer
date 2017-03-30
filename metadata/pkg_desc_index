@@ -28,7 +28,7 @@ dev-erlang/p1_utils 1.0.7: Erlang utility modules from ProcessOne
 dev-erlang/stringprep 1.0.8: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.10: STUN and TURN library for Erlang and Elixir
 dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8 1.1.9: Erlang XMPP parsing and serialization
-dev-java/gradle 3.4.1 3.5_rc1: A project automation and build tool with a Groovy based DSL
+dev-java/gradle 3.4.1 3.5_rc1 3.5_rc2: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
 dev-lang/mono 4.8.0.520: Mono runtime and class libraries, a C# compiler/interpreter
@@ -102,7 +102,7 @@ net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-vpn/libreswan 3.19 3.20: IPsec implementation for Linux, fork of Openswan
-net-wireless/pyrtlsdr 0.2.0 0.2.2 0.2.3 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
+net-wireless/pyrtlsdr 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
 sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
