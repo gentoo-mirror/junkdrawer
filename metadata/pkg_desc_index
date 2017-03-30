@@ -31,7 +31,7 @@ dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8 1.1.9: Erlang XMPP parsing and serializa
 dev-java/gradle 3.4.1 3.5_rc1 3.5_rc2: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
-dev-lang/mono 4.8.0.520: Mono runtime and class libraries, a C# compiler/interpreter
+dev-lang/mono 4.8.0.520 4.8.0.524: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
