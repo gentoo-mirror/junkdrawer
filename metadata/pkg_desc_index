@@ -19,7 +19,6 @@ dev-erlang/cache_tab 1.0.7: In-memory cache Erlang and Elixir library
 dev-erlang/esip 1.0.11: ProcessOne SIP server component
 dev-erlang/ezlib 1.0.2: Native zlib driver for Erlang and Elixir
 dev-erlang/fast_tls 1.0.11: TLS/SSL native driver for Erlang and Elixir
-dev-erlang/fast_xml 1.1.19 1.1.20 1.1.21 1.1.22: Fast Expat based Erlang XML parsing library
 dev-erlang/fast_yaml 1.0.9: Fast Yaml native library for Erlang and Elixir
 dev-erlang/iconv 1.0.4: Fast encoding conversion library for Erlang and Elixir
 dev-erlang/p1_pam 1.0.2: epam for ejabberd to help with PAM authentication support
@@ -27,11 +26,9 @@ dev-erlang/p1_pgsql 1.1.2: Pure Erlang PostgreSQL driver
 dev-erlang/p1_utils 1.0.7: Erlang utility modules from ProcessOne
 dev-erlang/stringprep 1.0.8: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.10: STUN and TURN library for Erlang and Elixir
-dev-erlang/xmpp 1.1.4 1.1.6 1.1.7 1.1.8 1.1.9: Erlang XMPP parsing and serialization
 dev-java/gradle 3.4.1 3.5_rc1 3.5_rc2: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
-dev-lang/mono 4.8.0.520 4.8.0.524: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
@@ -41,7 +38,6 @@ dev-libs/liblog 0.1.2 0.1.3 9999: Library for outputting to a file, console, and
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
 dev-libs/libluna-daemon 0.1.3 9999: a dead simple library for daemonizing
 dev-libs/libtomcrypt 1.17: modular and portable cryptographic toolkit
-dev-libs/rapidjson 1.0.2 1.1.0: Fast JSON parser/generator for C++
 dev-libs/recastnavigation 1.5.1 9999: Navigation-mesh Toolset for Games
 dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
 dev-libs/tomsfastmath 0.13.0: portable fixed precision math library geared towards doing one thing very fast
@@ -50,9 +46,6 @@ dev-lua/luafilesystem 1.6.3: File System Library for the Lua Programming Languag
 dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/penlight 1.4.0 1.4.1: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
-dev-ml/atd 1.1.2 1.2.0: Syntax for cross-language type definitions
-dev-ml/atdgen 1.7.1 1.9.0 1.9.1 1.10.0: Generates OCaml JSON (de)serializers and validators from ATD type definitions
-dev-ml/easy-format 1.2.0: Pretty-printing library for OCaml
 dev-python/botocore 1.4.87 1.4.89 1.4.90 1.4.91 1.4.92 1.4.93 1.5.1 1.5.9 1.5.10 1.5.11 1.5.12 1.5.13 1.5.14 1.5.15 1.5.17 1.5.18 1.5.19 1.5.23 1.5.26 1.5.27 1.5.28 1.5.29 1.5.31 1.5.32 1.5.33 1.5.35: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0_pre1: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
