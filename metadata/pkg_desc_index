@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.4.1 7.4.3 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.4.1 7.4.3 7.4.5 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
@@ -26,7 +26,7 @@ dev-erlang/p1_pgsql 1.1.2: Pure Erlang PostgreSQL driver
 dev-erlang/p1_utils 1.0.7: Erlang utility modules from ProcessOne
 dev-erlang/stringprep 1.0.8: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.10: STUN and TURN library for Erlang and Elixir
-dev-java/gradle 3.4.1 3.5_rc1 3.5_rc2: A project automation and build tool with a Groovy based DSL
+dev-java/gradle 3.4.1 3.5_rc1 3.5_rc2 3.5_rc3: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
