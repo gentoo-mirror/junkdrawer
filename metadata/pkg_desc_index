@@ -26,7 +26,7 @@ dev-erlang/p1_pgsql 1.1.2: Pure Erlang PostgreSQL driver
 dev-erlang/p1_utils 1.0.7: Erlang utility modules from ProcessOne
 dev-erlang/stringprep 1.0.8: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.10: STUN and TURN library for Erlang and Elixir
-dev-java/gradle 3.4.1 3.5_rc1 3.5_rc2 3.5_rc3: A project automation and build tool with a Groovy based DSL
+dev-java/gradle 3.4.1 3.5: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
 dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
@@ -44,7 +44,7 @@ dev-libs/tomsfastmath 0.13.0 0.13.1: portable fixed precision math library geare
 dev-lua/bit32 5.3.0: A Lua5.2+ bit manipulation library
 dev-lua/luafilesystem 1.6.3: File System Library for the Lua Programming Language
 dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
-dev-lua/penlight 1.4.0 1.4.1 1.5.0: Generally useful pure Lua modules
+dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.2: PHP extension for interfacing with Redis
@@ -117,5 +117,5 @@ sys-fs/f2fs-tools 1.8.0: Tools for Flash-Friendly File System (F2FS)
 sys-fs/inotify-tools 3.14_p20141109: a set of command-line programs providing a simple interface to inotify
 sys-fs/nocache 1.0 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
-x11-misc/virtualgl 2.5.1-r3 9999: Run OpenGL applications remotely with full 3D hardware acceleration
+x11-misc/virtualgl 9999: Run OpenGL applications remotely with full 3D hardware acceleration
 x11-wm/awesome 4.1: A dynamic floating and tiling window manager
