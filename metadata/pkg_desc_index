@@ -29,10 +29,8 @@ dev-erlang/stun 1.0.10: STUN and TURN library for Erlang and Elixir
 dev-java/gradle 3.4.1 3.5: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
-dev-libs/boehm-gc 7.4.4 7.6.0: The Boehm-Demers-Weiser conservative garbage collector
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
-dev-libs/libatomic_ops 7.4.4: Implementation for atomic memory update operations
 dev-libs/libcasc 1.00 9999: Library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.2 0.1.3 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
@@ -48,8 +46,8 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.2: PHP extension for interfacing with Redis
-dev-python/botocore 1.4.87 1.4.89 1.4.90 1.4.91 1.4.92 1.4.93 1.5.1 1.5.9 1.5.10 1.5.11 1.5.12 1.5.13 1.5.14 1.5.15 1.5.17 1.5.18 1.5.19 1.5.23 1.5.26 1.5.27 1.5.28 1.5.29 1.5.31 1.5.32 1.5.33 1.5.35 1.5.37 1.5.38: Low-level, data-driven core of boto 3.
-dev-python/carbon 1.0.0_pre1: Backend data caching and persistence daemon for Graphite
+dev-python/botocore 1.4.87 1.4.89 1.4.90 1.4.91 1.4.92 1.4.93 1.5.1 1.5.9 1.5.10 1.5.11 1.5.12 1.5.13 1.5.14 1.5.15 1.5.17 1.5.18 1.5.19 1.5.23 1.5.26 1.5.27 1.5.28 1.5.29 1.5.31 1.5.32 1.5.33 1.5.35 1.5.37 1.5.38 1.5.39: Low-level, data-driven core of boto 3.
+dev-python/carbon 1.0.0: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/exifread 2.1.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/graphite-api 1.1.3: The rendering HTTP API from Graphite-web, without the interface
@@ -75,7 +73,7 @@ dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23: The Mozilla token server
 dev-python/txAMQP 0.7.0: Python library for communicating with AMQP peers using Twisted
 dev-python/webob 1.7.0 1.7.1 1.7.2: WSGI request and response object
 dev-python/webtest 2.0.23 2.0.24 2.0.25 2.0.26 2.0.27: Helper to test WSGI applications
-dev-python/whisper 1.0.0_pre1: Fixed size round-robin style database
+dev-python/whisper 1.0.0: Fixed size round-robin style database
 dev-python/zeroconf 0.17.6 0.18.0 0.19.0: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
