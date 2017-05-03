@@ -80,7 +80,7 @@ dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, an
 dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 9999: Generate Your Projects
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
-media-radio/tqsl 2.2 2.2.1 2.2.2 2.3 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
+media-radio/tqsl 2.3 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
 media-radio/wsjtx 1.7.0 1.7.0-r1 9999: Weak signal communication software
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
