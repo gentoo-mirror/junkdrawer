@@ -62,7 +62,7 @@ dev-python/pybrowserid 0.10.0 0.11.0: Python client library for the BrowserID pr
 dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7 0.8.0 0.8.1: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1 0.9.0: an audio library based on libsndfile, CFFI, and NumPy
-dev-python/qhue 1.0.4 1.0.5: A very lightweight Python wrapper to the Philips Hue API
+dev-python/qhue 1.0.4 1.0.5 1.0.7: A very lightweight Python wrapper to the Philips Hue API
 dev-python/sdnotify 0.3.1: A pure Python implementation of systemd's service notification protocol
 dev-python/shutilwhich 1.1.0: A copy & paste backport of Python 3.3's shutil.which function
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
