@@ -47,7 +47,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.2: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.53: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.53 1.5.54: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/exifread 2.1.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
