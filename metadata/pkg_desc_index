@@ -32,7 +32,6 @@ dev-lang/R 3.3.3 3.4.0: Language and environment for statistical computing and g
 dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
-dev-libs/libatomic_ops 7.6.0: Implementation for atomic memory update operations
 dev-libs/libcasc 1.00 9999: Library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.2 0.1.3 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
@@ -48,7 +47,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.2: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.53 1.5.54: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.53 1.5.54 1.5.55: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/exifread 2.1.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
