@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.4.1 7.4.3 7.4.5 7.4.7 7.4.8 7.4.9 7.4.11 7.4.15 7.4.16 7.4.19 7.5 7.5.2 7.5.3 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.4.1 7.4.3 7.4.5 7.4.7 7.4.8 7.4.9 7.4.11 7.4.15 7.4.16 7.4.19 7.5 7.5.2 7.5.3 7.5.4 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
@@ -17,15 +17,15 @@ dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstrea
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-embedded/yosys 0.7 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/cache_tab 1.0.8: In-memory cache Erlang and Elixir library
-dev-erlang/esip 1.0.11: ProcessOne SIP server component
+dev-erlang/esip 1.0.11 1.0.12: ProcessOne SIP server component
 dev-erlang/ezlib 1.0.2: Native zlib driver for Erlang and Elixir
 dev-erlang/fast_tls 1.0.11 1.0.12: TLS/SSL native driver for Erlang and Elixir
-dev-erlang/fast_yaml 1.0.9: Fast Yaml native library for Erlang and Elixir
-dev-erlang/iconv 1.0.4: Fast encoding conversion library for Erlang and Elixir
+dev-erlang/fast_yaml 1.0.9 1.0.10: Fast Yaml native library for Erlang and Elixir
+dev-erlang/iconv 1.0.4 1.0.5: Fast encoding conversion library for Erlang and Elixir
 dev-erlang/p1_pam 1.0.2: epam for ejabberd to help with PAM authentication support
 dev-erlang/p1_pgsql 1.1.3: Pure Erlang PostgreSQL driver
 dev-erlang/p1_utils 1.0.9: Erlang utility modules from ProcessOne
-dev-erlang/stringprep 1.0.8: Fast Stringprep implementation for Erlang and Elixir
+dev-erlang/stringprep 1.0.8 1.0.9: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.10 1.0.11: STUN and TURN library for Erlang and Elixir
 dev-java/gradle 3.4.1 3.5 3.5.1 4.0: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1 3.5.2: JmDNS is an implementation of multi-cast DNS in Java
@@ -48,7 +48,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.2: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.53 1.5.54 1.5.55 1.5.61 1.5.64 1.5.70 1.5.71 1.5.72: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.53 1.5.54 1.5.55 1.5.61 1.5.64 1.5.70 1.5.71 1.5.72 1.5.73: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/exifread 2.1.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
@@ -76,6 +76,7 @@ dev-util/bear 2.3.5: a tool that generates a compilation database for clang tool
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 9999: Generate Your Projects
+dev-util/waf 1.9.12: piece of software used to help building software projects
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.3 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
