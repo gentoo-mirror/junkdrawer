@@ -1,0 +1,26 @@
+From 6ed0221934295b9b859d191f853a38c3cd4d7e14 Mon Sep 17 00:00:00 2001
+From: "Daniel M. Weeks" <dan@danweeks.net>
+Date: Tue, 27 Jun 2017 10:32:51 -0400
+Subject: [PATCH] FTDI fix
+
+Signed-off-by: Daniel M. Weeks <dan@danweeks.net>
+---
+ iceprog/Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/iceprog/Makefile b/iceprog/Makefile
+index 3b3ecc9..f0c10f4 100644
+--- a/iceprog/Makefile
++++ b/iceprog/Makefile
+@@ -19,7 +19,7 @@ endif
+ all: iceprog$(EXE)
+ 
+ iceprog$(EXE): iceprog.o
+-	$(CC) -o $@ $(LDFLAGS) $^ $(LDLIBS)
++	$(CC) $(CFLAGS) -o $@ $(LDFLAGS) $^ $(LDLIBS)
+ 
+ install: all
+ 	mkdir -p $(DESTDIR)$(PREFIX)/bin
+-- 
+Daniel M. Weeks
+
