@@ -18,12 +18,12 @@ dev-embedded/icestorm 9999: IceStorm - tools for analyzing and creating bitstrea
 dev-embedded/libftdi 1.3 1.4_rc1: Userspace access to FTDI USB interface chips
 dev-embedded/yosys 0.7 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/cache_tab 1.0.8 1.0.9: In-memory cache Erlang and Elixir library
+dev-erlang/epam 1.0.3: epam for ejabberd to help with PAM authentication support
 dev-erlang/esip 1.0.11 1.0.12 1.0.13: ProcessOne SIP server component
 dev-erlang/ezlib 1.0.2: Native zlib driver for Erlang and Elixir
 dev-erlang/fast_tls 1.0.11 1.0.12 1.0.13: TLS/SSL native driver for Erlang and Elixir
 dev-erlang/fast_yaml 1.0.9 1.0.10: Fast Yaml native library for Erlang and Elixir
 dev-erlang/iconv 1.0.4 1.0.5: Fast encoding conversion library for Erlang and Elixir
-dev-erlang/p1_pam 1.0.2: epam for ejabberd to help with PAM authentication support
 dev-erlang/p1_pgsql 1.1.3: Pure Erlang PostgreSQL driver
 dev-erlang/p1_utils 1.0.9: Erlang utility modules from ProcessOne
 dev-erlang/stringprep 1.0.8 1.0.9: Fast Stringprep implementation for Erlang and Elixir
@@ -80,7 +80,7 @@ dev-util/bear 2.3.5: a tool that generates a compilation database for clang tool
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 9999: Generate Your Projects
-dev-util/waf 1.9.12: piece of software used to help building software projects
+dev-util/waf 1.9.12 2.0.0_pre4: piece of software used to help building software projects
 media-gfx/opencsg 1.4.2: The Constructive Solid Geometry rendering library
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.3 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
