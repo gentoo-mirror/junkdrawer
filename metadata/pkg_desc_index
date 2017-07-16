@@ -48,7 +48,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.3_rc2: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.53 1.5.54 1.5.55 1.5.61 1.5.64 1.5.70 1.5.71 1.5.72 1.5.73 1.5.74 1.5.75 1.5.77 1.5.78 1.5.79 1.5.80 1.5.82: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.53 1.5.54 1.5.55 1.5.61 1.5.64 1.5.70 1.5.71 1.5.72 1.5.73 1.5.74 1.5.75 1.5.77 1.5.78 1.5.79 1.5.80 1.5.82 1.5.83: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/cssselect 1.0.1: parses CSS3 Selectors and translates them to XPath 1.0
@@ -97,7 +97,7 @@ net-libs/libhtp 0.5.23 0.5.24 0.5.25: security-aware parser for the HTTP protoco
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 1.30.1703280 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
-net-p2p/go-ethereum 1.6.5 1.6.6: Official golang implementation of the Ethereum protocol
+net-p2p/go-ethereum 1.6.5 1.6.6 1.6.7: Official golang implementation of the Ethereum protocol
 net-wireless/pyrtlsdr 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
