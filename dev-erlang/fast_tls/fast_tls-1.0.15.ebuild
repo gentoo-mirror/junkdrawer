@@ -5,18 +5,20 @@ EAPI=6
 
 inherit rebar
 
-DESCRIPTION="Fast Yaml native library for Erlang and Elixir"
-HOMEPAGE="https://github.com/processone/fast_yaml"
+DESCRIPTION="TLS/SSL native driver for Erlang and Elixir"
+HOMEPAGE="https://github.com/processone/fast_tls"
 SRC_URI="https://github.com/processone/${PN}/archive/${PV}.tar.gz
 	-> ${P}.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~sparc ~x86"
+IUSE="libressl"
 
-DEPEND=">=dev-erlang/p1_utils-1.0.7
+DEPEND=">=dev-erlang/p1_utils-1.0.9
 	>=dev-lang/erlang-17.1
-	dev-libs/libyaml"
+	!libressl? ( dev-libs/openssl:0= )
+	libressl? ( dev-libs/libressl:0= )"
 RDEPEND="${DEPEND}"
 
 DOCS=( CHANGELOG.md  README.md )

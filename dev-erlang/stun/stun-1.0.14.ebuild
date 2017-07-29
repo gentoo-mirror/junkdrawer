@@ -14,8 +14,8 @@ LICENSE="BSD"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~ia64 ~ppc ~sparc ~x86"
 
-DEPEND=">=dev-erlang/fast_tls-1.0.11
-	>=dev-erlang/p1_utils-1.0.7
+DEPEND=">=dev-erlang/fast_tls-1.0.15
+	>=dev-erlang/p1_utils-1.0.9
 	>=dev-lang/erlang-17.1"
 RDEPEND="${DEPEND}"
 
