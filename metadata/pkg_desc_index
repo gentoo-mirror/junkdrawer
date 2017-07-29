@@ -106,7 +106,6 @@ sci-libs/dmlc-core 9999: A common library for building scalable and portable dis
 sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Learning Systems
 sci-libs/ps-lite 9999: A lightweight parameter server interface
-sys-auth/munge 0.5.12: An authentication service for creating and validating credentials
 sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
