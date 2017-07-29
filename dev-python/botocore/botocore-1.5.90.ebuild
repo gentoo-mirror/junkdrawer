@@ -1,8 +1,8 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
-PYTHON_COMPAT=( python2_7 python3_4 python3_5 )
+EAPI=6
+PYTHON_COMPAT=( python2_7 python3_4 python3_5 python3_6 )
 
 inherit distutils-r1
 
@@ -32,7 +32,7 @@ DEPEND="
 	)
 	test? (
 		${CDEPEND}
-		~dev-python/mock-1.0.1[${PYTHON_USEDEP}]
+		~dev-python/mock-1.3.0[${PYTHON_USEDEP}]
 		dev-python/nose[${PYTHON_USEDEP}]
 	)
 "
@@ -43,7 +43,7 @@ python_compile_all() {
 }
 
 python_test() {
-	nosetests tests/unit || die "tests failed under ${EPYTHON}"
+	nosetests -v tests/unit || die "tests failed under ${EPYTHON}"
 }
 
 python_install_all() {
