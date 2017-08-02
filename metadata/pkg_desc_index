@@ -60,9 +60,9 @@ dev-python/hawkauthlib 0.1.1: Low-level library for implementing MAC Access Auth
 dev-python/ipwhois 0.14.0 0.15.0 0.15.1: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9 1.1: Yet another configuration object
 dev-python/libzfs-python 9999: Python CFFI bindings for libzfs
+dev-python/lmdb 0.93: Python bindings for the Lightning Database
 dev-python/lxml 3.8.0: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/mozsvc 0.8 0.8_p20141211 0.9 0.10: Various utilities for Mozilla apps
-dev-python/py-lmdb 0.92 0.93: Python binding for the LMDB 'Lightning' Database
 dev-python/pyasn 1.5.0_beta6 1.5.0_beta7 1.6.0_beta1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pybrowserid 0.10.0 0.11.0 0.12.0: Python client library for the BrowserID protocol
 dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7 0.8.0 0.8.1 0.8.2: Library for Python 2 and 3 to communicate with the Google Chromecast
