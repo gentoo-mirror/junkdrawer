@@ -46,7 +46,7 @@ src_test() {
 }
 
 src_install() {
-	emake -f makefile.shared DESTDIR="${D}" install ||\
+	emake -f makefile.shared DESTDIR="${D}" LIBPATH="/usr/$(get_libdir)" install ||\
 		die "emake install failed"
 	dodoc TODO changes || die "dodoc failed"
 	if use doc ; then
