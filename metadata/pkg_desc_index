@@ -81,8 +81,8 @@ dev-python/zeroconf 0.17.6 0.18.0 0.19.0 0.19.1: Pure Python Multicast DNS Servi
 dev-util/bear 2.3.5 2.3.6: a tool that generates a compilation database for clang tooling
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
-dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 9999: Generate Your Projects
-dev-util/waf 1.9.12 2.0.0_pre4: piece of software used to help building software projects
+dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 0_p20170807 9999: Generate Your Projects
+dev-util/waf 1.9.12 1.9.13 2.0.0_pre4: piece of software used to help building software projects
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.3 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
 media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 9999: Weak signal communication software
