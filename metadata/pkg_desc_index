@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.6.1 7.6.4 7.6.5 7.6.6 7.6.8 7.6.9 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.6.1 7.6.4 7.6.5 7.6.6 7.6.8 7.6.9 7.6.10 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
@@ -50,7 +50,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.3: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.90 1.5.92 1.6.1 1.6.2 1.6.3: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.90 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1: Code coverage measurement for Python
@@ -101,7 +101,7 @@ net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 1.30.1703280 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-p2p/go-ethereum 1.6.5 1.6.6 1.6.7: Official golang implementation of the Ethereum protocol
 net-wireless/pyrtlsdr 0.2.4 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
-sci-electronics/oregano 0.83.2.1: An application for schematic capture and simulation of electrical circuits
+sci-electronics/oregano 0.83.2.1 0.84.6 0.84.10: An application for schematic capture and simulation of electrical circuits
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
 sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Learning Systems
@@ -112,7 +112,7 @@ sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/g
 sys-cluster/pyslurm 9999: Python interface to Slurm
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
 sys-devel/make 4.1-r2: Standard tool to compile source trees
-sys-fabric/rdma-core 14 15_rc1 9999: RDMA core userspace libraries and daemons
+sys-fabric/rdma-core 14-r1 15_rc2 9999: RDMA core userspace libraries and daemons
 sys-fs/efsw 1.0.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/inotify-tools 3.14_p20141109: a set of command-line programs providing a simple interface to inotify
 sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
