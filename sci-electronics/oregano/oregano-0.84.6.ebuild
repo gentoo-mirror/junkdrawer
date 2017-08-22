@@ -29,7 +29,7 @@ RDEPEND="${CDEPEND}
 	|| ( gnome-base/dconf gnome-base/gconf )
 	sci-electronics/electronics-menu"
 
-PATCHES=( "${FILESDIR}/${P}-remove-schema-update.patch" )
+PATCHES=( "${FILESDIR}/${PN}-0.84.6-do-not-update-mime-db.patch" )
 
 src_compile() {
 	local _mywafconfig
@@ -38,6 +38,13 @@ src_compile() {
 	local jobs="--jobs=$(makeopts_jobs)"
 	echo "\"${WAF_BINARY}\" build ${_mywafconfig} ${jobs}"
 	"${WAF_BINARY}" ${_mywafconfig} ${jobs} release || die "build failed"
+}
+
+src_install() {
+	echo "\"${WAF_BINARY}\" --destdir=\"${D}\" install"
+	"${WAF_BINARY}" --destdir="${D}" install --no-install-gschema || die "Make install failed"
+
+	einstalldocs
 }
 
 pkg_preinst() {
