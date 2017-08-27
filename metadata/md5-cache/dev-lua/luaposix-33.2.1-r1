@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile configure prepare
+DEPEND=!luajit? ( || ( dev-lang/lua:5.2 dev-lang/lua:5.1 >=dev-lang/lua-5.1:0 ) ) luajit? ( dev-lang/luajit:2 ) >=dev-lua/ldoc-1.4.2 dev-lua/slingshot sys-apps/help2man dev-lang/perl
+DESCRIPTION=Lua bindings for POSIX APIs
+EAPI=5
+HOMEPAGE=https://github.com/luaposix/luaposix
+IUSE=luajit ncurses test unicode
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=!luajit? ( || ( dev-lang/lua:5.2 dev-lang/lua:5.1 >=dev-lang/lua-5.1:0 ) ) luajit? ( dev-lang/luajit:2 ) !luajit? ( || ( dev-lang/lua:5.2 dev-lua/LuaBitOp ) )
+SLOT=0
+SRC_URI=https://github.com/luaposix/luaposix/archive/v33.2.1.tar.gz -> luaposix-33.2.1.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:- src_compile:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=4774b62e9bb3dcd09e4db8d016d24824

@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-util/premake:4
+DESCRIPTION=C++ cross-platform file system watcher and notifier
+EAPI=6
+HOMEPAGE=https://bitbucket.org/SpartanJ/efsw
+IUSE=debug static-libs
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://bitbucket.org/SpartanJ/efsw/get/1.0.0.tar.bz2 -> efsw-1.0.0.tar.bz2
+_eclass_exported_funcs=src_prepare:- src_compile:- src_install:-
+_md5_=6d5da9426b060611da841e70cd179605
