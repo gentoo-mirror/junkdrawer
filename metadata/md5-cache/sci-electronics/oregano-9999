@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile configure install postinst postrm preinst setup unpack
+DEPEND=dev-libs/libxml2:2 x11-libs/goocanvas:2.0 x11-libs/gtk+:3 x11-libs/gtksourceview:3.0 app-text/rarian || ( dev-lang/python:3.4[threads(+)] >=dev-lang/python-2.7.5-r2:2.7[threads(+)] ) virtual/pkgconfig >=sys-apps/sed-4 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=An application for schematic capture and simulation of electrical circuits
+EAPI=6
+HOMEPAGE=https://ahoi.io/project/oregano
+LICENSE=GPL-2
+RDEPEND=dev-libs/libxml2:2 x11-libs/goocanvas:2.0 x11-libs/gtk+:3 x11-libs/gtksourceview:3.0 app-text/rarian || ( gnome-base/dconf gnome-base/gconf ) sci-electronics/electronics-menu
+SLOT=0
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	fdo-mime	995b19d3f30e956b4e1bc5a91fdc4ea7	git-r3	52a888802d25387c2c74cb845d1219bc	gnome2-utils	4d211d7614f303710fca59db6ec12c88	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	6f5991c7101863d0b29df63990ad852e	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	185a06792159ca143528e7010368e8af	waf-utils	d1ea2758053cbb7c5b38b8f88654468d	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_md5_=19dc8fefb26fd6c54bfeaf3e570820c8

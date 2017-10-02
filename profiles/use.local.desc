@@ -2,6 +2,9 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-office/gnucash:chipcard - Enable support for chipcard reading and processing.
+app-office/gnucash:hbci - Enable HBCI support, for connecting to some internet banks
+app-office/gnucash:quotes - Enable Online Stock Quote retrieval
 dev-embedded/icestorm:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
 dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel

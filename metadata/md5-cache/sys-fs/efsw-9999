@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-util/premake:4 dev-vcs/mercurial
+DESCRIPTION=C++ cross-platform file system watcher and notifier
+EAPI=6
+HOMEPAGE=https://bitbucket.org/SpartanJ/efsw
+IUSE=debug static-libs
+LICENSE=MIT
+SLOT=0
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	ltprune	2770eed66a9b8ef944714cd0e968182e	mercurial	0bdc9ce12272665fa3749c8408b4d389	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=568491713bc5c8b9dff8b5902dc5b940

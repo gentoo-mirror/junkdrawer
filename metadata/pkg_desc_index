@@ -1,11 +1,14 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.6.1 7.6.4 7.6.5 7.6.6 7.6.8 7.6.9 7.6.10 7.6.11 7.6.12 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 7.7.1 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/b2sum 9999: tool to create BLAKE2 hashes of files or streams
-app-crypt/bruteforce-luks 1.2.0 1.2.1 1.2.2 1.3.1: A bruteforce cracker for LUKS encrypted volumes.
+app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes.
+app-doc/gnucash-docs 2.6.17 2.6.18: Documentation package for GnuCash
+app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
+app-office/gnucash 2.6.17 2.6.18: A personal finance manager
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
 app-portage/repoman 2.3.2: Repoman is a Quality Assurance tool for Gentoo ebuilds
 app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
@@ -28,8 +31,8 @@ dev-erlang/p1_pgsql 1.1.3: Pure Erlang PostgreSQL driver
 dev-erlang/p1_utils 1.0.9: Erlang utility modules from ProcessOne
 dev-erlang/stringprep 1.0.8 1.0.9: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.11 1.0.12 1.0.14: STUN and TURN library for Erlang and Elixir
-dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1: A project automation and build tool with a Groovy based DSL
-dev-java/jmdns 3.5.1 3.5.2: JmDNS is an implementation of multi-cast DNS in Java
+dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1 4.2: A project automation and build tool with a Groovy based DSL
+dev-java/jmdns 3.5.1 3.5.2 3.5.3: JmDNS is an implementation of multi-cast DNS in Java
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
 dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/g3d 10.00: G3D - 3D Engine
@@ -50,7 +53,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4_rc1: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.90 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4 1.6.5 1.6.6 1.6.7 1.7.0 1.7.2 1.7.3 1.7.4: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4 1.6.5 1.6.6 1.6.7 1.7.0 1.7.2 1.7.3 1.7.4 1.7.5 1.7.7 1.7.9 1.7.10 1.7.12 1.7.14 1.7.15 1.7.16 1.7.17: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1: Code coverage measurement for Python
@@ -70,6 +73,7 @@ dev-python/pybrowserid 0.10.0 0.11.0 0.12.0: Python client library for the Brows
 dev-python/pychromecast 0.7.1 0.7.3 0.7.4 0.7.5 0.7.6 0.7.7 0.8.0 0.8.1 0.8.2: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1 0.9.0: an audio library based on libsndfile, CFFI, and NumPy
+dev-python/python-iptables 0.12.0: Python bindings for iptables
 dev-python/qhue 1.0.4 1.0.5 1.0.7 1.0.8: A very lightweight Python wrapper to the Philips Hue API
 dev-python/sdnotify 0.3.1-r1 0.3.2: A pure Python implementation of systemd's service notification protocol
 dev-python/sphinx 1.5.2: Python documentation generator
@@ -82,10 +86,10 @@ dev-util/bear 2.3.5 2.3.6: a tool that generates a compilation database for clan
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 0_p20170807 9999: Generate Your Projects
-dev-util/waf 1.9.12 1.9.13 2.0.0_pre4: piece of software used to help building software projects
+dev-util/waf 1.9.12 1.9.13 1.9.14 2.0.0 2.0.1: piece of software used to help building software projects
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
-media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 9999: Weak signal communication software
+media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 1.8.0_rc2 9999: Weak signal communication software
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
 net-analyzer/hsflowd 1.27.3 1.29.3 2.0.8_p1 2.0.9_p1: Exports physical and virtual server performance metrics using the sFlow protocol
@@ -98,7 +102,7 @@ net-libs/libhtp 0.5.23 0.5.24 0.5.25: security-aware parser for the HTTP protoco
 net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 1.30.1703280 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
-net-p2p/go-ethereum 1.6.5 1.6.6 1.6.7: Official golang implementation of the Ethereum protocol
+net-p2p/go-ethereum 1.6.5 1.6.6 1.6.7 1.7.0: Official golang implementation of the Ethereum protocol
 net-wireless/pyrtlsdr 0.2.4 0.2.5 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1 0.84.6 0.84.10 0.84.12 0.84.13 9999: An application for schematic capture and simulation of electrical circuits
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
@@ -107,11 +111,11 @@ sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Lea
 sci-libs/ps-lite 9999: A lightweight parameter server interface
 sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
-sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2: Web frontend for sys-cluster/ganglia
+sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2 3.7.3: Web frontend for sys-cluster/ganglia
 sys-cluster/pyslurm 9999: Python interface to Slurm
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
 sys-devel/make 4.1-r2: Standard tool to compile source trees
-sys-fabric/rdma-core 14-r1 15_rc3 9999: RDMA core userspace libraries and daemons
+sys-fabric/rdma-core 14-r1 15 9999: RDMA core userspace libraries and daemons
 sys-fs/efsw 1.0.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/inotify-tools 3.14_p20141109: a set of command-line programs providing a simple interface to inotify
 sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
