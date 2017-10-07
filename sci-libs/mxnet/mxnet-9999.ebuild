@@ -15,20 +15,23 @@ EGIT_SUBMODULES=( "*" "-dmlc-core" "-nnvm" "-ps-lite" )
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS=""
-IUSE="cuda distributed opencv openmp python"
+IUSE="cuda cudnn distributed jemalloc opencv openmp python"
 
 RDEPEND="sci-libs/dmlc-core
 	sci-libs/nnvm
 	sci-libs/atlas
-	cuda? ( dev-util/nvidia-cuda-toolkit )
+	cuda? ( dev-util/nvidia-cuda-toolkit
+		cudnn? ( dev-libs/cudnn )
+	)
 	distributed? ( sci-libs/ps-lite )
+	jemalloc? ( dev-libs/jemalloc )
 	opencv? ( media-libs/opencv )
 	python? ( ${PYTHON_DEPS} dev-python/numpy[${PYTHON_USEDEP}] )"
 DEPEND="${RDEPEND}
 	python? ( dev-python/setuptools[${PYTHON_USEDEP}] )"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )"
 
-PATCHES=( "${FILESDIR}/${P}-build-fix.patch" "${FILESDIR}/${P}-fix-python-stupid.patch" )
+PATCHES=( "${FILESDIR}/${P}-python-fix-library-load-and-install.patch" )
 
 pkg_setup() {
 	lsmod|grep -q '^nvidia_uvm'
@@ -39,18 +42,15 @@ pkg_setup() {
 }
 
 src_prepare() {
-	default
+	cmake-utils_src_prepare
 	if use python; then
 		cd "${S}"/python
 		distutils-r1_src_prepare
 	fi
-	if use cuda; then
-		cd "${S}"/mshadow
-		epatch "${FILESDIR}/${P}-fix-c++11.patch"
-	fi
 	if use distributed; then
 		cd "${S}"
-		epatch "${FILESDIR}/${P}-link-shared-zmq.patch"
+		epatch "${FILESDIR}/${P}-Use-zmq-shared-library.patch"
+		epatch "${FILESDIR}/${P}-Use-shared-pslite.patch"
 	fi
 }
 
@@ -58,6 +58,8 @@ src_configure() {
 	local mycmakeargs=(
 		-DBUILD_SHARED_LIBS=ON
 		-DUSE_CUDA=$(usex cuda)
+		-DUSE_CUDNN=$(usex cudnn)
+		-DUSE_JEMALLOC=$(usex jemalloc)
 		-DUSE_OPENCV=$(usex opencv)
 		-DUSE_OPENMP=$(usex openmp)
 		-DBLAS=Atlas
