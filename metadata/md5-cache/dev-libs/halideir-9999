@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=sci-libs/dmlc-core >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Symbolic Expression and Statement Module for new DSLs
+EAPI=6
+HOMEPAGE=https://github.com/dmlc/HalideIR
+LICENSE=MIT-with-advertising
+RDEPEND=sci-libs/dmlc-core
+SLOT=0
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
+_md5_=6dc0b6116013d1157683484bee5812e4

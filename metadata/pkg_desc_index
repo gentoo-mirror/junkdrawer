@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 7.7.1 7.7.6 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 7.7.1 7.7.6 7.7.7 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
@@ -35,6 +35,7 @@ dev-java/jmdns 3.5.1 3.5.2 3.5.3: JmDNS is an implementation of multi-cast DNS i
 dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
 dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/g3d 10.00: G3D - 3D Engine
+dev-libs/halideir 9999: Symbolic Expression and Statement Module for new DSLs
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
 dev-libs/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 dev-libs/libcasc 1.00 1.00-r1 9999: Library for reading CASC storage from Blizzard games since 2014
@@ -52,7 +53,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4 1.6.5 1.6.6 1.6.7 1.7.0 1.7.2 1.7.3 1.7.4 1.7.5 1.7.7 1.7.9 1.7.10 1.7.12 1.7.14 1.7.15 1.7.16 1.7.17 1.7.21 1.7.22 1.7.25: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4 1.6.5 1.6.6 1.6.7 1.7.0 1.7.2 1.7.3 1.7.4 1.7.5 1.7.7 1.7.9 1.7.10 1.7.12 1.7.14 1.7.15 1.7.16 1.7.17 1.7.21 1.7.22 1.7.25 1.7.26: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1: Code coverage measurement for Python
@@ -104,10 +105,12 @@ net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 1.30.1703280 99
 net-p2p/go-ethereum 1.6.5 1.6.6 1.6.7 1.7.0 1.7.1: Official golang implementation of the Ethereum protocol
 net-wireless/pyrtlsdr 0.2.4 0.2.5 0.2.7 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1 0.84.6 0.84.10 0.84.12 0.84.13 9999: An application for schematic capture and simulation of electrical circuits
+sci-libs/dlib 19.7: Numerical and networking C++ library
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
 sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Learning Systems
 sci-libs/ps-lite 9999: A lightweight parameter server interface
+sci-libs/tvm 9999: End to end Tensor IR/DSL stack for deploying deep learning workloads
 sys-auth/munge 0.5.13: An authentication service for creating and validating credentials
 sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
