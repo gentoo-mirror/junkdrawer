@@ -54,7 +54,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4 1.6.5 1.6.6 1.6.7 1.7.0 1.7.2 1.7.3 1.7.4 1.7.5 1.7.7 1.7.9 1.7.10 1.7.12 1.7.14 1.7.15 1.7.16 1.7.17 1.7.21 1.7.22 1.7.25 1.7.26 1.7.28 1.7.29 1.7.31 1.7.33: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.5.92 1.6.1 1.6.2 1.6.3 1.6.4 1.6.5 1.6.6 1.6.7 1.7.0 1.7.2 1.7.3 1.7.4 1.7.5 1.7.7 1.7.9 1.7.10 1.7.12 1.7.14 1.7.15 1.7.16 1.7.17 1.7.21 1.7.22 1.7.25 1.7.26 1.7.28 1.7.29 1.7.31 1.7.33 1.7.35: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1: Code coverage measurement for Python
@@ -84,11 +84,11 @@ dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23 1.2.26 1.2.27: The Mozilla to
 dev-python/webtest 2.0.23 2.0.24 2.0.25 2.0.26 2.0.27 2.0.28 2.0.29: Helper to test WSGI applications
 dev-python/whisper 1.0.0 1.0.1 1.0.2: Fixed size round-robin style database
 dev-python/zeroconf 0.17.6 0.18.0 0.19.1: Pure Python Multicast DNS Service Discovery Library (Bonjour/Avahi compatible)
-dev-util/bear 2.3.5 2.3.6 2.3.7 2.3.8: a tool that generates a compilation database for clang tooling
+dev-util/bear 2.3.5 2.3.6 2.3.7 2.3.8 2.3.9: a tool that generates a compilation database for clang tooling
 dev-util/cppclean 0.2.6 0.5 0.6 0.8 0.9 0.10 0.11 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 0_p20170807 9999: Generate Your Projects
-dev-util/waf 2.0.0 2.0.1: piece of software used to help building software projects
+dev-util/waf 2.0.0 2.0.1 2.0.2: piece of software used to help building software projects
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)
 media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 1.8.0_rc2 9999: Weak signal communication software
