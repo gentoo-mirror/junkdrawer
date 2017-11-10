@@ -54,7 +54,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1: Code coverage measurement for Python
@@ -105,7 +105,6 @@ net-libs/s2n 9999: an implementation of the TLS/SSL protocols
 net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 1.30.1703280 9999: Warp speed Data Transfer aims to make network data transfers as fast as possible
 net-p2p/go-ethereum 1.6.5 1.6.6 1.6.7 1.7.2: Official golang implementation of the Ethereum protocol
-net-vpn/libreswan 3.22: IPsec implementation for Linux, fork of Openswan
 net-wireless/pyrtlsdr 0.2.4 0.2.5 0.2.7 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sci-electronics/oregano 0.83.2.1 0.84.6-r1 0.84.10-r1 0.84.12-r1 0.84.13-r1 9999: An application for schematic capture and simulation of electrical circuits
 sci-libs/dlib 19.7: Numerical and networking C++ library

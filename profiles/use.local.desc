@@ -41,7 +41,6 @@ net-im/ejabberd:zlib - Enable Stream Compression (XEP-0138) using zlib
 net-libs/civetweb:websockets - Build with websocket support
 net-p2p/go-ethereum:evm - Build Ethereum Virtual Machine (EVM)
 net-p2p/go-ethereum:opencl - Add OpenCL GPU mining support
-net-vpn/libreswan:dnssec - Use DNSSEC resolver (requires net-dns/unbound)
 sci-libs/dlib:cblas - Build with CBLAS virtual/cblas
 sci-libs/dlib:cuda - Enable support for CUDA for Deep Neural Networks (cuDNN) on GPU (experimental)
 sci-libs/dlib:mkl - Enable support for Intel FFT sci-libs/mkl
