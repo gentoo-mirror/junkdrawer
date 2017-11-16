@@ -1,6 +1,7 @@
 app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 7.7.1 7.7.6 7.7.7 7.7.8 7.7.10 7.7.13 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
+app-arch/rpm 4.12.0.2 4.12.0.2-r1: Red Hat Package Management Utils
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
