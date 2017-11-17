@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 7.7.1 7.7.6 7.7.7 7.7.8 7.7.10 7.7.13 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 7.7.1 7.7.6 7.7.7 7.7.8 7.7.10 7.7.13 7.7.14 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-arch/rpm 4.12.0.2 4.12.0.2-r1: Red Hat Package Management Utils
@@ -55,7 +55,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40 1.7.43 1.7.45: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1: Code coverage measurement for Python
@@ -96,6 +96,7 @@ media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 1.8.0_rc2 9999: Weak signal communica
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 media-sound/umurmur 0.2.16a-r1: Minimalistic Murmur (Mumble server)
 net-analyzer/hsflowd 1.27.3 1.29.3 2.0.8_p1 2.0.9_p1: Exports physical and virtual server performance metrics using the sFlow protocol
+net-dialup/xl2tpd 1.3.10.1: A modern version of the Layer 2 Tunneling Protocol (L2TP) daemon
 net-im/ejabberd 16.09: Robust, scalable and extensible XMPP server
 net-libs/azmq 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/civetweb 1.6 1.7 1.8 1.9 9999: Embedded C/C++ web server
@@ -114,7 +115,6 @@ sci-libs/mxnet 9999: Flexible and Efficient Library for Deep Learning
 sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Learning Systems
 sci-libs/ps-lite 9999: A lightweight parameter server interface
 sci-libs/tvm 9999: End to end Tensor IR/DSL stack for deploying deep learning workloads
-sys-auth/munge 0.5.13: An authentication service for creating and validating credentials
 sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete cluster engine
 sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2 3.7.3: Web frontend for sys-cluster/ganglia
