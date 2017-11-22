@@ -117,7 +117,7 @@ sci-libs/nnvm 9999: Intermediate Computational Graph Representation for Deep Lea
 sci-libs/ps-lite 9999: A lightweight parameter server interface
 sci-libs/tvm 9999: End to end Tensor IR/DSL stack for deploying deep learning workloads
 sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete cluster engine
-sys-cluster/ganglia 3.7.2 9999: A scalable distributed monitoring system for clusters and grids
+sys-cluster/ganglia 3.7.2 3.7.2-r1 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.0 3.7.1 3.7.2 3.7.3: Web frontend for sys-cluster/ganglia
 sys-cluster/pyslurm 9999: Python interface to Slurm
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
