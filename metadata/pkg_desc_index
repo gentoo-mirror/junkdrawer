@@ -34,7 +34,7 @@ dev-erlang/stun 1.0.11 1.0.12 1.0.14 1.0.15: STUN and TURN library for Erlang an
 dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1 4.2 4.2.1 4.3 4.3.1: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.1 3.5.2 3.5.3: JmDNS is an implementation of multi-cast DNS in Java
 dev-java/okio 1.12.0: A modern I/O API for Java
-dev-lang/R 3.3.3: Language and environment for statistical computing and graphics
+dev-lang/R 3.3.3 3.4.2: Language and environment for statistical computing and graphics
 dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/halideir 9999: Symbolic Expression and Statement Module for new DSLs
@@ -55,7 +55,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2: Code coverage measurement for Python
