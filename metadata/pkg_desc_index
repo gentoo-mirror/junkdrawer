@@ -7,6 +7,7 @@ app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/b2sum 9999: tool to create BLAKE2 hashes of files or streams
 app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes.
+app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-doc/gnucash-docs 2.6.17 2.6.18: Documentation package for GnuCash
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
 app-office/gnucash 2.6.17 2.6.18: A personal finance manager
@@ -39,7 +40,6 @@ dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpret
 dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/halideir 9999: Symbolic Expression and Statement Module for new DSLs
 dev-libs/json-c 0.12_p20151226 0.12.1: A JSON implementation in C
-dev-libs/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 dev-libs/libcasc 1.00 1.00-r1 9999: Library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.2 0.1.3 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
