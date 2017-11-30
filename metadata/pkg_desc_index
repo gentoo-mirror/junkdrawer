@@ -55,7 +55,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2: Code coverage measurement for Python
@@ -79,7 +79,7 @@ dev-python/pyramid_hawkauth 0.1.0: Hawk Access Auth plugin for pyramid
 dev-python/pysoundfile 0.8.1 0.9.0 0.10.0: an audio library based on libsndfile, CFFI, and NumPy
 dev-python/python-iptables 0.12.0: Python bindings for iptables
 dev-python/qhue 1.0.4 1.0.5 1.0.7 1.0.8: A very lightweight Python wrapper to the Philips Hue API
-dev-python/sdnotify 0.3.1-r1 0.3.2: A pure Python implementation of systemd's service notification protocol
+dev-python/sdnotify 0.3.1-r1: A pure Python implementation of systemd's service notification protocol
 dev-python/sphinx 1.5.2: Python documentation generator
 dev-python/tokenlib 0.3.1: Generic support library for signed-token-based auth schemes
 dev-python/tokenserver 1.2.20 1.2.21 1.2.22 1.2.23 1.2.26 1.2.27: The Mozilla token server
