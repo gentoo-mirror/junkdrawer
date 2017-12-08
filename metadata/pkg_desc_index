@@ -55,7 +55,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4 1.8.6 1.8.8: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4 1.8.6 1.8.8 1.8.10: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2: Code coverage measurement for Python
