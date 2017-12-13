@@ -10,7 +10,7 @@ app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-doc/gnucash-docs 2.6.17 2.6.18: Documentation package for GnuCash
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
-app-office/gnucash 2.6.17 2.6.18: A personal finance manager
+app-office/gnucash 2.6.18: A personal finance manager
 app-portage/pqlop 0.02-r2: emerge.log parser written in python
 app-portage/repoman 2.3.2: Repoman is a Quality Assurance tool for Gentoo ebuilds
 app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
@@ -55,7 +55,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4 1.8.6 1.8.8 1.8.10 1.8.11 1.8.12: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4 1.8.6 1.8.8 1.8.10 1.8.11 1.8.12 1.8.13: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2: Code coverage measurement for Python
