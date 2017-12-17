@@ -55,7 +55,7 @@ dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua module
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.1-r1 3.4.3-r1: PHP wrapper for the ImageMagick library
 dev-php/pecl-redis 3.1.4: PHP extension for interfacing with Redis
-dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4 1.8.6 1.8.8 1.8.10 1.8.11 1.8.12 1.8.13: Low-level, data-driven core of boto 3.
+dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.0 1.8.1 1.8.2 1.8.3 1.8.4 1.8.6 1.8.8 1.8.10 1.8.11 1.8.12 1.8.13 1.8.15: Low-level, data-driven core of boto 3.
 dev-python/carbon 1.0.0 1.0.1 1.0.2: Backend data caching and persistence daemon for Graphite
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2: Code coverage measurement for Python
@@ -90,6 +90,7 @@ dev-util/bear 2.3.5 2.3.6 2.3.7 2.3.8 2.3.9: a tool that generates a compilation
 dev-util/cppclean 0.12 9999: Find problems in C++ source that slow development of large code bases
 dev-util/flint 0_p20150329: An open-source lint program for C++ developed by, and used at Facebook
 dev-util/gyp 0_p20151110 0_p20160426 0_p20161013 0_p20170807 9999: Generate Your Projects
+dev-util/nvidia-cuda-toolkit 9.1.85: NVIDIA CUDA Toolkit (compiler and friends)
 dev-util/waf 2.0.0 2.0.1 2.0.2 2.0.3: piece of software used to help building software projects
 media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/tqsl 2.3.1-r1: TrustedQSL log signing for the ARRL Logbook of the World (LoTW)

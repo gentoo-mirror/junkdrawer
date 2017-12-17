@@ -18,6 +18,9 @@ dev-lua/slingshot:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-php/pecl-redis:igbinary - Enables igbinary serialisation support
 dev-python/markdown:pygments - Enable fancy pygments support
 dev-python/sphinx:net - enable internet capabilities
+dev-util/nvidia-cuda-toolkit:debugger - Installs the CUDA debugger
+dev-util/nvidia-cuda-toolkit:eclipse - Install plugins for eclipse
+dev-util/nvidia-cuda-toolkit:profiler - Installs the NVIDIA CUDA visual profiler
 media-radio/tqsl:tools - Enable additional tools
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
