@@ -2,7 +2,7 @@ app-doc/gnucash-docs 2.6.17: Documentation package for GnuCash
 app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-erlang/epam 1.0.3: epam for ejabberd to help with PAM authentication support
-dev-libs/liblog 0.1.2 0.1.3: Library for outputting to a file, console, and/or syslog simultaneously
+dev-libs/liblog 0.1.2 0.1.3 0.1.4: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/libluna-daemon 0.1.3: a dead simple library for daemonizing
 dev-python/ipwhois 0.14.0 0.15.1: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/qhue 1.0.4 1.0.5: A very lightweight Python wrapper to the Philips Hue API
