@@ -5,9 +5,8 @@
 		<email>dan@danweeks.net</email>
 		<name>Daniel M. Weeks</name>
 	</maintainer>
-	<longdescription lang="en">
-	</longdescription>
-	<use>
-		<flag name='tools'>Enable additional tools</flag>
-	</use>
+	<upstream>
+		<remote-id type="pypi">txAMQP</remote-id>
+		<remote-id type="github">txamqp/txamqp</remote-id>
+	</upstream>
 </pkgmetadata>
