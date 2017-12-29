@@ -1,7 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=6
 
 DESCRIPTION="an implementation of the TLS/SSL protocols"
 HOMEPAGE="https://github.com/awslabs/s2n"
@@ -24,8 +24,8 @@ RDEPEND="${DEPEND}"
 src_configure() {
 	sed -i \
 		-e 's:-I/usr/include::' \
-        -e 's:-Werror:-Wno-error:g' \
-        s2n.mk || die
+		-e 's:-Werror:-Wno-error:g' \
+		s2n.mk || die
 }
 
 src_compile() {
