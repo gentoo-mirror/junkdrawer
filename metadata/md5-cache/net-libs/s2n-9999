@@ -1,9 +1,9 @@
 DEFINED_PHASES=compile configure install unpack
 DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=an implementation of the TLS/SSL protocols
-EAPI=5
+EAPI=6
 HOMEPAGE=https://github.com/awslabs/s2n
 LICENSE=Apache-2.0
 SLOT=0
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
-_md5_=72c5e865809d5c0928adc7a7c57760d6
+_md5_=e542cc17a5f2b60d02cd3b81f7e5840b
