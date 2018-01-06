@@ -6,4 +6,4 @@ KEYWORDS=amd64 ~x86
 LICENSE=BSD
 SLOT=0
 SRC_URI=https://github.com/Feh/nocache/archive/v1.0.tar.gz -> nocache-1.0.tar.gz
-_md5_=a43d509112b0eb1757f2b02a44770f1f
+_md5_=5f49dafcfa3b8452e7307e0177166fc9

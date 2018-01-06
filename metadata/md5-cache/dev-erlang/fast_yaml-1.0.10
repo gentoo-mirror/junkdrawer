@@ -9,4 +9,4 @@ RDEPEND=>=dev-erlang/p1_utils-1.0.9 >=dev-lang/erlang-17.1 dev-libs/libyaml dev-
 SLOT=0
 SRC_URI=https://github.com/processone/fast_yaml/archive/1.0.10.tar.gz -> fast_yaml-1.0.10.tar.gz
 _eclasses_=rebar	f135c419c43bc8841cd57d1d53ed1da8
-_md5_=c29f023fae0c0fd1b60b6c447198f2b6
+_md5_=19fe309628392e01f0aeed0600eafdd6

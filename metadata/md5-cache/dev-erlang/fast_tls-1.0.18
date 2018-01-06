@@ -10,4 +10,4 @@ RDEPEND=>=dev-erlang/p1_utils-1.0.10 >=dev-lang/erlang-17.1 !libressl? ( dev-lib
 SLOT=0
 SRC_URI=https://github.com/processone/fast_tls/archive/1.0.18.tar.gz -> fast_tls-1.0.18.tar.gz
 _eclasses_=rebar	f135c419c43bc8841cd57d1d53ed1da8
-_md5_=39ddce295fe2e5efa61d8e1967086ee4
+_md5_=ad48d42d85c325d996566b6d0292e7ee

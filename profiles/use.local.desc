@@ -3,5 +3,3 @@
 # * generated automatically using pmaint *
 
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
-media-sound/umurmur:polarssl - Use net-libs/polarssl instead of dev-libs/openssl
-media-sound/umurmur:shm - Enable shared memory support

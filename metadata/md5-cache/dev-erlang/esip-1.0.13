@@ -9,4 +9,4 @@ RDEPEND=>=dev-erlang/fast_tls-1.0.13 >=dev-erlang/stun-1.0.12 >=dev-erlang/p1_ut
 SLOT=0
 SRC_URI=https://github.com/processone/esip/archive/1.0.13.tar.gz -> esip-1.0.13.tar.gz
 _eclasses_=rebar	f135c419c43bc8841cd57d1d53ed1da8
-_md5_=a396539dc68a10d73b7c3638d03bbd1e
+_md5_=43848c3b12b80a078e5562dfc1e086cb

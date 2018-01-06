@@ -9,4 +9,4 @@ RDEPEND=>=dev-erlang/fast_tls-1.0.13 >=dev-erlang/p1_utils-1.0.9 >=dev-lang/erla
 SLOT=0
 SRC_URI=https://github.com/processone/stun/archive/1.0.12.tar.gz -> stun-1.0.12.tar.gz
 _eclasses_=rebar	f135c419c43bc8841cd57d1d53ed1da8
-_md5_=6a24b1aeaf5d0f9a335a041b44cbdf48
+_md5_=991d9eb0ed4d38992933afd757c72544
