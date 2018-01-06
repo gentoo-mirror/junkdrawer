@@ -5,11 +5,7 @@
 		<email>dan@danweeks.net</email>
 		<name>Daniel M. Weeks</name>
 	</maintainer>
-	<use>
-		<flag name="devtools">Build Ethereum development tools (evm, abigen, puppeth, ...)</flag>
-		<flag name="opencl">Add OpenCL GPU mining support</flag>
-	</use>
 	<upstream>
-		<remote-id type="github">ethereum/go-ethereum</remote-id>
+		<remote-id type="github">processone/fast_xml</remote-id>
 	</upstream>
 </pkgmetadata>
