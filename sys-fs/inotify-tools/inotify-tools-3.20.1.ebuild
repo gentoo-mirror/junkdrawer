@@ -3,12 +3,11 @@
 
 EAPI=6
 
-inherit autotools git-r3
+inherit autotools
 
 DESCRIPTION="a set of command-line programs providing a simple interface to inotify"
 HOMEPAGE="https://github.com/rvoicilas/inotify-tools/wiki"
-EGIT_REPO_URI="https://github.com/rvoicilas/inotify-tools"
-EGIT_COMMIT="1df9af4d6cd0f4af4b1b19254bcf056aed4ae395"
+SRC_URI="https://github.com/rvoicilas/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
