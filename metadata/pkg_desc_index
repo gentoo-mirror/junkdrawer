@@ -1,4 +1,3 @@
-app-doc/gnucash-docs 2.6.17: Documentation package for GnuCash
 app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
 dev-embedded/libftdi 1.3: Userspace access to FTDI USB interface chips
 dev-erlang/epam 1.0.3: epam for ejabberd to help with PAM authentication support
