@@ -1,13 +1,13 @@
 # Copyright 1999-2018 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=5
 
-PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} )
+PYTHON_COMPAT=( python2_7 )
 inherit distutils-r1
 
-DESCRIPTION="Restful services for Pyramid"
-HOMEPAGE="https://github.com/mozilla-services/cornice"
+DESCRIPTION="The Mozilla token server"
+HOMEPAGE="https://github.com/mozilla-services/tokenserver"
 SRC_URI="https://github.com/mozilla-services/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MPL-2.0"
@@ -15,9 +15,9 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-RDEPEND="dev-python/pyramid[${PYTHON_USEDEP}]
-	dev-python/simplejson[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/venusian[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/cornice[${PYTHON_USEDEP}]
+	>=dev-python/mozsvc-0.8[${PYTHON_USEDEP}]
+	dev-python/pybrowserid[${PYTHON_USEDEP}]
+	dev-python/testfixtures[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}
 	dev-python/setuptools[${PYTHON_USEDEP}]"
