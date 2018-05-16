@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure prepare setup unpack
+DEFINED_PHASES=compile configure install setup unpack
 DEPEND=|| ( dev-lang/python:3.5 dev-lang/python:3.4 ) sys-devel/bison sys-devel/flex sys-apps/gawk virtual/pkgconfig sys-libs/readline:= virtual/libffi dev-vcs/git dev-lang/tcl:= dev-vcs/mercurial >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Yosys - Yosys Open SYnthesis Suite
 EAPI=6
@@ -7,4 +7,4 @@ LICENSE=ISC
 RDEPEND=sys-libs/readline:= virtual/libffi dev-vcs/git dev-lang/tcl:= dev-vcs/mercurial
 SLOT=0
 _eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	63392afb034aad67f17fa129019eb4d9	git-r3	af51ccfceeb403ab80f1bf9209d372c8	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-any-r1	6faea633ae2f79f6d55dcfd431b79fbf	python-utils-r1	3b2e27bcad216823f5a67d01d28b53a4	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=6943545441b84dba90567cbf25a0df1b
+_md5_=4356dd9251538a04b531e6495b15f199
