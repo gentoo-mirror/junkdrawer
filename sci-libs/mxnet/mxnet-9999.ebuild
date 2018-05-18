@@ -3,19 +3,20 @@
 
 EAPI=6
 
-PYTHON_COMPAT=( python{2_7,3_4,3_5,3_6} )
+PYTHON_COMPAT=( python{2_7,3_5,3_6} )
 DISTUTILS_OPTIONAL=1
 inherit cmake-utils eutils distutils-r1 git-r3
 
 DESCRIPTION="Flexible and Efficient Library for Deep Learning"
 HOMEPAGE="http://mxnet.io/"
-EGIT_REPO_URI="https://github.com/dmlc/mxnet"
-EGIT_SUBMODULES=( "*" "-dmlc-core" "-nnvm" "-ps-lite" "-3rdparty/openmp" "-3rdparty/googletest" "-3rdparty/mkldnn" )
+EGIT_REPO_URI="https://github.com/apache/incubator-mxnet"
+# keep: cub mshadow dlpack
+EGIT_SUBMODULES=( "*" "-3rdparty/dmlc-core" "-3rdparty/nnvm" "-3rdparty/ps-lite" "-3rdparty/openmp" "-3rdparty/googletest" "-3rdparty/mkldnn" )
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS=""
-IUSE="cuda cudnn distributed examples jemalloc lapack mkldnn opencv openmp python tcmalloc test"
+IUSE="cuda cudnn distributed examples jemalloc lapack mkldnn opencv openmp python tcmalloc"
 
 RDEPEND="sci-libs/dmlc-core
 	sci-libs/nnvm
@@ -29,11 +30,19 @@ RDEPEND="sci-libs/dmlc-core
 	lapack? ( virtual/lapack )
 	mkldnn? ( sci-libs/mkl-dnn )
 	opencv? ( media-libs/opencv )
-	python? ( ${PYTHON_DEPS} dev-python/numpy[${PYTHON_USEDEP}] )
+	python? (
+		${PYTHON_DEPS}
+		>=dev-python/numpy-1.8.2[${PYTHON_USEDEP}]
+		<=dev-python/numpy-1.15.0[${PYTHON_USEDEP}]
+		>=dev-python/requests-2.18.4[${PYTHON_USEDEP}]
+		<dev-python/requests-2.19.0[${PYTHON_USEDEP}]
+		>=dev-python/graphviz-0.8.1[${PYTHON_USEDEP}]
+		<dev-python/graphviz-0.9.0[${PYTHON_USEDEP}]
+	)
 	tcmalloc? ( dev-util/google-perftools )"
 DEPEND="${RDEPEND}
 	python? ( dev-python/setuptools[${PYTHON_USEDEP}] )
-	test? ( dev-cpp/gtest ) "
+	dev-cpp/gtest"
 REQUIRED_USE="python? ( ${PYTHON_REQUIRED_USE} )
 	?? ( tcmalloc jemalloc )"
 
@@ -71,6 +80,7 @@ src_configure() {
 		-DUSE_GPERFTOOLS=$(usex tcmalloc)
 		-DUSE_JEMALLOC=$(usex jemalloc)
 		-DUSE_LAPACK=$(usex lapack)
+		-DUSE_MKLDNN=$(usex mkldnn)
 		-DUSE_OPENCV=$(usex opencv)
 		-DUSE_OPENMP=$(usex openmp)
 		-DBLAS=Atlas
