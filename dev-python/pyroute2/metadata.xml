@@ -6,14 +6,10 @@
 		<name>Daniel M. Weeks</name>
 	</maintainer>
 	<longdescription lang="en">
+	Pyroute2 is a pure Python netlink and Linux network configuration library.
 	</longdescription>
 	<upstream>
-		<remote-id type="github">dmlc/tvm</remote-id>
+		<remote-id type="pypi">pyroute2</remote-id>
+		<remote-id type="github">svinota/pyroute2</remote-id>
 	</upstream>
-	<use>
-		<flag name="cuda">Enable NVIDIA Cuda support</flag>
-		<flag name="llvm">Enable LLVM support</flag>
-		<flag name="opencl">Enable OpenCL support</flag>
-		<flag name="vulkan">Enable Vulkan support</flag>
-	</use>
 </pkgmetadata>
