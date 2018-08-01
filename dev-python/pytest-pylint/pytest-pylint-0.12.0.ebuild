@@ -8,7 +8,7 @@ inherit distutils-r1
 
 DESCRIPTION="pytest plugin to check source code with pylint"
 HOMEPAGE="https://github.com/carsongee/pytest-pylint"
-SRC_URI="https://github.com/carsongee/pytest-pylint/archive/v${PV}.tar.gz -> ${P}.tar.gz"
+SRC_URI="https://github.com/carsongee/pytest-pylint/archive/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
