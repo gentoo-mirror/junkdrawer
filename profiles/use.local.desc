@@ -3,3 +3,4 @@
 # * generated automatically using pmaint *
 
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
+x11-misc/virtualgl:server - Build the server libraries of virtualgl
