@@ -9,4 +9,3 @@ net-libs/enet 1.2.5: relatively thin, simple and robust network communication la
 net-libs/libgcm 0.1.0: Google Cloud Messaging C library
 sys-devel/make 4.1-r2: Standard tool to compile source trees
 sys-fs/nocache 1.0: nocache - minimize filesystem caching effects
-x11-misc/virtualgl 2.6: Run OpenGL applications remotely with full 3D hardware acceleration
