@@ -7,7 +7,8 @@ IUSE=devtools
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3+ LGPL-3+
 RDEPEND=dev-lang/go:=
+RESTRICT=test
 SLOT=0
-SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.8.15.tar.gz -> go-ethereum-1.8.15.tar.gz
+SRC_URI=https://github.com/ethereum/go-ethereum/archive/v1.8.16.tar.gz -> go-ethereum-1.8.16.tar.gz
 _eclasses_=golang-base	8e4d7f712ec0e170e2c190c1e3da6501
-_md5_=db7c8dc669e3d23fc1bd14ceaaef2b42
+_md5_=3b30eddf3126943bc5623bfc958b801b
