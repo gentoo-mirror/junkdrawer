@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
@@ -6,9 +6,6 @@
 		<name>Daniel M. Weeks</name>
 	</maintainer>
 	<upstream>
-		<remote-id type="github">recastnavigation/recastnavigation</remote-id>
+		<remote-id type="github">hashcat/hashcat</remote-id>
 	</upstream>
-	<use>
-		<flag name="demo">Build Recast demo</flag>
-	</use>
 </pkgmetadata>
