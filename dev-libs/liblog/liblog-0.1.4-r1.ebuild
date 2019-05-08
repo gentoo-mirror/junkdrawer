@@ -24,3 +24,15 @@ src_prepare() {
 	default
 	eautoreconf
 }
+
+src_configure() {
+	local myeconfargs=(
+		$(use_enable static-libs static)
+	)
+	econf "${myeconfargs[@]}"
+}
+
+src_install() {
+	default
+	find "${ED}" -name '*.la' -delete
+}

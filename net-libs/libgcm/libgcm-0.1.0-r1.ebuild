@@ -5,8 +5,8 @@ EAPI=6
 
 inherit autotools
 
-DESCRIPTION="Library for outputting to a file, console, and/or syslog simultaneously"
-HOMEPAGE="https://github.com/doctaweeks/liblog"
+DESCRIPTION="Google Cloud Messaging C library"
+HOMEPAGE="https://github.com/doctaweeks/libgcm"
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/doctaweeks/${PN}"
@@ -20,7 +20,25 @@ LICENSE="GPL-2"
 SLOT="0"
 IUSE="static-libs"
 
+DEPEND="dev-libs/json-c
+	net-misc/curl"
+RDEPEND="${DEPEND}"
+
 src_prepare() {
 	default
 	eautoreconf
+}
+
+src_configure() {
+	local myeconfargs=(
+		$(use_enable static-libs static)
+	)
+	econf "${myeconfargs[@]}"
+}
+
+src_install() {
+	default
+	if ! use static-libs ; then
+		find "${ED}" -name "*.la" -delete || die
+	fi
 }
