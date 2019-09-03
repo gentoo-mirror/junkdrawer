@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=<sys-apps/coreutils-8.26
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=37731467dc39ca6a4099df9b31e426e2
+_md5_=618dac347859fc2f90569fad4aa54f69

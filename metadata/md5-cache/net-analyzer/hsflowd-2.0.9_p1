@@ -9,4 +9,4 @@ LICENSE=APL-1.0
 RDEPEND=nflog? ( net-libs/libnfnetlink ) pcap? ( net-libs/libpcap )
 SLOT=0
 SRC_URI=https://github.com/sflow/host-sflow/archive/v2.0.9-1.tar.gz -> hsflowd-2.0.9-1.tar.gz
-_md5_=4295418e5cbd66c45f7973044524e2e1
+_md5_=af42f4cde12330a181ec77d5d95469a0

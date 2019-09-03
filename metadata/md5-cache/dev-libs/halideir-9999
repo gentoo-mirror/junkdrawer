@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=sci-libs/dmlc-core
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=b11d6512959bef51d02481cf5b8154da
+_md5_=612740292bb1b3af5b95b26dc17c7942

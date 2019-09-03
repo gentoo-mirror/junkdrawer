@@ -9,4 +9,4 @@ RDEPEND=!luajit? ( >=dev-lang/lua-5.1 ) luajit? ( dev-lang/luajit:2 ) dev-lua/lu
 SLOT=0
 SRC_URI=https://github.com/stevedonovan/penlight/archive/1.4.0.tar.gz -> penlight-1.4.0.tar.gz
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56
-_md5_=7d1979c80b8970b9286d9bd4442e2c2e
+_md5_=a025ae683ccc6b8d1e067965823cbc39

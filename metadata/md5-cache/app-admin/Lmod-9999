@@ -8,4 +8,4 @@ PROPERTIES=live
 RDEPEND=dev-lua/luaposix dev-lua/luafilesystem
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=588d60870354a72ae0058861db2cf0c6
+_md5_=714df7847327a398aeac69c65542490d
