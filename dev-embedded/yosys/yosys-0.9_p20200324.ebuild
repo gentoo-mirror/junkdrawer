@@ -3,16 +3,20 @@
 
 EAPI="6"
 
-PYTHON_COMPAT=( python3_{4,5,6,7} )
-inherit eutils git-r3 python-any-r1
+PYTHON_COMPAT=( python3_{6,7} )
+inherit eutils python-any-r1
+
+ABC_COMMIT="ed90ce20df9c7c4d6e1db5d3f786f9b52e06bab1"
+EGIT_COMMIT="c9555c9adeba886a308c60615ac794ec20d9276e"
+
+SRC_URI="https://github.com/cliffordwolf/${PN}/archive/${EGIT_COMMIT}.tar.gz -> ${PN}-${EGIT_COMMIT}.tar.gz https://github.com/berkeley-abc/abc/archive/${ABC_COMMIT}.tar.gz -> berkeley-abc-${ABC_COMMIT}.tar.gz"
 
 DESCRIPTION="Yosys - Yosys Open SYnthesis Suite"
 HOMEPAGE="http://www.clifford.at/icestorm/"
 LICENSE="ISC"
-EGIT_REPO_URI="https://github.com/cliffordwolf/yosys.git"
 
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 IUSE="+abc"
 
 RDEPEND="
@@ -28,6 +32,14 @@ DEPEND="
 	sys-apps/gawk
 	virtual/pkgconfig
 	${RDEPEND}"
+
+S="${WORKDIR}/${PN}-${EGIT_COMMIT}"
+
+src_prepare() {
+	ln -s ${WORKDIR}/abc-${ABC_COMMIT} abc
+	sed "s/^ABCREV = .*/ABCREV = default/g" -i Makefile
+	default
+}
 
 src_configure() {
 	emake config-gcc
