@@ -1,4 +1,4 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 8.1.7 8.1.10 9999: A Lua-based environment module system supporting TCL and software hierarchy
+app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 8.1.7 8.1.10 8.1.13 8.1.14 8.1.16 8.1.17 8.2.10 8.4.1 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/conserver 8.2.1: Serial Console Manager
 app-admin/cq 9999: A command queue
 app-arch/lrzip 0.631_p20170604: Long Range ZIP or Lzma RZIP optimized for compressing large files
@@ -10,6 +10,7 @@ app-crypt/b2sum 9999: tool to create BLAKE2 hashes of files or streams
 app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes.
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
+app-misc/mosquitto 1.6.4: An Open Source MQTT v3 Broker
 app-portage/pqlop 0.02-r2 0.02-r3: emerge.log parser written in python
 app-portage/repoman 2.3.2: Repoman is a Quality Assurance tool for Gentoo ebuilds
 app-vim/easytags 3.11-r1: vim plugin: automated tag file generation and syntax highlighting
@@ -17,9 +18,10 @@ dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999:
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
-dev-embedded/icestorm 0_p20180819 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
+dev-embedded/icestorm 0_p20200626 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/libftdi 1.3 1.4: Userspace access to FTDI USB interface chips
-dev-embedded/yosys 0.7 0.8 9999: Yosys - Yosys Open SYnthesis Suite
+dev-embedded/sdcc 3.9.0: Small device C compiler (for various microprocessors)
+dev-embedded/yosys 0.7 0.8 0.9 0.9_p20200324 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/cache_tab 1.0.8 1.0.9 1.0.10 1.0.11 1.0.12 1.0.13 1.0.14: In-memory cache Erlang and Elixir library
 dev-erlang/epam 1.0.3 1.0.4: epam for ejabberd to help with PAM authentication support
 dev-erlang/esip 1.0.12 1.0.13 1.0.15 1.0.16 1.0.17 1.0.18 1.0.21 1.0.24: ProcessOne SIP server component
@@ -58,10 +60,12 @@ dev-php/pecl-imagick 3.4.3-r1 3.4.3_p20181129-r1 3.4.4-r1: PHP wrapper for the I
 dev-php/pecl-redis 3.1.6: PHP extension for interfacing with Redis
 dev-python/NativeImaging 0.0.10: PIL-like interface for system imaging libraries
 dev-python/astroid 1.6.4: Abstract Syntax Tree for logilab packages
+dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.20: Low-level, data-driven core of boto 3.
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0 3.0.0 3.2.0 3.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2 4.5.1: Code coverage measurement for Python
 dev-python/cssselect 1.0.1 1.0.3: parses CSS3 Selectors and translates them to XPath 1.0
+dev-python/dpkt 1.9.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.1.2 2.1.2-r1: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/flask-caching 1.3.3 1.4.0: Continuation of the Flask-Cache extension
 dev-python/graphite-api 1.1.3: The rendering HTTP API from Graphite-web, without the interface
@@ -79,13 +83,14 @@ dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
 dev-python/mozsvc 0.8 0.8_p20141211 0.9 0.10: Various utilities for Mozilla apps
 dev-python/nvidia-ml-py3 7.352.0: Python 3 Bindings for the NVIDIA Management Library
 dev-python/pyasn 1.5.0_beta6 1.5.0_beta7 1.6.0_beta1 9999: Python IP address to Autonomous System Number lookup module
-dev-python/pyaxmlparser 0.3.9 0.3.10 0.3.11 0.3.15: Py3 parser for Android XML
+dev-python/pyaxmlparser 0.3.9 0.3.10 0.3.11 0.3.15 0.3.24-r1: Py3 parser for Android XML
 dev-python/pybindxml 0.6.3: Library to handle parsing BIND statistics XML into Python objects
 dev-python/pybrowserid 0.10.0 0.11.0 0.12.0 0.13.0 0.14.0: Python client library for the BrowserID protocol
 dev-python/pychromecast 0.8.2 1.0.3: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pylint 1.8.4: Python code static checker
-dev-python/pymarc 3.1.1 3.1.10 3.1.11: Process MARC records from Python
+dev-python/pymarc 3.1.13: Process MARC records from Python
+dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyramid_hawkauth 0.1.0 0.2.0: Hawk Access Auth plugin for pyramid
 dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
 dev-python/pyseeder 9999: reseed data managment tools for I2P

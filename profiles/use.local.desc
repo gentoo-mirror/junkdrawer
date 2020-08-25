@@ -2,8 +2,35 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-misc/mosquitto:bridge - Enable bridge support in the MQTT broker.
+app-misc/mosquitto:persistence - Store messages and subscriptions to a file.
+app-misc/mosquitto:srv - Include SRV lookup support.
+app-misc/mosquitto:websockets - Support the WebSocket protocol.
 dev-embedded/icestorm:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-embedded/libftdi:tools - build ftdi_eeprom helper tool
+dev-embedded/sdcc:avr - Add support for AVR -- not supported upstream
+dev-embedded/sdcc:boehm-gc - Enable Hans Boehm's garbage collector dev-libs/boehm-gc
+dev-embedded/sdcc:device-lib - Enable built of devices libraries
+dev-embedded/sdcc:ds390 - Add support for Dallas DS390
+dev-embedded/sdcc:ds400 - Add support for Dallas DS400
+dev-embedded/sdcc:gbz80 - Add support for Gameboy gbz80
+dev-embedded/sdcc:hc08 - Add support for Freescale/Motorola HC08 based
+dev-embedded/sdcc:mcs51 - Add support for Intel mcs51
+dev-embedded/sdcc:non-free - Enable non-free runtime library parts
+dev-embedded/sdcc:packihx - Enable Intel HEX files pack utility
+dev-embedded/sdcc:pic14 - Add support for Microchip 14 bits PICs
+dev-embedded/sdcc:pic16 - Add support for Microchip 16 bits PICs
+dev-embedded/sdcc:r2k - Add support for Rabbit 2000
+dev-embedded/sdcc:r3ka - Add support for Rabbit 3000A
+dev-embedded/sdcc:s08 - Add support for Freescale/Motorola S08
+dev-embedded/sdcc:sdbinutils - Enable SDCC library archive utilities sdar, sdranlib, sdnm
+dev-embedded/sdcc:sdcdb - Enable SDCC source level debugger
+dev-embedded/sdcc:sdcpp - Enable SDCC preprocessor based on GCC cpp
+dev-embedded/sdcc:stm8 - Add support for STMicroelectronics STM8
+dev-embedded/sdcc:tlcs90 - Add support for TLCS-90
+dev-embedded/sdcc:ucsim - Enable software simulator for microcontrollers
+dev-embedded/sdcc:z180 - Add support for Zilog Z180
+dev-embedded/sdcc:z80 - Add support for Zilog Z80
 dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
 dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
