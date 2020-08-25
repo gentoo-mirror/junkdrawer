@@ -20,7 +20,7 @@ dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementat
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 0_p20200626 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/libftdi 1.3 1.4: Userspace access to FTDI USB interface chips
-dev-embedded/sdcc 3.9.0: Small device C compiler (for various microprocessors)
+dev-embedded/sdcc 4.0.0-r1: Small device C compiler (for various microprocessors)
 dev-embedded/yosys 0.7 0.8 0.9 0.9_p20200324 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/cache_tab 1.0.8 1.0.9 1.0.10 1.0.11 1.0.12 1.0.13 1.0.14: In-memory cache Erlang and Elixir library
 dev-erlang/epam 1.0.3 1.0.4: epam for ejabberd to help with PAM authentication support
