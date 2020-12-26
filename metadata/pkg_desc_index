@@ -137,7 +137,6 @@ net-misc/wdt 1.21.1510050 1.22.1510210 1.26.1603040 1.27.1612021 1.30.1703280 99
 net-p2p/go-ethereum 1.8.16 1.8.17: Official golang implementation of the Ethereum protocol
 net-wireless/pyrtlsdr 0.2.9 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 net-wireless/rtl_433 18.05 18.05_p20180827: Decode OOK modulated signals
-sci-geosciences/qgis 3.4.5-r1 3.4.6: User friendly Geographic Information System
 sci-libs/dlib 19.7 19.10-r1 19.11: Numerical and networking C++ library
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
 sci-libs/lapack-reference 3.7.1 3.8.0: Reference implementation of LAPACK
