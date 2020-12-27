@@ -67,13 +67,6 @@ net-im/ejabberd:roster-gw - Turn on workaround for processing gateway subscripti
 net-im/ejabberd:sqlite - Enable SQLite database support
 net-im/ejabberd:zlib - Enable Stream Compression (XEP-0138) using zlib
 net-p2p/go-ethereum:devtools - Build Ethereum development tools (evm, abigen, puppeth, ...)
-sci-geosciences/qgis:3d - Build QGIS 3D library using dev-qt/qt3d
-sci-geosciences/qgis:georeferencer - Determines whether georeferencer plugin should be built
-sci-geosciences/qgis:grass - Add support for sci-geosciences/grass
-sci-geosciences/qgis:mapserver - Determines whether mapserver should be built
-sci-geosciences/qgis:opencl - Enable OpenCL raster processing algorithms
-sci-geosciences/qgis:polar - Enable support for the polar coordinate system via x11-libs/qwtpolar
-sci-geosciences/qgis:qml - Enable support Qml-based plugins using dev-qt/qtdeclarative
 sci-libs/dlib:cblas - Build with CBLAS virtual/cblas
 sci-libs/dlib:cuda - Enable support for CUDA for Deep Neural Networks (cuDNN) on GPU (experimental)
 sci-libs/dlib:mkl - Enable support for Intel FFT sci-libs/mkl
