@@ -1,0 +1,15 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=configure postinst setup
+DEPEND=lua_single_target_lua5-1? ( dev-lua/luaposix[lua_targets_lua5-1(-)] ) lua_single_target_lua5-2? ( dev-lua/luaposix[lua_targets_lua5-2(-)] ) lua_single_target_lua5-3? ( dev-lua/luaposix[lua_targets_lua5-3(-)] ) lua_single_target_lua5-1? ( dev-lua/lua-term[lua_targets_lua5-1(-)] ) lua_single_target_lua5-2? ( dev-lua/lua-term[lua_targets_lua5-2(-)] ) lua_single_target_lua5-3? ( dev-lua/lua-term[lua_targets_lua5-3(-)] ) lua_single_target_lua5-1? ( >=dev-lua/luafilesystem-1.6.2[lua_targets_lua5-1(-)] ) lua_single_target_lua5-2? ( >=dev-lua/luafilesystem-1.6.2[lua_targets_lua5-2(-)] ) lua_single_target_lua5-3? ( >=dev-lua/luafilesystem-1.6.2[lua_targets_lua5-3(-)] ) dev-lang/tcl:= lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-2? ( dev-lang/lua:5.2 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 )
+DESCRIPTION=A Lua-based environment module system supporting TCL and software hierarchy
+EAPI=7
+HOMEPAGE=http://www.tacc.utexas.edu/tacc-projects/lmod
+IUSE=lua_single_target_lua5-1 lua_single_target_lua5-2 lua_single_target_lua5-3
+KEYWORDS=~amd64
+LICENSE=MIT
+RDEPEND=lua_single_target_lua5-1? ( dev-lua/luaposix[lua_targets_lua5-1(-)] ) lua_single_target_lua5-2? ( dev-lua/luaposix[lua_targets_lua5-2(-)] ) lua_single_target_lua5-3? ( dev-lua/luaposix[lua_targets_lua5-3(-)] ) lua_single_target_lua5-1? ( dev-lua/lua-term[lua_targets_lua5-1(-)] ) lua_single_target_lua5-2? ( dev-lua/lua-term[lua_targets_lua5-2(-)] ) lua_single_target_lua5-3? ( dev-lua/lua-term[lua_targets_lua5-3(-)] ) lua_single_target_lua5-1? ( >=dev-lua/luafilesystem-1.6.2[lua_targets_lua5-1(-)] ) lua_single_target_lua5-2? ( >=dev-lua/luafilesystem-1.6.2[lua_targets_lua5-2(-)] ) lua_single_target_lua5-3? ( >=dev-lua/luafilesystem-1.6.2[lua_targets_lua5-3(-)] ) dev-lang/tcl:= lua_single_target_lua5-1? ( dev-lang/lua:5.1 ) lua_single_target_lua5-2? ( dev-lang/lua:5.2 ) lua_single_target_lua5-3? ( dev-lang/lua:5.3 )
+REQUIRED_USE=^^ ( lua_single_target_lua5-1 lua_single_target_lua5-2 lua_single_target_lua5-3 )
+SLOT=0
+SRC_URI=https://github.com/TACC/Lmod/archive/8.4.19.tar.gz -> Lmod-8.4.19.tar.gz
+_eclasses_=lua-single	f91b5656f00869c220a6e35ae0521c54	lua-utils	661d14f97b7d04273143565853fdfbfe	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=ac5431f86042ecb82dd973410df66f19
