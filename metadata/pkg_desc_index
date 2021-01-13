@@ -71,7 +71,7 @@ dev-python/graphite-api 1.1.3: The rendering HTTP API from Graphite-web, without
 dev-python/graphviz 0.8.1 0.8.3 0.8.4 0.10.1: Simple Python interface for Graphviz
 dev-python/hawkauthlib 0.1.1 2.0.0: Low-level library for implementing MAC Access Authentication
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function
-dev-python/ipwhois 0.14.0 0.15.1 1.0.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
+dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/konfig 0.9 1.1: Yet another configuration object
 dev-python/libzfs-python 0_p20170717 9999: Python CFFI bindings for libzfs
 dev-python/livereload 2.5.1 2.5.2: Python LiveReload is an awesome tool for web developers
