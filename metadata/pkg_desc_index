@@ -81,7 +81,7 @@ dev-python/markdown 2.6.9: Python implementation of the markdown markup language
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
 dev-python/mozsvc 0.8 0.8_p20141211 0.9 0.10: Various utilities for Mozilla apps
 dev-python/nvidia-ml-py3 7.352.0: Python 3 Bindings for the NVIDIA Management Library
-dev-python/pyasn 1.5.0_beta6 1.5.0_beta7 1.6.0_beta1 9999: Python IP address to Autonomous System Number lookup module
+dev-python/pyasn 1.6.1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.9 0.3.10 0.3.11 0.3.15 0.3.24-r1: Py3 parser for Android XML
 dev-python/pybindxml 0.6.3: Library to handle parsing BIND statistics XML into Python objects
 dev-python/pybrowserid 0.10.0 0.11.0 0.12.0 0.13.0 0.14.0: Python client library for the BrowserID protocol
