@@ -3,11 +3,12 @@
 
 EAPI=5
 
-PYTHON_COMPAT=( python2_7 python3_{4,5,6,7} )
+PYTHON_COMPAT=( python3_{6..8} )
 
 inherit distutils-r1
 
-MY_PV="${PV/_beta/b}"
+# 1.6.1 was re-packaged; drop -re in next version
+MY_PV="${PV/_beta/b}-re"
 MY_P="${PN}-${MY_PV}"
 
 DESCRIPTION="Python IP address to Autonomous System Number lookup module"
@@ -20,8 +21,6 @@ KEYWORDS="~amd64 ~x86"
 
 IUSE=""
 
-RDEPEND="virtual/python-ipaddress[${PYTHON_USEDEP}]"
-DEPEND="${RDEPEND}
-		dev-python/setuptools[${PYTHON_USEDEP}]"
+DEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
 
 S=${WORKDIR}/${MY_P}
