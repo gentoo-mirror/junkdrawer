@@ -9,7 +9,7 @@ app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/b2sum 9999: tool to create BLAKE2 hashes of files or streams
 app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes.
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
-app-emulation/enroot 3.1.1: tool to turn traditional container/OS images into unprivileged sandboxes
+app-emulation/enroot 3.1.1-r1: tool to turn traditional container/OS images into unprivileged sandboxes
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
 app-misc/mosquitto 1.6.4: An Open Source MQTT v3 Broker
 app-portage/pqlop 0.02-r2 0.02-r3: emerge.log parser written in python
@@ -61,7 +61,6 @@ dev-php/pecl-redis 3.1.6: PHP extension for interfacing with Redis
 dev-python/NativeImaging 0.0.10: PIL-like interface for system imaging libraries
 dev-python/astroid 1.6.4: Abstract Syntax Tree for logilab packages
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
-dev-python/botocore 1.7.40 1.7.43 1.7.45 1.7.46 1.7.48 1.8.20: Low-level, data-driven core of boto 3.
 dev-python/cornice 1.2.1 2.0.1 2.1.0 2.2.0 2.3.0 2.4.0 3.0.0 3.2.0 3.4.0: Restful services for Pyramid
 dev-python/coverage 4.4.1 4.4.2 4.5.1: Code coverage measurement for Python
 dev-python/cssselect 1.0.1 1.0.3: parses CSS3 Selectors and translates them to XPath 1.0
@@ -83,10 +82,9 @@ dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
 dev-python/mozsvc 0.8 0.8_p20141211 0.9 0.10: Various utilities for Mozilla apps
 dev-python/nvidia-ml-py3 7.352.0: Python 3 Bindings for the NVIDIA Management Library
 dev-python/pyasn 1.6.1 9999: Python IP address to Autonomous System Number lookup module
-dev-python/pyaxmlparser 0.3.9 0.3.10 0.3.11 0.3.15 0.3.24-r1: Py3 parser for Android XML
+dev-python/pyaxmlparser 0.3.24-r1: Py3 parser for Android XML
 dev-python/pybindxml 0.6.3: Library to handle parsing BIND statistics XML into Python objects
 dev-python/pybrowserid 0.10.0 0.11.0 0.12.0 0.13.0 0.14.0: Python client library for the BrowserID protocol
-dev-python/pychromecast 0.8.2 1.0.3: Library for Python 2 and 3 to communicate with the Google Chromecast
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pylint 1.8.4: Python code static checker
 dev-python/pymarc 3.1.13: Process MARC records from Python
