@@ -18,7 +18,7 @@ dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementat
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 0_p20200626 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/sdcc 4.0.0-r1: Small device C compiler (for various microprocessors)
-dev-embedded/yosys 0.7 0.8 0.9 0.9_p20200324 9999: Yosys - Yosys Open SYnthesis Suite
+dev-embedded/yosys 0.9 0.9_p20200324 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/cache_tab 1.0.8 1.0.9 1.0.10 1.0.11 1.0.12 1.0.13 1.0.14: In-memory cache Erlang and Elixir library
 dev-erlang/epam 1.0.3 1.0.4: epam for ejabberd to help with PAM authentication support
 dev-erlang/esip 1.0.12 1.0.13 1.0.15 1.0.16 1.0.17 1.0.18 1.0.21 1.0.24: ProcessOne SIP server component
@@ -56,12 +56,11 @@ dev-php/pecl-imagick 3.4.3-r1 3.4.3_p20181129-r1 3.4.4-r1: PHP wrapper for the I
 dev-php/pecl-redis 3.1.6: PHP extension for interfacing with Redis
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/coverage 4.4.1 4.4.2 4.5.1: Code coverage measurement for Python
-dev-python/dpkt 1.9.2 1.9.4: Fast, simple packet creation / parsing
+dev-python/dpkt 1.9.4: Fast, simple packet creation / parsing
 dev-python/exifread 2.1.2 2.1.2-r1: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/graphviz 0.8.1 0.8.3 0.8.4 0.10.1: Simple Python interface for Graphviz
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
-dev-python/markdown 2.6.9: Python implementation of the markdown markup language
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
 dev-python/pyasn 1.6.1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.24-r1: Py3 parser for Android XML
