@@ -12,6 +12,7 @@ app-emulation/enroot 3.1.1-r1: tool to turn traditional container/OS images into
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
 app-misc/mosquitto 1.6.4: An Open Source MQTT v3 Broker
 app-portage/pqlop 0.02-r2 0.02-r3: emerge.log parser written in python
+app-vim/easytags 3.11-r1 3.11-r2: vim plugin: automated tag file generation and syntax highlighting
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
