@@ -70,6 +70,7 @@ dev-python/pymultihash 9999: Python implementation of the multihash specificatio
 dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
 dev-python/solrpy 0.9.7 0.9.9: Client for the Solr search service
+dev-python/toolconfig 0.0.2: multi-profile configs for dev tools
 dev-python/usps-api 0.4: Python Wrapper for the USPS API
 dev-util/bear 2.3.5 2.3.6 2.3.7 2.3.8 2.3.9 2.3.11 2.3.12 2.3.13: a tool that generates a compilation database for clang tooling
 dev-util/cppclean 0.12 0.13 9999: Find problems in C++ source that slow development of large code bases
