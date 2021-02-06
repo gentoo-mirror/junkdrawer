@@ -21,7 +21,7 @@ IUSE="+abc"
 
 RDEPEND="
 	sys-libs/readline:=
-	virtual/libffi:=
+	dev-libs/libffi:=
 	dev-vcs/git
 	dev-lang/tcl:="
 
@@ -36,7 +36,7 @@ DEPEND="
 S="${WORKDIR}/${PN}-${EGIT_COMMIT}"
 
 src_prepare() {
-	ln -s ${WORKDIR}/abc-${ABC_COMMIT} abc
+	ln -s "${WORKDIR}/abc-${ABC_COMMIT}" abc
 	sed "s/^ABCREV = .*/ABCREV = default/g" -i Makefile
 	default
 }
