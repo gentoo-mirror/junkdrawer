@@ -112,5 +112,4 @@ sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 www-servers/civetweb 1.6 1.7 1.8 1.9 9999: Embedded C/C++ web server
 x11-misc/tint2 16.6.1: tint2 is a lightweight panel/taskbar for Linux.
-x11-misc/virtualgl 2.6 9999: Run OpenGL applications remotely with full 3D hardware acceleration
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
