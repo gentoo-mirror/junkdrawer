@@ -3,6 +3,7 @@ DEPEND=>=media-gfx/imagemagick-6.2.4:=[openmp=] test? ( >=media-gfx/imagemagick-
 DESCRIPTION=PHP wrapper for the ImageMagick library
 EAPI=6
 HOMEPAGE=https://pecl.php.net/imagick
+INHERIT=php-ext-pecl-r3
 IUSE=examples openmp test php_targets_php5-6 php_targets_php7-1 php_targets_php7-2 php_targets_php7-3 php_targets_php7-4
 KEYWORDS=~amd64 ~x86
 LICENSE=PHP-3.01
@@ -10,5 +11,5 @@ RDEPEND=>=media-gfx/imagemagick-6.2.4:=[openmp=] php_targets_php5-6? ( dev-lang/
 REQUIRED_USE=|| ( php_targets_php5-6 php_targets_php7-1 php_targets_php7-2 php_targets_php7-3 php_targets_php7-4 )
 SLOT=0
 SRC_URI=https://pecl.php.net/get/imagick-3.4.4.tgz
-_eclasses_=autotools	9988ecbe04129214297a7bbf3d253710	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	php-ext-pecl-r3	a59741d3df8ea9f17afcdcfb7edaee6d	php-ext-source-r3	a700d476900e6b3556f80fe0655c4303	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	4ba6c345bf49883c84d5fa5c9bf40c0b	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	php-ext-source-r3	a700d476900e6b3556f80fe0655c4303	php-ext-pecl-r3	a59741d3df8ea9f17afcdcfb7edaee6d
 _md5_=21ab2bdb33d532171ec959d3f2516f7c
