@@ -1,13 +1,13 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 inherit font
 
-DESCRIPTION="IBM's typeface, IBM Plex"
-HOMEPAGE="https://github.com/IBM/plex"
-SRC_URI="https://github.com/IBM/plex/releases/download/v${PV}/TrueType.zip -> ${P}-TrueType.zip"
+DESCRIPTION="A typeface specially designed for user interfaces"
+HOMEPAGE="https://rsms.me/inter/"
+SRC_URI="https://github.com/rsms/inter/releases/download/v${PV}/Inter-UI-${PV}.zip"
 
 LICENSE="OFL-1.1"
 SLOT="0"
@@ -16,11 +16,11 @@ IUSE=""
 
 DEPENDS="app-arch/unzip"
 
-S="${WORKDIR}/TrueType"
+S="${WORKDIR}"
 FONT_SUFFIX="ttf"
 FONT_S="${S}"
 
 src_prepare() {
 	default
-	mv "${S}"/IBM-Plex-*/*.${FONT_SUFFIX} "${FONT_S}" || die
+	mv "${S}/Inter UI (TTF)"/*.${FONT_SUFFIX} "${FONT_S}" || die
 }
