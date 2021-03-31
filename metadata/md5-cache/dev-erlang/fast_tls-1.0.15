@@ -3,6 +3,7 @@ DEPEND=>=dev-erlang/p1_utils-1.0.9 >=dev-lang/erlang-17.1 !libressl? ( dev-libs/
 DESCRIPTION=TLS/SSL native driver for Erlang and Elixir
 EAPI=6
 HOMEPAGE=https://github.com/processone/fast_tls
+INHERIT=rebar
 IUSE=libressl
 KEYWORDS=~amd64 ~arm ~ia64 ~ppc ~sparc ~x86
 LICENSE=Apache-2.0

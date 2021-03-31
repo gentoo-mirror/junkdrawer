@@ -2,6 +2,7 @@ DEFINED_PHASES=compile install
 DESCRIPTION=nocache - minimize filesystem caching effects
 EAPI=5
 HOMEPAGE=https://github.com/Feh/nocache
+INHERIT=multilib
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 SLOT=0
