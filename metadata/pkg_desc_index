@@ -59,6 +59,7 @@ dev-python/graphviz 0.8.1 0.8.3 0.8.4 0.10.1: Simple Python interface for Graphv
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
+dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.24-r1 0.3.26: Py3 parser for Android XML
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pymarc 3.1.13: Process MARC records from Python
