@@ -17,6 +17,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE=""
 
-RDEPEND=">=dev-python/click-6.7[${PYTHON_USEDEP}]
+RDEPEND="dev-python/asn1crypto[${PYTHON_USEDEP}]
+	>=dev-python/click-6.7[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]"
 DEPEND="${RDEPEND}"
