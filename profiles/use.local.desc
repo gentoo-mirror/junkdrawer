@@ -2,10 +2,6 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-app-misc/mosquitto:bridge - Enable bridge support in the MQTT broker.
-app-misc/mosquitto:persistence - Store messages and subscriptions to a file.
-app-misc/mosquitto:srv - Include SRV lookup support.
-app-misc/mosquitto:websockets - Support the WebSocket protocol.
 dev-embedded/icestorm:ftdi - Enable support for USB FTDI chips via dev-embedded/libftdi
 dev-embedded/sdcc:avr - Add support for AVR -- not supported upstream
 dev-embedded/sdcc:boehm-gc - Enable Hans Boehm's garbage collector dev-libs/boehm-gc
@@ -41,7 +37,6 @@ dev-libs/recastnavigation:demo - Build Recast demo
 dev-lua/luaposix:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/penlight:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/slingshot:luajit - Use dev-lang/luajit instead of dev-lang/lua
-dev-php/pecl-redis:igbinary - Enables igbinary serialisation support
 dev-util/nvidia-cuda-sdk:cuda - Build CUDA binaries
 dev-util/nvidia-cuda-sdk:opencl - Build OpenCL binaries
 dev-util/nvidia-cuda-toolkit:debugger - Installs the CUDA debugger

@@ -9,7 +9,6 @@ app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-emulation/enroot 3.1.1-r1: tool to turn traditional container/OS images into unprivileged sandboxes
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
-app-misc/mosquitto 1.6.4: An Open Source MQTT v3 Broker
 app-portage/pqlop 0.02-r2 0.02-r3: emerge.log parser written in python
 app-vim/easytags 3.11-r1 3.11-r2: vim plugin: automated tag file generation and syntax highlighting
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
@@ -53,7 +52,6 @@ dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.3-r1 3.4.3_p20181129-r1 3.4.4-r1: PHP wrapper for the ImageMagick library
-dev-php/pecl-redis 3.1.6: PHP extension for interfacing with Redis
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.4: Fast, simple packet creation / parsing
 dev-python/exifread 2.1.2 2.1.2-r1: Easy to use Python module to extract Exif metadata from tiff and jpeg files
@@ -61,12 +59,13 @@ dev-python/graphviz 0.8.1 0.8.3 0.8.4 0.10.1: Simple Python interface for Graphv
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
-dev-python/pyaxmlparser 0.3.24-r1: Py3 parser for Android XML
+dev-python/pyaxmlparser 0.3.24-r1 0.3.26: Py3 parser for Android XML
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pymarc 3.1.13: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
+dev-python/sdnotify 0.3.2: A pure Python implementation of systemd's service notification protocol
 dev-python/solrpy 0.9.7 0.9.9: Client for the Solr search service
 dev-python/toolconfig 0.0.2: multi-profile configs for dev tools
 dev-python/usps-api 0.4: Python Wrapper for the USPS API
