@@ -104,7 +104,6 @@ sys-cluster/corosync 1.4.8 2.3.6: OSI Certified implementation of a complete clu
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/slurm 16.05.4: SLURM: A Highly Scalable Resource Manager
-sys-devel/make 4.1-r2: Standard tool to compile source trees
 sys-fs/efsw 1.0.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
