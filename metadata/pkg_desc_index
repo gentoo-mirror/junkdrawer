@@ -64,6 +64,7 @@ dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pymarc 3.1.13: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
+dev-python/pyseeder 9999: reseed data managment tools for I2P
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
 dev-python/rfc3339 6.2: Format dates according to the RFC 3339
 dev-python/sdnotify 0.3.2: A pure Python implementation of systemd's service notification protocol
