@@ -55,7 +55,6 @@ dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin netwo
 dev-python/dpkt 1.9.4: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
-dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
 dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
