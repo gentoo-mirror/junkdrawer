@@ -9,7 +9,7 @@ app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-emulation/enroot 3.1.1-r1: tool to turn traditional container/OS images into unprivileged sandboxes
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
-app-vim/easytags 3.11-r1 3.11-r2: vim plugin: automated tag file generation and syntax highlighting
+app-vim/easytags 3.11-r2: vim plugin: automated tag file generation and syntax highlighting
 dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999: An open-source C++ library developed and used at Facebook
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
@@ -54,7 +54,7 @@ dev-php/pecl-imagick 3.4.3-r1 3.4.3_p20181129-r1 3.4.4-r1: PHP wrapper for the I
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.4: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
-dev-python/graphviz 0.8.1 0.8.3 0.8.4 0.10.1: Simple Python interface for Graphviz
+dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/hkdf 0.0.3: HMAC-based Extract-and-Expand Key Derivation Function
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
