@@ -14,6 +14,7 @@ dev-cpp/folly 0.57.0 0.57.0_p20150916 0.57.0_p20160610 0.57.0_p20160610-r1 9999:
 dev-cpp/proxygen 0.29.0 0.29.0-r1 0.32.0 0.32.0-r1: A collection of C++ HTTP libraries including an easy to use HTTP server
 dev-cpp/wangle 0.13.0: a full featured, high performance C++ futures implementation
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
+dev-embedded/gputils 1.5.2: Tools including assembler, linker and librarian for PIC microcontrollers
 dev-embedded/icestorm 0_p20200626 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/sdcc 4.0.0-r1: Small device C compiler (for various microprocessors)
 dev-embedded/yosys 0.9 0.9_p20200324 9999: Yosys - Yosys Open SYnthesis Suite
