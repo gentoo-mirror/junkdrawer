@@ -1,11 +1,10 @@
 app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 8.1.7 8.1.10 8.1.13 8.1.14 8.1.16 8.1.17 8.2.10 8.4.1 8.4.4 8.4.5 8.4.13 8.4.15 8.4.17 8.4.19 8.4.19-r100 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/cq 9999: A command queue
-app-arch/lrzip 0.631_p20170604: Long Range ZIP or Lzma RZIP optimized for compressing large files
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/b2sum 9999: tool to create BLAKE2 hashes of files or streams
-app-crypt/bruteforce-luks 1.3.1: A bruteforce cracker for LUKS encrypted volumes.
+app-crypt/bruteforce-luks 1.3.1 1.4.0: A bruteforce cracker for LUKS encrypted volumes.
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-emulation/enroot 3.1.1-r1: tool to turn traditional container/OS images into unprivileged sandboxes
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
