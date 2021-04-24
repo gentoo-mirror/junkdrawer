@@ -57,11 +57,12 @@ dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata fr
 dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mistune 0.8.4: The fastest markdown parser in pure Python
+dev-python/nvidia-ml-py3 7.352.0-r1: Python 3 Bindings for the NVIDIA Management Library
 dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.24-r1 0.3.26: Py3 parser for Android XML
 dev-python/pycdlib 1.11.0: Python library to read and write ISOs
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
-dev-python/pymarc 3.1.13: Process MARC records from Python
+dev-python/pymarc 3.1.13-r1: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyrate-limiter 2.3.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
 dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
@@ -69,7 +70,7 @@ dev-python/pyseeder 9999: reseed data managment tools for I2P
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
 dev-python/rfc3339 6.2: Format dates according to the RFC 3339
 dev-python/sdnotify 0.3.2: A pure Python implementation of systemd's service notification protocol
-dev-python/solrpy 0.9.7 0.9.9: Client for the Solr search service
+dev-python/solrpy 1.0.0: Client for the Solr search service
 dev-python/toolconfig 0.0.2: multi-profile configs for dev tools
 dev-python/usps-api 0.4: Python Wrapper for the USPS API
 dev-util/cppclean 0.12 0.13 9999: Find problems in C++ source that slow development of large code bases
