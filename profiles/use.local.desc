@@ -64,12 +64,6 @@ sci-libs/dlib:cblas - Build with CBLAS virtual/cblas
 sci-libs/dlib:cuda - Enable support for CUDA for Deep Neural Networks (cuDNN) on GPU (experimental)
 sci-libs/dlib:mkl - Enable support for Intel FFT sci-libs/mkl
 sci-libs/lapack-reference:deprecated - Build deprecated routines
-sci-libs/mxnet:cuda - Enable NVIDIA Cuda support
-sci-libs/mxnet:cudnn - Use NVIDIA CUDA Deep Neural Network library
-sci-libs/mxnet:distributed - Use sci-libs/ps-lite for distributed key-value store
-sci-libs/mxnet:jemalloc - Use dev-libs/jemalloc for memory allocation
-sci-libs/mxnet:mkldnn - Use Intel Math Kernel Library for Deep Neural Networks
-sci-libs/mxnet:opencv - Use media-libs/opencv for image processing
 sci-libs/tvm:cuda - Enable NVIDIA Cuda support
 sci-libs/tvm:llvm - Enable LLVM support
 sci-libs/tvm:opencl - Enable OpenCL support
