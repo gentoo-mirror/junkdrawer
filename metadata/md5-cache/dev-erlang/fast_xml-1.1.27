@@ -10,5 +10,5 @@ LICENSE=Apache-2.0
 RDEPEND=>=dev-erlang/p1_utils-1.0.10 >=dev-lang/erlang-17.1 dev-libs/expat dev-lang/erlang:=
 SLOT=0
 SRC_URI=https://github.com/processone/fast_xml/archive/1.1.27.tar.gz -> fast_xml-1.1.27.tar.gz
-_eclasses_=rebar	43c151aeda0dc4bf44b59e949df136aa
+_eclasses_=rebar	f13843e18f4ec00f45f7158bd3f3d3bb
 _md5_=4e1fe0eeaed8dfe81bae8722332cf4f3
