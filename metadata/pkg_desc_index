@@ -60,6 +60,7 @@ dev-python/pyaxmlparser 0.3.24-r1 0.3.26: Py3 parser for Android XML
 dev-python/pycdlib 1.11.0 1.11.0_p20210428: Python library to read and write ISOs
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
+dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyrate-limiter 2.3.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
 dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
 dev-python/pyseeder 9999: reseed data managment tools for I2P
@@ -69,7 +70,7 @@ dev-python/sdnotify 0.3.2: A pure Python implementation of systemd's service not
 dev-python/solrpy 1.0.0: Client for the Solr search service
 dev-python/toolconfig 0.0.2: multi-profile configs for dev tools
 dev-python/usps-api 0.4: Python Wrapper for the USPS API
-dev-util/cppclean 0.12 0.13 9999: Find problems in C++ source that slow development of large code bases
+dev-util/cppclean 0.13-r1 9999: Find problems in C++ source that slow development of large code bases
 dev-util/cutter 1.2 1.3 1.4 1.5 9999: A Qt and C++ GUI for radare2 reverse engineering framework
 dev-util/nvidia-cuda-sdk 9.1.85 9.2.148 10.0.130: NVIDIA CUDA Software Development Kit
 dev-util/nvidia-cuda-toolkit 9.1.85 9.1.85-r1 9.2.148 10.0.130: NVIDIA CUDA Toolkit (compiler and friends)
@@ -88,6 +89,7 @@ net-libs/libhtp 0.5.23 0.5.24 0.5.25 0.5.26 0.5.27 0.5.28 0.5.30: security-aware
 net-libs/nflog-bindings 0.3_p20160825: High-level language bindings for libnetfilter_log
 net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-p2p/go-ethereum 1.8.16 1.8.17: Official golang implementation of the Ethereum protocol
+net-wireless/pyrtlsdr 0.2.9-r1 0.2.92 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 net-wireless/rtl_433 18.05 18.05_p20180827: Decode OOK modulated signals
 sci-libs/dlib 19.7 19.10-r1 19.11: Numerical and networking C++ library
 sci-libs/dmlc-core 9999: A common library for building scalable and portable distributed machine learning
