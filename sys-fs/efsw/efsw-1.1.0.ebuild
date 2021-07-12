@@ -1,19 +1,17 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 DESCRIPTION="C++ cross-platform file system watcher and notifier"
-HOMEPAGE="https://bitbucket.org/SpartanJ/efsw"
+HOMEPAGE="https://github.com/SpartanJ/efsw"
 
 if [[ ${PV} == 9999 ]]; then
-	inherit mercurial
-	EHG_REPO_URI="https://bitbucket.org/SpartanJ/efsw"
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/SpartanJ/efsw"
 else
-	MY_TREE="854e6d23258e"
-	SRC_URI="https://bitbucket.org/SpartanJ/${PN}/get/${PV}.tar.bz2 -> ${P}.tar.bz2"
+	SRC_URI="https://github.com/SpartanJ/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 	KEYWORDS="~amd64"
-	S="${WORKDIR}/SpartanJ-${PN}-${MY_TREE}"
 fi
 
 LICENSE="MIT"
@@ -39,9 +37,9 @@ src_install() {
 	insinto /usr/include/efsw
 	doins include/efsw/*.h
 
-	dolib lib/libefsw.so*
+	dolib.so lib/libefsw.so*
 
 	if use static-libs ; then
-		dolib lib/libefsw.a
+		dolib.a lib/libefsw.a
 	fi
 }
