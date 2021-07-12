@@ -1,0 +1,13 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-util/premake:4
+DESCRIPTION=C++ cross-platform file system watcher and notifier
+EAPI=7
+HOMEPAGE=https://github.com/SpartanJ/efsw
+INHERIT=git-r3
+IUSE=debug static-libs
+LICENSE=MIT
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
+_md5_=b2342846530b2349e86ff3618d817822
