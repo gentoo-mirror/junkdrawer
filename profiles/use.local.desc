@@ -37,11 +37,6 @@ dev-libs/recastnavigation:demo - Build Recast demo
 dev-lua/luaposix:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/penlight:luajit - Use dev-lang/luajit instead of dev-lang/lua
 dev-lua/slingshot:luajit - Use dev-lang/luajit instead of dev-lang/lua
-dev-util/nvidia-cuda-sdk:cuda - Build CUDA binaries
-dev-util/nvidia-cuda-sdk:opencl - Build OpenCL binaries
-dev-util/nvidia-cuda-toolkit:debugger - Installs the CUDA debugger
-dev-util/nvidia-cuda-toolkit:eclipse - Install plugins for eclipse
-dev-util/nvidia-cuda-toolkit:profiler - Installs the NVIDIA CUDA visual profiler
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 net-analyzer/hsflowd:nflog - Enable nflog support via net-libs/libnetfilter_log
 net-analyzer/hsflowd:openvswitch - Enable openvswitch support
