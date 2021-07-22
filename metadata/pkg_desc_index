@@ -12,7 +12,7 @@ app-vim/easytags 3.11-r2: vim plugin: automated tag file generation and syntax h
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/gputils 1.5.2: Tools including assembler, linker and librarian for PIC microcontrollers
 dev-embedded/icestorm 0_p20210309 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
-dev-embedded/sdcc 4.0.0-r1: Small device C compiler (for various microprocessors)
+dev-embedded/sdcc 4.0.0-r1 4.1.0: Small device C compiler (for various microprocessors)
 dev-embedded/yosys 0.9_p20200324-r1 9999: Yosys - Yosys Open SYnthesis Suite
 dev-erlang/cache_tab 1.0.8 1.0.9 1.0.10 1.0.11 1.0.12 1.0.13 1.0.14: In-memory cache Erlang and Elixir library
 dev-erlang/epam 1.0.3 1.0.4: epam for ejabberd to help with PAM authentication support
