@@ -79,7 +79,6 @@ media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decode
 media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 1.8.0_rc2 9999: Weak signal communication software
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 net-analyzer/hsflowd 1.27.3 1.29.3 2.0.8_p1 2.0.9_p1: Exports physical and virtual server performance metrics using the sFlow protocol
-net-im/ejabberd 16.09: Robust, scalable and extensible XMPP server
 net-libs/azmq 1.0.1 1.0.2 9999: C++ language binding library integrating ZeroMQ with Boost Asio
 net-libs/enet 1.2.5 1.3.17: Relatively thin, simple and robust network communication layer on top of UDP
 net-libs/libgcm 0.1.0-r1 9999: Google Cloud Messaging C library
