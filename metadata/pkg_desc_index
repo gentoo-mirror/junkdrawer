@@ -50,7 +50,7 @@ dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.4-r1 3.5.0-r1 3.5.1-r1: PHP wrapper for the ImageMagick library
 dev-python/ar 0.3.1: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
-dev-python/dpkt 1.9.4: Fast, simple packet creation / parsing
+dev-python/dpkt 1.9.4 1.9.7.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
