@@ -48,7 +48,7 @@ dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.4-r1 3.5.0-r1 3.5.1-r1: PHP wrapper for the ImageMagick library
-dev-python/ar 0.3.1: Pure python implementation of the ar archive format
+dev-python/ar 0.3.2: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.4 1.9.7.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
@@ -57,7 +57,7 @@ dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data fo
 dev-python/nvidia-ml-py3 7.352.0-r1: Python 3 Bindings for the NVIDIA Management Library
 dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.24-r1 0.3.26: Py3 parser for Android XML
-dev-python/pycdlib 1.11.0 1.11.0_p20210428: Python library to read and write ISOs
+dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
