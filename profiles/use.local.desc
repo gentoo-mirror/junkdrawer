@@ -55,6 +55,11 @@ sci-libs/tvm:cuda - Enable NVIDIA Cuda support
 sci-libs/tvm:llvm - Enable LLVM support
 sci-libs/tvm:opencl - Enable OpenCL support
 sci-libs/tvm:vulkan - Enable Vulkan support
+sys-cluster/glusterfs:fuse - Add FUSE mount helper
+sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
+sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
+sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
+sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
 sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
