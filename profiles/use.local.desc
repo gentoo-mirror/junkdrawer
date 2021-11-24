@@ -60,9 +60,17 @@ sys-cluster/glusterfs:georeplication - Enable support for georeplication (requir
 sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
 sys-cluster/glusterfs:libtirpc - Build against net-libs/libtirpc for RPC support
 sys-cluster/glusterfs:rsyslog - Install configuration snippet for app-admin/rsyslog
+sys-cluster/slurm:html - Build html documentation
+sys-cluster/slurm:ipmi - Build support for collecting some ipmi stats
+sys-cluster/slurm:json - Add support for json-persing via json-c
 sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
+sys-cluster/slurm:netloc - Add support for netloc (amd64 only)
+sys-cluster/slurm:numa - Add NUMA awareness
+sys-cluster/slurm:ofed - Add Infiniband support via ofed
+sys-cluster/slurm:slurmdbd - Install SQL server for slurmdbd
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
+sys-cluster/slurm:ucx - Enable Unified Communication X library support
 www-servers/civetweb:websockets - Build with websocket support
 x11-misc/tint2:battery - Enable battery status plugin
 x11-misc/tint2:tint2conf - Build/Install tint2conf as well
