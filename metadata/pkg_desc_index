@@ -51,7 +51,7 @@ dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.4-r1 3.5.0-r1 3.5.1-r1: PHP wrapper for the ImageMagick library
 dev-python/ar 0.3.2: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
-dev-python/dpkt 1.9.4 1.9.7.2: Fast, simple packet creation / parsing
+dev-python/dpkt 1.9.7.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
@@ -64,7 +64,6 @@ dev-python/pycodestyle 2.4.0: Python style guide checker (fka pep8)
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyrate-limiter 2.3.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
-dev-python/pyroute2 0.5.1 0.5.2: A pure Python netlink and Linux network configuration library.
 dev-python/pyseeder 9999: reseed data managment tools for I2P
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
 dev-python/rfc3339 6.2: Format dates according to the RFC 3339
