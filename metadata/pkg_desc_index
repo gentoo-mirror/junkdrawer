@@ -48,7 +48,7 @@ dev-lua/luafilesystem 1.6.3: File System Library for the Lua Programming Languag
 dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
 dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua modules
 dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
-dev-php/pecl-imagick 3.4.4-r1 3.5.0-r1 3.5.1-r1: PHP wrapper for the ImageMagick library
+dev-php/pecl-imagick 3.4.4-r1 3.5.0-r1 3.5.1-r1 3.7.0-r1: PHP wrapper for the ImageMagick library
 dev-python/ar 0.3.2: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.7.2: Fast, simple packet creation / parsing
