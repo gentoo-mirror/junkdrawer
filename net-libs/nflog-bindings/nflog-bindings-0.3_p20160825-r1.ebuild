@@ -1,16 +1,16 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 PYTHON_COMPAT=( python3_{8,9,10} )
 
 inherit cmake perl-module linux-info python-single-r1
 
-DESCRIPTION="High-level language bindings for libnetfilter_queue"
-HOMEPAGE="https://github.com/chifflier/nfqueue-bindings"
-MY_COMMIT=9bf0c343be1effa25f668d5e4efe92effa7e5d4e
-SRC_URI="https://github.com/chifflier/nfqueue-bindings/archive/${MY_COMMIT}.tar.gz -> ${P}.tar.gz"
+DESCRIPTION="High-level language bindings for libnetfilter_log"
+HOMEPAGE="https://github.com/chifflier/nflog-bindings"
+MY_COMMIT="f3eda3551820e52d4c2fc82547b89d39c4a02125"
+SRC_URI="https://github.com/chifflier/nflog-bindings/archive/${MY_COMMIT}.tar.gz -> ${P}.tar.gz"
 
 KEYWORDS="~amd64 ~x86"
 SLOT="0"
@@ -22,8 +22,8 @@ RDEPEND="
 	examples? (
 		python? (
 			$(python_gen_cond_dep '
-				net-analyzer/scapy[${PYTHON_MULTI_USEDEP}]
-				dev-python/dpkt[${PYTHON_MULTI_USEDEP}]
+				net-analyzer/scapy[${PYTHON_USEDEP}]
+				dev-python/dpkt[${PYTHON_USEDEP}]
 			')
 			${PYTHON_DEPS}
 		)
@@ -31,7 +31,7 @@ RDEPEND="
 DEPEND="${RDEPEND}
 	perl? ( dev-lang/perl )
 	virtual/pkgconfig
-	net-libs/libnetfilter_queue
+	net-libs/libnetfilter_log
 	dev-lang/swig"
 
 PATCHES=( "${FILESDIR}/${P}-Support-python-3-only.patch"
@@ -41,16 +41,16 @@ S="${WORKDIR}/${PN}-${MY_COMMIT}"
 
 pkg_setup() {
 	use python && python-single-r1_pkg_setup
-	# Check kernel configuration for NFQUEUE
+	# Check kernel configuration for NFLOG
 	if linux_config_exists; then
-		ebegin "Checking NETFILTER_NETLINK_QUEUE support"
-		linux_chkconfig_present NETFILTER_NETLINK_QUEUE
+		ebegin "Checking CONFIG_NETFILTER_NETLINK_LOG support"
+		linux_chkconfig_present CONFIG_NETFILTER_NETLINK_LOG
 		eend $? || \
-			eerror 'Netfilter NFQUEUE over NFNETLINK interface support not found!'
-		ebegin "Checking NETFILTER_XT_TARGET_NFQUEUE support"
-		linux_chkconfig_present NETFILTER_XT_TARGET_NFQUEUE
+			eerror 'Netfilter NFLOG over NFNETLINK interface support not found!'
+		ebegin "Checking CONFIG_NETFILTER_XT_TARGET_NFLOG support"
+		linux_chkconfig_present CONFIG_NETFILTER_XT_TARGET_NFLOG
 		eend $? || \
-			eerror '"NFQUEUE" target Support not found!'
+			eerror '"NFLOG" target Support not found!'
 	fi
 }
 
@@ -81,6 +81,7 @@ src_compile() {
 }
 
 src_install() {
+	#emake DESTDIR="${D}" install PREFIX=/usr
 	cmake_src_install
 	use python && python_optimize
 	docinto examples
