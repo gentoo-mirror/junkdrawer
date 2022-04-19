@@ -9,6 +9,7 @@ app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-emulation/bst 9999: A one-stop shop for process isolation
 app-emulation/enroot 3.1.1-r2 3.3.1: tool to turn traditional container/OS images into unprivileged sandboxes
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
+app-misc/rtlamr 0.9.3: software defined radio receiver for utility smart meters
 app-vim/easytags 3.11-r2: vim plugin: automated tag file generation and syntax highlighting
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/gputils 1.5.2: Tools including assembler, linker and librarian for PIC microcontrollers
