@@ -18,7 +18,7 @@ else
 	MY_P="${PN}-${MY_PV}"
 	INHERIT_GIT=""
 	SRC_URI="https://github.com/SchedMD/slurm/archive/${MY_P}.tar.gz"
-	KEYWORDS="~amd64 ~riscv ~x86"
+	KEYWORDS="~amd64 ~x86"
 fi
 
 inherit autotools bash-completion-r1 lua-single pam perl-module prefix toolchain-funcs systemd ${INHERIT_GIT} tmpfiles
@@ -28,7 +28,7 @@ HOMEPAGE="https://www.schedmd.com https://github.com/SchedMD/slurm"
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="debug hdf5 html ipmi json lua multiple-slurmd +munge mysql netloc numa ofed pam perl slurmdbd static-libs ucx torque X"
+IUSE="debug hdf5 html ipmi json lua multiple-slurmd +munge mysql netloc numa nvml ofed pam perl rrdtool slurmdbd slurmrestd static-libs ucx yaml torque X"
 
 # See bug #813924 for hdf5lib < dep, needs proper fix
 COMMON_DEPEND="
@@ -40,6 +40,9 @@ COMMON_DEPEND="
 		|| ( dev-db/mariadb-connector-c dev-db/mysql-connector-c )
 		slurmdbd? ( || ( dev-db/mariadb:* dev-db/mysql:* ) )
 		)
+	slurmrestd? (
+		net-libs/http-parser
+	)
 	munge? ( sys-auth/munge )
 	pam? ( sys-libs/pam )
 	lua? ( ${LUA_DEPS} )
@@ -48,8 +51,11 @@ COMMON_DEPEND="
 	amd64? ( netloc? ( >=sys-apps/hwloc-2.1.0:=[netloc] ) )
 	hdf5? ( <sci-libs/hdf5-1.12:= )
 	numa? ( sys-process/numactl )
+	nvml? ( x11-drivers/nvidia-drivers )
 	ofed? ( sys-cluster/rdma-core )
+	rrdtool? ( net-analyzer/rrdtool )
 	ucx? ( sys-cluster/ucx )
+	yaml? ( dev-libs/libyaml )
 	X? ( net-libs/libssh2 )
 	>=sys-apps/hwloc-1.1.1-r1:=
 	sys-libs/ncurses:0=
@@ -66,7 +72,8 @@ RDEPEND="${COMMON_DEPEND}
 	dev-libs/libcgroup"
 
 REQUIRED_USE="lua? ( ${LUA_REQUIRED_USE} )
-	torque? ( perl )"
+	torque? ( perl )
+	slurmrestd? ( json ) "
 
 S="${WORKDIR}/${PN}-${MY_P}"
 
@@ -77,6 +84,7 @@ RESTRICT="test"
 
 PATCHES=(
 	"${FILESDIR}"/${PN}-20.11.0.1_autoconf-lua.patch
+	"${FILESDIR}"/${PN}-20.11.8.1-Change-behavior-of-without-nvml.patch
 )
 
 pkg_setup() {
@@ -139,9 +147,13 @@ src_configure() {
 		$(use_with munge) \
 		$(use_with json) \
 		$(use_with hdf5) \
+		$(use_with nvml) \
 		$(use_with ofed) \
+		$(use_with rrdtool) \
 		$(use_with ucx) \
+		$(use_with yaml) \
 		$(use_enable static-libs static) \
+		$(use_enable slurmrestd) \
 		$(use_enable multiple-slurmd)
 
 	# --htmldir does not seems to propagate... Documentations are installed
