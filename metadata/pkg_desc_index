@@ -99,7 +99,7 @@ sci-libs/tvm 9999: End to end Tensor IR/DSL stack for deploying deep learning wo
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/glusterfs 9.4: GlusterFS is a powerful network/cluster filesystem
-sys-cluster/slurm 20.11.8.1: A Highly Scalable Resource Manager
+sys-cluster/slurm 20.11.8.1 20.11.9.1: A Highly Scalable Resource Manager
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent

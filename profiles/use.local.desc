@@ -64,10 +64,14 @@ sys-cluster/slurm:multiple-slurmd - Allow multiple slurmd to run
 sys-cluster/slurm:munge - Enable authentication via munge
 sys-cluster/slurm:netloc - Add support for netloc (amd64 only)
 sys-cluster/slurm:numa - Add NUMA awareness
+sys-cluster/slurm:nvml - Enable the NVML device discovery
 sys-cluster/slurm:ofed - Add Infiniband support via ofed
+sys-cluster/slurm:rrdtool - Enable rrdtool support
 sys-cluster/slurm:slurmdbd - Install SQL server for slurmdbd
+sys-cluster/slurm:slurmrestd - Build slurmrestd
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
 sys-cluster/slurm:ucx - Enable Unified Communication X library support
+sys-cluster/slurm:yaml - Add support for yaml
 www-servers/civetweb:websockets - Build with websocket support
 x11-misc/tint2:battery - Enable battery status plugin
 x11-misc/tint2:tint2conf - Build/Install tint2conf as well
