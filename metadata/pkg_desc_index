@@ -28,27 +28,17 @@ dev-erlang/p1_utils 1.0.9 1.0.10 1.0.11 1.0.12: Erlang utility modules from Proc
 dev-erlang/stringprep 1.0.9 1.0.10 1.0.11 1.0.12: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.11 1.0.12 1.0.14 1.0.15 1.0.16 1.0.17 1.0.20 1.0.23: STUN and TURN library for Erlang and Elixir
 dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1 4.2 4.2.1 4.3 4.3.1 4.4 4.4.1 4.5 4.6 4.7 4.8 4.8.1 4.9: A project automation and build tool with a Groovy based DSL
-dev-java/jmdns 3.5.1 3.5.2 3.5.3 3.5.4: JmDNS is an implementation of multi-cast DNS in Java
-dev-java/okio 1.12.0: A modern I/O API for Java
 dev-lang/R 3.3.3 3.4.2 3.4.3 3.4.4 3.5.0 3.5.1: Language and environment for statistical computing and graphics
 dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/cudnn 7.3.1.20: NVIDIA Accelerated Deep Learning on GPU library
-dev-libs/g3d 10.00: G3D - 3D Engine
 dev-libs/halideir 9999: Symbolic Expression and Statement Module for new DSLs
 dev-libs/libcasc 1.00-r1 1.00_p20170817 9999: Library for reading CASC storage from Blizzard games since 2014
 dev-libs/liblog 0.1.4-r1 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
 dev-libs/libluna-daemon 0.1.3-r1 9999: a dead simple library for daemonizing
-dev-libs/libtomcrypt 1.17 1.17-r1: modular and portable cryptographic toolkit
 dev-libs/pocl 1.2 9999: Portable Computing Language (an implementation of OpenCL)
 dev-libs/recastnavigation 1.5.1 1.5.1_p20180902 9999: Navigation-mesh Toolset for Games
 dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation Memory Allocator
-dev-libs/tomsfastmath 0.13.0 0.13.1: portable fixed precision math library geared towards doing one thing very fast
-dev-lua/bit32 5.3.0: A Lua5.2+ bit manipulation library
-dev-lua/luafilesystem 1.6.3: File System Library for the Lua Programming Language
-dev-lua/luaposix 33.2.1-r1: Lua bindings for POSIX APIs
-dev-lua/penlight 1.4.0 1.4.1 1.5.0 1.5.2 1.5.4: Generally useful pure Lua modules
-dev-lua/slingshot 8.0.0-r1: Slingshot releases rocks! Build framework for Lua
 dev-php/pecl-imagick 3.4.4-r1 3.5.0-r1 3.5.1-r1 3.7.0-r1: PHP wrapper for the ImageMagick library
 dev-python/ar 0.3.2: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
@@ -78,7 +68,6 @@ dev-util/cutter 1.2 1.3 1.4 1.5 9999: A Qt and C++ GUI for radare2 reverse engin
 dev-util/waf 1.9.15 2.0.0 2.0.1 2.0.2 2.0.3 2.0.4 2.0.6 2.0.7 2.0.8: piece of software used to help building software projects
 media-fonts/inria-fonts 1.200-r1: Inria Serif and Inria Sans Typeface
 media-fonts/inter-ui 3.0-r1: A typeface specially designed for user interfaces
-media-radio/direwolf 1.2: software "soundcard" modem/TNC and APRS encoder/decoder
 media-radio/wsjtx 1.7.0 1.7.0-r1 1.8.0_rc1 1.8.0_rc2 9999: Weak signal communication software
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
 net-analyzer/hsflowd 1.27.3 1.29.3 2.0.8_p1 2.0.9_p1: Exports physical and virtual server performance metrics using the sFlow protocol
@@ -87,7 +76,6 @@ net-libs/enet 1.2.5 1.3.17: Relatively thin, simple and robust network communica
 net-libs/libgcm 0.1.0-r1 9999: Google Cloud Messaging C library
 net-libs/nflog-bindings 0.3_p20160825-r1: High-level language bindings for libnetfilter_log
 net-libs/nfqueue-bindings 0.6_p20180917-r1: High-level language bindings for libnetfilter_queue
-net-libs/zmqpp 9999: ZeroMQ 'highlevel' C++ bindings
 net-p2p/go-ethereum 1.8.16 1.8.17: Official golang implementation of the Ethereum protocol
 net-wireless/pyrtlsdr 0.2.9-r1 0.2.92 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 net-wireless/rtl_433 18.05 18.05_p20180827: Decode OOK modulated signals
@@ -103,6 +91,5 @@ sys-cluster/slurm 20.11.8.1 20.11.9.1: A Highly Scalable Resource Manager
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
-www-servers/civetweb 1.6 1.7 1.8 1.9 9999: Embedded C/C++ web server
 x11-misc/tint2 16.6.1: tint2 is a lightweight panel/taskbar for Linux.
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
