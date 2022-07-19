@@ -32,8 +32,6 @@ dev-embedded/sdcc:ucsim - Enable software simulator for microcontrollers
 dev-embedded/sdcc:z180 - Add support for Zilog Z180
 dev-embedded/sdcc:z80 - Add support for Zilog Z80
 dev-embedded/yosys:abc - Build with Berkeley ABC support
-dev-lang/mono:pax_kernel - Enable if the user plans to run the package under a pax enabled hardened kernel
-dev-lang/mono:xen - Make mono generate code that is considerably faster on xen VMs but slightly slower on for normal systems.
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
 dev-libs/libtomcrypt:libtommath - Use the portable math library (dev-libs/libtommath)
 dev-libs/libtomcrypt:tomsfastmath - Use the optimized math library (dev-libs/tomsfastmath)

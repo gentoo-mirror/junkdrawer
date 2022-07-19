@@ -28,8 +28,6 @@ dev-erlang/p1_utils 1.0.9 1.0.10 1.0.11 1.0.12: Erlang utility modules from Proc
 dev-erlang/stringprep 1.0.9 1.0.10 1.0.11 1.0.12: Fast Stringprep implementation for Erlang and Elixir
 dev-erlang/stun 1.0.11 1.0.12 1.0.14 1.0.15 1.0.16 1.0.17 1.0.20 1.0.23: STUN and TURN library for Erlang and Elixir
 dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1 4.2 4.2.1 4.3 4.3.1 4.4 4.4.1 4.5 4.6 4.7 4.8 4.8.1 4.9: A project automation and build tool with a Groovy based DSL
-dev-lang/R 3.3.3 3.4.2 3.4.3 3.4.4 3.5.0 3.5.1: Language and environment for statistical computing and graphics
-dev-lang/mono 4.8.1.0: Mono runtime and class libraries, a C# compiler/interpreter
 dev-libs/cudnn 7.3.1.20: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/halideir 9999: Symbolic Expression and Statement Module for new DSLs
 dev-libs/libcasc 1.00-r1 1.00_p20170817 9999: Library for reading CASC storage from Blizzard games since 2014
@@ -89,7 +87,7 @@ sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/glusterfs 9.4: GlusterFS is a powerful network/cluster filesystem
 sys-cluster/slurm 20.11.8.1 20.11.9.1: A Highly Scalable Resource Manager
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
-sys-fs/nocache 1.0 1.0-r1 9999: nocache - minimize filesystem caching effects
+sys-fs/nocache 1.0-r1 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 x11-misc/tint2 16.6.1: tint2 is a lightweight panel/taskbar for Linux.
 x11-misc/x11vnc 0.9.15: A VNC server for real X displays
