@@ -29,7 +29,6 @@ dev-erlang/stun 1.0.11 1.0.12 1.0.14 1.0.15 1.0.16 1.0.17 1.0.20 1.0.23: STUN an
 dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1 4.2 4.2.1 4.3 4.3.1 4.4 4.4.1 4.5 4.6 4.7 4.8 4.8.1 4.9: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.4: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/cudnn 7.3.1.20: NVIDIA Accelerated Deep Learning on GPU library
-dev-libs/halideir 9999: Symbolic Expression and Statement Module for new DSLs
 dev-libs/liblog 0.1.4-r1 9999: Library for outputting to a file, console, and/or syslog simultaneously
 dev-libs/liblogfaf 9999: A library that logs messages using non-blocking UDP datagrams
 dev-libs/libluna-daemon 0.1.3-r1 9999: a dead simple library for daemonizing

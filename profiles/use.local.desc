@@ -43,17 +43,11 @@ dev-libs/pocl:hardening - Enable hardening against various attacks. May worsen p
 dev-libs/pocl:hwloc - Enable hwloc support
 dev-libs/pocl:lto - Adds support for link time optimization
 dev-libs/pocl:memmanager - Enables custom memory manager. Except for special circumstances, this should be disabled
-dev-libs/recastnavigation:demo - Build Recast demo
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 net-analyzer/hsflowd:nflog - Enable nflog support via net-libs/libnetfilter_log
 net-analyzer/hsflowd:openvswitch - Enable openvswitch support
 net-analyzer/hsflowd:pcap - Add support for network packet capture via net-libs/libpcap
 net-p2p/go-ethereum:devtools - Build Ethereum development tools (evm, abigen, puppeth, ...)
-sci-libs/lapack-reference:deprecated - Build deprecated routines
-sci-libs/tvm:cuda - Enable NVIDIA Cuda support
-sci-libs/tvm:llvm - Enable LLVM support
-sci-libs/tvm:opencl - Enable OpenCL support
-sci-libs/tvm:vulkan - Enable Vulkan support
 sys-cluster/glusterfs:fuse - Add FUSE mount helper
 sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
 sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc
@@ -74,4 +68,3 @@ sys-cluster/slurm:slurmrestd - Build slurmrestd
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
 sys-cluster/slurm:ucx - Enable Unified Communication X library support
 sys-cluster/slurm:yaml - Add support for yaml
-www-servers/civetweb:websockets - Build with websocket support
