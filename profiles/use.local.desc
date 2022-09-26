@@ -33,8 +33,6 @@ dev-embedded/sdcc:z180 - Add support for Zilog Z180
 dev-embedded/sdcc:z80 - Add support for Zilog Z80
 dev-embedded/yosys:abc - Build with Berkeley ABC support
 dev-libs/libcasc:system-libtomcrypt - Use the system-wide dev-libs/libtomcryptinstead of bundled.
-dev-libs/libtomcrypt:libtommath - Use the portable math library (dev-libs/libtommath)
-dev-libs/libtomcrypt:tomsfastmath - Use the optimized math library (dev-libs/tomsfastmath)
 dev-libs/pocl:accel - Enable the generic hardware accelerator device driver
 dev-libs/pocl:conformance - Ensures that certain build options which would result in non-conformant pocl build stay disabled. Note that this does not quarantee a fully conformant build of pocl.
 dev-libs/pocl:cuda - Enable the CUDA backend for NVIDIA GPUs
