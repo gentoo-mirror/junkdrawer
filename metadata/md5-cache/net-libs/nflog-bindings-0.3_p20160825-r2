@@ -1,0 +1,16 @@
+BDEPEND=>=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=examples? ( python? ( python_single_target_python3_8? ( net-analyzer/scapy[python_targets_python3_8(-)] dev-python/dpkt[python_targets_python3_8(-)] ) python_single_target_python3_9? ( net-analyzer/scapy[python_targets_python3_9(-)] dev-python/dpkt[python_targets_python3_9(-)] ) python_single_target_python3_10? ( net-analyzer/scapy[python_targets_python3_10(-)] dev-python/dpkt[python_targets_python3_10(-)] ) python_single_target_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) ) ) perl? ( dev-lang/perl ) virtual/pkgconfig net-libs/libnetfilter_log dev-lang/swig
+DESCRIPTION=High-level language bindings for libnetfilter_log
+EAPI=8
+HOMEPAGE=https://github.com/chifflier/nflog-bindings
+INHERIT=cmake perl-module linux-info python-single-r1
+IUSE=perl python examples python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=examples? ( python? ( python_single_target_python3_8? ( net-analyzer/scapy[python_targets_python3_8(-)] dev-python/dpkt[python_targets_python3_8(-)] ) python_single_target_python3_9? ( net-analyzer/scapy[python_targets_python3_9(-)] dev-python/dpkt[python_targets_python3_9(-)] ) python_single_target_python3_10? ( net-analyzer/scapy[python_targets_python3_10(-)] dev-python/dpkt[python_targets_python3_10(-)] ) python_single_target_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) ) )
+REQUIRED_USE=|| ( perl python ) python? ( ^^ ( python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10 ) )
+SLOT=0
+SRC_URI=https://github.com/chifflier/nflog-bindings/archive/f3eda3551820e52d4c2fc82547b89d39c4a02125.tar.gz -> nflog-bindings-0.3_p20160825.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	8ed38f92fe095be374d6c4c8d4c0dda7	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	646b7a2a63596361551a6c1fabf28057	perl-functions	c3fca037246e877693badea0df3b0ef8	readme.gentoo-r1	b776ad4b42f564c406a95c41ccb42c55	perl-module	21a0cb6221498d0e7894bdf445b79887	linux-info	7a3f8b289bc442b8151fb29bfefe3b76	python-utils-r1	6a75203e8a499f0fb42971452ce15388	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8
+_md5_=ccb9991890cdb2b5777aa903e0a1bed8
