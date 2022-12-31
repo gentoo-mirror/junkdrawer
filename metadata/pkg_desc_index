@@ -79,4 +79,3 @@ sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0-r1 9999: nocache - minimize filesystem caching effects
 www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
-x11-misc/x11vnc 0.9.15: A VNC server for real X displays
