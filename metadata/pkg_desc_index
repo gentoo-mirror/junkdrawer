@@ -38,25 +38,14 @@ dev-libs/scalloc 0.9.0 1.0.0 9999: A Fast, Multicore-Scalable, Low-Fragmentation
 dev-libs/xmlrpc-c 1.54.05-r4: A lightweight RPC library based on XML and HTTP
 dev-php/pecl-imagick 3.5.1-r1 3.7.0-r1: PHP wrapper for the ImageMagick library
 dev-python/ar 0.3.2: Pure python implementation of the ar archive format
-dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.7.2: Fast, simple packet creation / parsing
-dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies configuring page titles and their order
-dev-python/nvidia-ml-py3 7.352.0-r1: Python 3 Bindings for the NVIDIA Management Library
 dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
-dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.26: Py3 parser for Android XML
 dev-python/pycdlib 1.12.0: Python library to read and write ISOs
-dev-python/pymarc 3.1.13-r1: Process MARC records from Python
-dev-python/pymultihash 9999: Python implementation of the multihash specification
-dev-python/pyrate-limiter 2.3.0: Python Rate-Limiter using Leaky-Bucket Algorimth Family
-dev-python/pyseeder 9999: reseed data managment tools for I2P
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
-dev-python/rfc3339 6.2: Format dates according to the RFC 3339
-dev-python/sdnotify 0.3.2: A pure Python implementation of systemd's service notification protocol
-dev-python/solrpy 1.0.0: Client for the Solr search service
 dev-python/toolconfig 0.0.2-r1: multi-profile configs for dev tools
 dev-python/usps-api 0.4: Python Wrapper for the USPS API
 dev-util/cppclean 0.13-r1 9999: Find problems in C++ source that slow development of large code bases
@@ -70,7 +59,6 @@ net-libs/libgcm 0.1.0-r1 9999: Google Cloud Messaging C library
 net-libs/nflog-bindings 0.3_p20160825-r2: High-level language bindings for libnetfilter_log
 net-libs/nfqueue-bindings 0.6_p20180917-r2: High-level language bindings for libnetfilter_queue
 net-p2p/go-ethereum 1.8.16 1.8.17: Official golang implementation of the Ethereum protocol
-net-wireless/pyrtlsdr 0.2.9-r1 0.2.92 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/glusterfs 9.4: GlusterFS is a powerful network/cluster filesystem
