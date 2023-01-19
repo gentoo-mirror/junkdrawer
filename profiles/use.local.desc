@@ -66,3 +66,6 @@ sys-cluster/slurm:slurmrestd - Build slurmrestd
 sys-cluster/slurm:torque - Enable perl scripts that emulates pbs (qstat, qsub etc.)
 sys-cluster/slurm:ucx - Enable Unified Communication X library support
 sys-cluster/slurm:yaml - Add support for yaml
+x11-misc/x11vnc:xdamage - Enable support for the Xdamage library
+x11-misc/x11vnc:xfixes - Enable support for the Xfixes library
+x11-misc/x11vnc:xrandr - Enable support for the X xrandr extension
