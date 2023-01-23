@@ -46,7 +46,7 @@ dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data fo
 dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies configuring page titles and their order
 dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
 dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
-dev-python/pyaxmlparser 0.3.26: Py3 parser for Android XML
+dev-python/pyaxmlparser 0.3.26 0.3.27: Py3 parser for Android XML
 dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
