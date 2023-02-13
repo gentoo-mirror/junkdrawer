@@ -42,10 +42,10 @@ dev-libs/pocl:hwloc - Enable hwloc support
 dev-libs/pocl:lto - Adds support for link time optimization
 dev-libs/pocl:memmanager - Enables custom memory manager. Except for special circumstances, this should be disabled
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
+net-analyzer/hsflowd:docker - Enable docker support
 net-analyzer/hsflowd:nflog - Enable nflog support via net-libs/libnetfilter_log
 net-analyzer/hsflowd:openvswitch - Enable openvswitch support
 net-analyzer/hsflowd:pcap - Add support for network packet capture via net-libs/libpcap
-net-p2p/go-ethereum:devtools - Build Ethereum development tools (evm, abigen, puppeth, ...)
 sys-cluster/glusterfs:fuse - Add FUSE mount helper
 sys-cluster/glusterfs:georeplication - Enable support for georeplication (requires dev-lang/python)
 sys-cluster/glusterfs:ipv6 - Use IPv6 by default, requires libtirpc

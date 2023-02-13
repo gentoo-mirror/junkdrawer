@@ -1,4 +1,3 @@
-app-admin/Lmod 6.5.14 6.5.16 6.5.17 6.6 6.6.1 6.6.2 6.6.3 7.0 7.0.3 7.0.5 7.1.3 7.1.6.1 7.1.7 7.1.9 7.1.11 7.1.12 7.2.1 7.3.1 7.3.16 7.3.17 7.3.18 7.3.19 7.3.20 7.3.21 7.3.24 7.3.27 7.3.28 7.4 7.5 7.6 7.7 8.1.7 8.1.10 8.1.13 8.1.14 8.1.16 8.1.17 8.2.10 8.4.1 8.4.4 8.4.5 8.4.13 8.4.15 8.4.17 8.4.19 8.4.19-r100 9999: A Lua-based environment module system supporting TCL and software hierarchy
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
@@ -61,12 +60,12 @@ dev-util/waf 2.0.22: Piece of software used to help building software projects
 media-fonts/inria-fonts 1.200-r1: Inria Serif and Inria Sans Typeface
 media-fonts/inter-ui 3.0-r1: A typeface specially designed for user interfaces
 media-sound/rotter 0.9 9999: Rotter is a Recording of Transmission / Audio Logger for JACK
-net-analyzer/hsflowd 1.27.3 1.29.3 2.0.8_p1 2.0.9_p1: Exports physical and virtual server performance metrics using the sFlow protocol
+net-analyzer/hsflowd 2.0.42 9999: Exports physical and virtual server performance metrics using the sFlow protocol
 net-libs/enet 1.2.5 1.3.17: Relatively thin, simple and robust network communication layer on top of UDP
 net-libs/libgcm 0.1.0-r1 9999: Google Cloud Messaging C library
 net-libs/nflog-bindings 0.3_p20160825-r2: High-level language bindings for libnetfilter_log
 net-libs/nfqueue-bindings 0.6_p20180917-r2: High-level language bindings for libnetfilter_queue
-net-p2p/go-ethereum 1.8.16 1.8.17: Official golang implementation of the Ethereum protocol
+net-wireless/pyrtlsdr 0.2.93 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/glusterfs 9.4: GlusterFS is a powerful network/cluster filesystem
