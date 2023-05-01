@@ -39,9 +39,7 @@ dev-python/ar 0.3.2: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.7.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
-dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
-dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies configuring page titles and their order
 dev-python/nvidia-ml-py 11.525.84: Python bindings for the NVIDIA Management Library
 dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
 dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
@@ -69,7 +67,6 @@ net-libs/nfqueue-bindings 0.6_p20180917-r2: High-level language bindings for lib
 net-wireless/pyrtlsdr 0.2.93 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
 sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
-sys-cluster/glusterfs 9.4: GlusterFS is a powerful network/cluster filesystem
 sys-cluster/slurm 20.11.8.1 20.11.9.1 22.05.3: A Highly Scalable Resource Manager
 sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
