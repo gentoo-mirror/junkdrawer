@@ -39,6 +39,7 @@ dev-python/ar 0.3.2: Pure python implementation of the ar archive format
 dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin network
 dev-python/dpkt 1.9.7.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
+dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies configuring page titles and their order
 dev-python/nvidia-ml-py 11.525.84: Python bindings for the NVIDIA Management Library
