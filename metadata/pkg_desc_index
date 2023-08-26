@@ -12,7 +12,7 @@ app-vim/easytags 3.11-r2: vim plugin: automated tag file generation and syntax h
 dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 0_p20210309 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/sdcc 4.0.0-r1 4.1.0: Small device C compiler (for various microprocessors)
-dev-embedded/yosys 0.9_p20200324-r1 9999: Yosys - Yosys Open SYnthesis Suite
+dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
 dev-java/gradle 3.4.1 3.5 3.5.1 4.0 4.0.1 4.0.2 4.1 4.2 4.2.1 4.3 4.3.1 4.4 4.4.1 4.5 4.6 4.7 4.8 4.8.1 4.9: A project automation and build tool with a Groovy based DSL
 dev-java/jmdns 3.5.4: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/cudnn 7.3.1.20: NVIDIA Accelerated Deep Learning on GPU library
