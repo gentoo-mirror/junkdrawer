@@ -2,7 +2,7 @@ app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
 app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
-app-crypt/bruteforce-luks 1.3.1 1.4.0: A bruteforce cracker for LUKS encrypted volumes.
+app-crypt/bruteforce-luks 1.4.0: A bruteforce cracker for LUKS encrypted volumes.
 app-crypt/libb2 9999: library providing BLAKE2b, BLAKE2s, BLAKE2bp, BLAKE2sp
 app-emulation/bst 9999: A one-stop shop for process isolation
 app-emulation/enroot 3.1.1-r2 3.3.1: tool to turn traditional container/OS images into unprivileged sandboxes
@@ -62,5 +62,4 @@ sys-cluster/slurm 20.11.8.1 20.11.9.1 22.05.3: A Highly Scalable Resource Manage
 sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0-r1 9999: nocache - minimize filesystem caching effects
-www-apps/rutorrent 3.7 3.8 9999: ruTorrent is a front-end for the popular Bittorrent client rTorrent
 x11-misc/x11vnc 0.9.16_p20220903: VNC server for real X displays
