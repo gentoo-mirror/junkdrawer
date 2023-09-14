@@ -39,6 +39,7 @@ dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
 dev-python/pyseeder 9999: reseed data managment tools for I2P
+dev-python/python-iptables 1.0.1: Python bindings for iptables
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
 dev-python/rfc3339 6.2: Format dates according to the RFC 3339
 dev-python/sdnotify 0.3.2: A pure Python implementation of systemd's service notification protocol
