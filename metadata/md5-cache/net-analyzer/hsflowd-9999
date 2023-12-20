@@ -10,5 +10,5 @@ LICENSE=APL-1.0
 PROPERTIES=live
 RDEPEND=nflog? ( net-libs/libnfnetlink ) pcap? ( net-libs/libpcap )
 SLOT=0
-_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1
+_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
 _md5_=998d63bb68af00028a8132246813da26
