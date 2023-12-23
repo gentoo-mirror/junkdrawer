@@ -41,6 +41,10 @@ dev-libs/pocl:hardening - Enable hardening against various attacks. May worsen p
 dev-libs/pocl:hwloc - Enable hwloc support
 dev-libs/pocl:lto - Adds support for link time optimization
 dev-libs/pocl:memmanager - Enables custom memory manager. Except for special circumstances, this should be disabled
+dev-libs/xmlrpc-c:abyss - Build the Abyss mini web-server.
+dev-libs/xmlrpc-c:libxml2 - Use dev-libs/libxml2 to parse XML instead of the internal expat library.
+dev-libs/xmlrpc-c:threads - Controls whether to build the Abyss web-server with pthreads or fork 'threading'.
+dev-libs/xmlrpc-c:tools - Build tools like 'xmlrpc'.
 media-sound/rotter:twolame - Enables twolame support (MPEG Audio Layer 2 encoder)
 net-analyzer/hsflowd:docker - Enable docker support
 net-analyzer/hsflowd:nflog - Enable nflog support via net-libs/libnetfilter_log
