@@ -10,7 +10,6 @@ app-emulation/enroot 3.1.1-r2 3.3.1: tool to turn traditional container/OS image
 app-eselect/eselect-gradle 0.1-r1: Manage multiple Gradle versions on one system
 app-misc/rtlamr 0.9.3: software defined radio receiver for utility smart meters
 app-vim/easytags 3.11-r2: vim plugin: automated tag file generation and syntax highlighting
-dev-embedded/arachne-pnr 0_p20180827 9999: Arachne PNR - free and open-source place and route tool for FPGAs
 dev-embedded/icestorm 0_p20210309 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/sdcc 4.0.0-r1 4.1.0: Small device C compiler (for various microprocessors)
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
@@ -59,7 +58,6 @@ net-libs/nflog-bindings 0.3_p20160825-r2: High-level language bindings for libne
 net-libs/nfqueue-bindings 0.6_p20180917-r2: High-level language bindings for libnetfilter_queue
 net-wireless/pyrtlsdr 0.2.93 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
-sys-cluster/ganglia-web 3.5.11 3.7.3 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/slurm 20.11.8.1 20.11.9.1 22.05.3: A Highly Scalable Resource Manager
 sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
