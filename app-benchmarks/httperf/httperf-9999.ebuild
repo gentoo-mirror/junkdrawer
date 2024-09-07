@@ -1,7 +1,7 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 inherit autotools
 
@@ -17,10 +17,9 @@ fi
 
 LICENSE="GPL-2"
 SLOT="0"
-IUSE="debug libressl"
+IUSE="debug"
 
-RDEPEND="!libressl? ( dev-libs/openssl:0= )
-	libressl? ( dev-libs/libressl:0= )"
+RDEPEND="dev-libs/openssl:0="
 DEPEND="${RDEPEND}"
 
 DOCS=( AUTHORS ChangeLog NEWS README.md TODO )

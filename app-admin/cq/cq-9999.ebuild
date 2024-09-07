@@ -1,7 +1,7 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 inherit autotools git-r3
 
@@ -10,14 +10,11 @@ HOMEPAGE="https://github.com/RPI-HPC/cq"
 
 if [[ ${PV} == 9999 ]]; then
 	EGIT_REPO_URI="https://github.com/RPI-HPC/${PN}"
-else
-	SRC_URI=""
 fi
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS=""
-IUSE=""
 
 DEPEND="dev-libs/protobuf-c
 		net-libs/zeromq
