@@ -1,7 +1,8 @@
+BDEPEND=>=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
 DEFINED_PHASES=configure install prepare
-DEPEND=dev-libs/json-c net-misc/curl >=app-portage/elt-patches-20240116 sys-devel/gnuconfig || ( >=dev-build/automake-1.17-r1:1.17 >=dev-build/automake-1.16.5:1.16 ) || ( >=dev-build/autoconf-2.72-r1:2.72 >=dev-build/autoconf-2.71-r6:2.71 ) >=dev-build/libtool-2.4.7-r3
+DEPEND=dev-libs/json-c net-misc/curl
 DESCRIPTION=Google Cloud Messaging C library
-EAPI=6
+EAPI=8
 HOMEPAGE=https://github.com/doctaweeks/libgcm
 INHERIT=autotools
 IUSE=static-libs
@@ -10,5 +11,5 @@ LICENSE=GPL-2
 RDEPEND=dev-libs/json-c net-misc/curl
 SLOT=0
 SRC_URI=https://github.com/doctaweeks/libgcm/archive/v0.1.3.tar.gz -> libgcm-0.1.3.tar.gz
-_eclasses_=eqawarn	6bd80a2f74f3b59c77b180f76c693256	gnuconfig	f8b9cc21e72de8cbedde6ca5108d208b	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	libtool	f9e6905c12590c1cac06d85371a0819a	autotools	61927ff6474f1d141b4ea4a5b9870424
-_md5_=99dbd335062ffdcecc78a1787c1d4143
+_eclasses_=gnuconfig	f8b9cc21e72de8cbedde6ca5108d208b	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	libtool	f9e6905c12590c1cac06d85371a0819a	autotools	61927ff6474f1d141b4ea4a5b9870424
+_md5_=83274695556c2e258217228e2970d62f
