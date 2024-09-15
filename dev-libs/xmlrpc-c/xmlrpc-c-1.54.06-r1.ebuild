@@ -12,11 +12,11 @@ inherit toolchain-funcs
 
 DESCRIPTION="A lightweight RPC library based on XML and HTTP"
 HOMEPAGE="http://xmlrpc-c.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${PN}/${P}.tgz"
+SRC_URI="https://downloads.sourceforge.net/${PN}/${P}.tgz"
 
 LICENSE="BSD"
 SLOT="0/4.54"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-solaris"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86 ~amd64-linux ~x86-linux ~ppc-macos ~x64-solaris"
 IUSE="abyss +cgi +curl +cxx +libxml2 threads test tools"
 RESTRICT="!test? ( test )"
 REQUIRED_USE="test? ( abyss curl cxx )

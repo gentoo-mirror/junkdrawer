@@ -9,8 +9,8 @@ if [[ ${PV} == "9999" ]] ; then
 	inherit subversion
 else
 	SRC_URI="
-		mirror://sourceforge/sdcc/${PN}-src-${PV}.tar.bz2
-		doc? ( mirror://sourceforge/sdcc/${PN}-doc-${PV}.tar.bz2 )
+		https://downloads.sourceforge.net/sdcc/${PN}-src-${PV}.tar.bz2
+		doc? ( https://downloads.sourceforge.net/sdcc/${PN}-doc-${PV}.tar.bz2 )
 	"
 	KEYWORDS="~amd64 ~x86"
 fi
@@ -62,7 +62,6 @@ RDEPEND="
 	sys-libs/readline:0=
 	>=dev-embedded/gputils-0.13.7
 	boehm-gc? ( dev-libs/boehm-gc:= )
-	!dev-embedded/sdcc-svn
 "
 DEPEND="
 	${RDEPEND}

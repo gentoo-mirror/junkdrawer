@@ -5,7 +5,7 @@ EAPI=7
 
 inherit autotools
 
-EGIT_COMMIT=3e4dc8ef2985a6e670e1d9649fe55395c2b31039
+EGIT_COMMIT=3877b6311dda6c8d02cbfb0d5fcc7a363b0cf956
 
 DESCRIPTION="VNC server for real X displays"
 HOMEPAGE="https://libvnc.github.io/"
