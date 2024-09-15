@@ -1,6 +1,6 @@
 app-admin/cq 9999: A command queue
 app-benchmarks/httperf 9999: A tool from HP for measuring web server performance
-app-benchmarks/ior 3.0.1 9999: Parallel filesystem I/O benchmark
+app-benchmarks/ior 9999: Parallel filesystem I/O benchmark
 app-benchmarks/mdtest 1.9.3: an MPI-coordinated metadata benchmark
 app-crypt/bruteforce-luks 1.4.0: A bruteforce cracker for LUKS encrypted volumes.
 app-crypt/hpenc 9999: High performance command line tool for stream encryption
@@ -34,7 +34,7 @@ dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies c
 dev-python/nvidia-ml-py 11.525.84: Python bindings for the NVIDIA Management Library
 dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
 dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
-dev-python/pyaxmlparser 0.3.27: Py3 parser for Android XML
+dev-python/pyaxmlparser 0.3.27 0.3.31: Py3 parser for Android XML
 dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
 dev-python/pymultihash 9999: Python implementation of the multihash specification
@@ -63,4 +63,4 @@ sys-cluster/slurm 20.11.8.1 20.11.9.1 22.05.3: A Highly Scalable Resource Manage
 sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0-r1 9999: nocache - minimize filesystem caching effects
-x11-misc/x11vnc 0.9.16_p20220903: VNC server for real X displays
+x11-misc/x11vnc 0.9.16_p20220903 0.9.16_p20240714: VNC server for real X displays
