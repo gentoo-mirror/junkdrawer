@@ -57,7 +57,6 @@ net-libs/nflog-bindings 0.3_p20160825-r2: High-level language bindings for libne
 net-libs/nfqueue-bindings 0.6_p20180917-r2: High-level language bindings for libnetfilter_queue
 net-wireless/pyrtlsdr 0.2.93 9999: Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)
 sys-cluster/ganglia 3.7.2-r5 9999: A scalable distributed monitoring system for clusters and grids
-sys-cluster/ganglia-web 3.7.4: Web frontend for sys-cluster/ganglia
 sys-cluster/slurm 20.11.8.1 20.11.9.1 22.05.3: A Highly Scalable Resource Manager
 sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
