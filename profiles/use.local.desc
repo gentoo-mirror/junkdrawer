@@ -51,6 +51,8 @@ net-analyzer/hsflowd:docker - Enable docker support
 net-analyzer/hsflowd:nflog - Enable nflog support via net-libs/libnetfilter_log
 net-analyzer/hsflowd:openvswitch - Enable openvswitch support
 net-analyzer/hsflowd:pcap - Add support for network packet capture via net-libs/libpcap
+sys-auth/nss-pam-ldapd:pynslcd - Install the python implementation along with the standard implementation
+sys-auth/nss-pam-ldapd:utils - Install the command-line utilities
 sys-cluster/slurm:html - Build html documentation
 sys-cluster/slurm:ipmi - Build support for collecting some ipmi stats
 sys-cluster/slurm:json - Add support for json-persing via json-c
