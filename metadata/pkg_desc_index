@@ -28,11 +28,12 @@ dev-python/base58 9999: Base58 and Base58Check compatible with the bitcoin netwo
 dev-python/dpkt 1.9.7.2: Fast, simple packet creation / parsing
 dev-python/exifread 2.3.2: Easy to use Python module to extract Exif metadata from tiff and jpeg files
 dev-python/flask-caching 1.10.1: Continuation of the Flask-Cache extension
+dev-python/ipaddr 2.2.0-r2: Python IP address manipulation library
 dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data for IPv4 and IPv6 addresses
 dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies configuring page titles and their order
 dev-python/nvidia-ml-py 11.525.84: Python bindings for the NVIDIA Management Library
 dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
-dev-python/pyasn 1.6.1-r1 9999: Python IP address to Autonomous System Number lookup module
+dev-python/pyasn 1.6.2 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.27 0.3.31: Py3 parser for Android XML
 dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pymarc 3.1.13-r1: Process MARC records from Python
