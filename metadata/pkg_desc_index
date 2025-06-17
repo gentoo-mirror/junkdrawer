@@ -32,6 +32,7 @@ dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
 dev-python/pyaxmlparser 0.3.27 0.3.31: Py3 parser for Android XML
 dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pyseeder 9999: reseed data managment tools for I2P
+dev-python/python-iptables 1.0.1: Python bindings for iptables
 dev-python/qhue 1.0.12: A very lightweight Python wrapper to the Philips Hue API
 dev-python/rfc3339 6.2: Format dates according to the RFC 3339
 dev-python/usps-api 0.4: Python Wrapper for the USPS API
