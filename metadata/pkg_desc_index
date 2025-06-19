@@ -30,6 +30,7 @@ dev-python/ipwhois 1.2.0: Python module for retrieving and parsing whois data fo
 dev-python/mkdocs-awesome-pages-plugin 2.5.0: An MkDocs plugin that simplifies configuring page titles and their order
 dev-python/nvidia-ml-py 11.525.84: Python bindings for the NVIDIA Management Library
 dev-python/psycogreen 1.0.2: Integration of psycopg2 with coroutine libraries
+dev-python/pyasn 1.6.2 9999: Python IP address to Autonomous System Number lookup module
 dev-python/pyaxmlparser 0.3.27 0.3.31: Py3 parser for Android XML
 dev-python/pycdlib 1.12.0: Python library to read and write ISOs
 dev-python/pyseeder 9999: reseed data managment tools for I2P
