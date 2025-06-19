@@ -1,9 +1,9 @@
 # Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-PYTHON_COMPAT=( python3_{9..13} )
+PYTHON_COMPAT=( python3_{9..14} )
 DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_EXT=1
 
@@ -16,7 +16,5 @@ EGIT_REPO_URI="https://github.com/hadiasghari/${PN}"
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS=""
-
-IUSE=""
 
 PATCHES=( "${FILESDIR}/pyasn-1.6.2-Raw-string-for-pattern.patch" )
