@@ -13,6 +13,7 @@ app-vim/easytags 3.11-r2: vim plugin: automated tag file generation and syntax h
 dev-embedded/icestorm 0_p20210309 9999: IceStorm - tools for analyzing and creating bitstreams for Lattice iCE40 FPGAs
 dev-embedded/sdcc 4.0.0-r1 4.1.0: Small device C compiler (for various microprocessors)
 dev-embedded/yosys 9999: Yosys - Yosys Open SYnthesis Suite
+dev-erlang/p1_acme 1.0.28: ACME client library for Erlang
 dev-java/jmdns 3.5.4: JmDNS is an implementation of multi-cast DNS in Java
 dev-libs/cudnn 7.3.1.20: NVIDIA Accelerated Deep Learning on GPU library
 dev-libs/libcasc 1.00_p20170817 9999: Library for reading CASC storage from Blizzard games since 2014
@@ -57,4 +58,5 @@ sys-cluster/slurm 20.11.8.1 20.11.9.1 22.05.3: A Highly Scalable Resource Manage
 sys-devel/autoconf-archive 2022.02.11-r1: GNU Autoconf Macro Archive
 sys-fs/efsw 1.1.0 9999: C++ cross-platform file system watcher and notifier
 sys-fs/nocache 1.0-r1 9999: nocache - minimize filesystem caching effects
+www-apps/nextcloud 30.0.11-r1 30.0.13-r1 30.0.14-r1: Personal cloud that runs on your own server
 x11-misc/x11vnc 0.9.16_p20220903 0.9.16_p20240714: VNC server for real X displays
